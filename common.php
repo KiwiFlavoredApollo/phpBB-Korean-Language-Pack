@@ -130,7 +130,7 @@ $lang = array_merge($lang, array(
 	'BAN_TRIGGERED_BY_USER'	=> '당신의 사용자 이름에 대한 금지 조치가 내려졌습니다.',
 	'BBCODE_GUIDE'			=> 'BBCode 가이드',
 	'BCC'					=> 'BCC',
-	'BIRTHDAYS'				=> '생일',
+	'BIRTHDAYS'				=> '생일자',
 	'BOARD_BAN_PERM'		=> '이 게시판에서 <strong>영구적으로</strong> 차단되었습니다.<br /><br />자세한 내용은 %2$s게시판 관리자%3$s에게 문의하세요.',
 	'BOARD_BAN_REASON'		=> '차단 사유: <strong>%s</strong>',
 	'BOARD_BAN_TIME'		=> '<strong>%1$s</strong>까지 이 게시판에서 차단되었습니다.<br /><br />자세한 내용은 %2$s게시판 관리자%3$s에게 문의하세요.',
@@ -191,7 +191,7 @@ $lang = array_merge($lang, array(
 	'COOKIE_CONSENT_MSG'	=> '이 웹사이트는 쿠키를 사용하여 웹사이트에서 최상의 경험을 얻을 수 있도록 합니다.',
 	'COOKIE_CONSENT_OK'		=> '알았어요!(Got it!)',
 	'COOKIE_CONSENT_HREF'	=> 'http://cookiesandyou.com',
-	'COOKIES_DELETED'		=> '모든 보드 쿠키가  삭제되었습니다.',
+	'COOKIES_DELETED'		=> '모든 보드 쿠키가 삭제되었습니다.',
 	'CURRENT_TIME'			=> '현재  %s 입니다',
 
 	'DAY'					=> '일',
@@ -333,22 +333,22 @@ $lang = array_merge($lang, array(
 	),
 	'G_ADMINISTRATORS'			=> '관리자',
 	'G_BOTS'					=> '봇',
-	'G_GUESTS'					=> '게스트',
-	'G_REGISTERED'				=> '정식사용자',
-	'G_REGISTERED_COPPA'		=> '등록된 COPPA 사용자',
-	'G_GLOBAL_MODERATORS'		=> '글로벌 운영자',
-	'G_NEWLY_REGISTERED'		=> '미인증 사용자',
+	'G_GUESTS'					=> '손님',
+	'G_REGISTERED'				=> '가입자',
+	'G_REGISTERED_COPPA'		=> 'COPPA 가입자',  // Children's Online Privacy Protection Act, 우리나라 청소년 보호법이랑 비슷
+	'G_GLOBAL_MODERATORS'		=> '총괄운영자',
+	'G_NEWLY_REGISTERED'		=> '신규가입자',
 
 	'HIDDEN_USERS_ONLINE'		=> array(
-		1	=> '%d 숨겨진 사용자',
-		2	=> '%d 숨겨진 사용자',
+		1	=> '비공개 접속자 %d명',
+		2	=> '비공개 접속자 %d명',
 	),
 	'HIDDEN_USERS_TOTAL'		=> array(
-		1	=> '%d 숨긴',
-		2	=> '%d 숨겨진',
+		1	=> '비공개 사용자 %d명',
+		2	=> '비공개 사용자 %d명',
 	),
-	'HIDE_GUESTS'					=> '손님 숨기기',
-	'HIDE_ME'						=> '이 세션에서 내 온라인 상태 숨기기',
+	'HIDE_GUESTS'					=> '손님 비공개하기',
+	'HIDE_ME'						=> '접속상태를 비공개하고 로그인하기',
 	'HOURS'							=> '시간',
 	'HOME'							=> '홈',
 
@@ -515,7 +515,7 @@ $lang = array_merge($lang, array(
 	'NO_AUTH_OPERATION'			=> '이 작업을 완료하는 데 필요한 권한이 없습니다.',
 	'NO_AVATARS'				=> '현재 사용 가능한 아바타가 없습니다.',
 	'NO_CONNECT_TO_SMTP_HOST'	=> 'smtp 호스트에 연결할 수 없음: %1$s: %2$s',
-	'NO_BIRTHDAYS'				=> '오늘의 생일자 없습니다',
+	'NO_BIRTHDAYS'				=> '오늘의 생일자는 없습니다',
 	'NO_EMAIL_MESSAGE'			=> '이메일 메시지가 비어 있습니다.',
 	'NO_EMAIL_RESPONSE_CODE'	=> '메일 서버 응답 코드를 가져올 수 없습니다.',
 	'NO_EMAIL_SUBJECT'			=> '이메일 제목이 지정되지 않았습니다.',
@@ -567,13 +567,13 @@ $lang = array_merge($lang, array(
 	'ONLINE_BUDDIES'			=> '온라인 친구',
 	// "... :: x registered and y hidden"
 	'ONLINE_USERS_TOTAL'		=> array(
-		1	=> '총 <strong>%1$d</strong>명의 사용자가 온라인에 있습니다: %2$s 및 %3$s',
-		2	=> '총 <strong>%1$d</strong>명의 온라인 사용자가 있습니다: %2$s 및 %3$s',
+		1	=> '총 <strong>%1$d</strong>명이 접속 중입니다 :: %2$s 및 %3$s',
+		2	=> '총 <strong>%1$d</strong>명이 접속 중입니다 :: %2$s 및 %3$s',
 	),
 	// "... :: x registered, y hidden and z guests"
 	'ONLINE_USERS_TOTAL_GUESTS'	=> array(
-		1	=> '총 <strong>%1$d</strong>명의 사용자가 온라인에 있습니다: %2$s, %3$s 및 %4$s',
-		2	=> '총 <strong>%1$d</strong>명의 온라인 사용자가 있습니다: %2$s, %3$s 및 %4$s',
+		1	=> '총 <strong>%1$d</strong>명이 접속 중입니다 :: %2$s, %3$s 및 %4$s',
+		2	=> '총 <strong>%1$d</strong>명이 접속 중입니다 :: %2$s, %3$s 및 %4$s',
 	),
 	'OPTIONS'					=> '옵션',
 
@@ -885,8 +885,8 @@ $lang = array_merge($lang, array(
 	'VIEW_NEWEST_POST'			=> '읽지 않은 첫 번째 게시물 보기',
 	'VIEW_NOTES'				=> '사용자 메모 보기',
 	'VIEW_ONLINE_TIMES'			=> array(
-		1	=> '지난 %d분 동안 활성 사용자를 기반으로 합니다.',
-		2	=> '지난 %d분 동안 활성 사용자를 기반으로 합니다.',
+		1	=> '최근 %d분 동안 활동한 사용자입니다',
+		2	=> '최근 %d분 동안 활동한 사용자입니다',
 	),
 	'VIEW_TOPIC'				=> '글 보기',
 	'VIEW_TOPIC_ANNOUNCEMENT'	=> '공지: ',
@@ -907,7 +907,7 @@ $lang = array_merge($lang, array(
 	'WELCOME_SUBJECT'	=> '%s 포럼에 오신 것을 환영합니다',
 	'WEBSITE'			=> '웹사이트',
 	'WHOIS'				=> '후이즈',
-	'WHO_IS_ONLINE'		=> '온라인에 있는 사람',
+	'WHO_IS_ONLINE'		=> '접속자 목록',
 	'WRONG_PASSWORD'	=> '잘못된 비밀번호를 입력했습니다',
 
 	'WRONG_DATA_COLOUR'			=> '입력한 색상 값이 잘못되었습니다.',
