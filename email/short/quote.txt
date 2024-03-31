@@ -1,0 +1,13 @@
+Subject: "{TOPIC_TITLE}" 인용
+
+{USERNAME}님 안녕하세요.
+
+"{AUTHOR_NAME}"이(가) "{SITENAME}"의 "{TOPIC_TITLE}" 글에서 당신을 인용했습니다.
+
+인용된 글을 보고 싶다면 다음 링크를 클릭하세요.
+{U_VIEW_POST}
+
+귀하를 인용하는 회신에 대한 업데이트를 더 이상 수신하지 않으려면 아래에서 알림 설정을 업데이트하십시오:
+{U_NOTIFICATION_SETTINGS}
+
+{EMAIL_SIG}

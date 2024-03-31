@@ -1,0 +1,10 @@
+Subject: 승인된 글 - "{TOPIC_TITLE}"
+
+{USERNAME}님 안녕하세요.
+
+"{SITENAME}"의 "{TOPIC_TITLE}" 글이 운영자: 또는 관리자에 의해 승인되었습니다.
+
+글을 보려면 다음 링크를 클릭하십시오.
+{U_VIEW_TOPIC}
+
+{EMAIL_SIG}

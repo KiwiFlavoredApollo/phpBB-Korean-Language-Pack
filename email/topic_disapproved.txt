@@ -1,0 +1,11 @@
+Subject: 비승인된 글 - "{TOPIC_TITLE}"
+
+{USERNAME}님 안녕하세요.
+
+"{SITENAME}"의 "{TOPIC_TITLE}" 글이 운영자 또는 관리자에 의해 승인되지 않았습니다
+
+비승인 사유:
+
+{REASON}
+
+{EMAIL_SIG}

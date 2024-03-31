@@ -1,0 +1,13 @@
+Subject: "{TOPIC_TITLE}"에서 답장
+
+{USERNAME}님 안녕하세요.
+
+글 "{TOPIC_TITLE}"이(가) 새 회신을 받았습니다.<!-- IF AUTHOR_NAME != '' -->"{SITENAME}"을(를) 마지막으로 방문한 이후로 {AUTHOR_NAME}<!-- ENDIF -->에 의해 작성되었습니다. 글을 방문할 때까지 더 이상 이메일이 전송되지 않습니다.
+
+마지막 방문 이후 작성된 최신 게시물을 보려면 다음 링크를 클릭하십시오.
+{U_NEWEST_POST}
+
+이 글을 더 이상 보고 싶지 않다면 다음 링크를 클릭하십시오.
+{U_STOP_WATCHING_TOPIC}
+
+{EMAIL_SIG}

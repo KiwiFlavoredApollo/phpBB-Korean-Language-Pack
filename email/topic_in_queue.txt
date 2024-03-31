@@ -1,0 +1,13 @@
+Subject: 승인이 필요한 글 - "{TOPIC_TITLE}"
+
+{USERNAME}님 안녕하세요.
+
+"{SITENAME}"의 "{TOPIC_TITLE}" 이글은 승인이 필요합니다.
+
+글을 보려면 다음 링크를 클릭하십시오.
+{U_VIEW_TOPIC}
+
+포럼을 보려면 다음 링크를 클릭하십시오.
+{U_FORUM}
+
+{EMAIL_SIG}

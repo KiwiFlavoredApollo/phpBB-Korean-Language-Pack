@@ -1,0 +1,11 @@
+Subject: Post disapproved - "{POST_SUBJECT}"
+
+{USERNAME}님 안녕하세요.
+
+Your post "{POST_SUBJECT}" at "{SITENAME}" was disapproved by a moderator or administrator.
+
+비승인 사유:
+
+{REASON}
+
+{EMAIL_SIG}

@@ -1,0 +1,7 @@
+Subject: 보고서 삭제됨 - "{POST_SUBJECT}"
+
+{USERNAME}님 안녕하세요.
+
+"{SITENAME}"에 있는 "{TOPIC_TITLE}"의 "{POST_SUBJECT}" 게시물에 대해 제출하신 보고서가 중재자 또는 관리자에 의해 삭제되었습니다.
+
+{EMAIL_SIG}

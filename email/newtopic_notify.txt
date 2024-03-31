@@ -1,0 +1,15 @@
+Subject: "{FORUM_NAME}"의 새글
+List-Unsubscribe: <{U_STOP_WATCHING_FORUM}>
+
+{USERNAME}님 안녕하세요.
+
+"{FORUM_NAME}" 포럼은 "{SITENAME}을(를) 마지막으로 방문한 이후로 {AUTHOR_NAME}<!-- ENDIF -->이(가) 새글 "{TOPIC_TITLE}"<!-- IF AUTHOR_NAME != '' -->을(를) 받았습니다. ". 포럼을 방문할 때까지 더 이상 알림이 전송되지 않습니다.
+{U_FORUM}
+
+새글을 보려면 다음 링크를 클릭하십시오.
+{U_TOPIC}
+
+이 포럼을 더 이상 보고 싶지 않다면 다음 링크를 클릭하십시오.
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

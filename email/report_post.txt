@@ -1,0 +1,13 @@
+Subject: 게시물 보고서 - "{TOPIC_TITLE}"
+
+{USERNAME}님 안녕하세요.
+
+"{SITENAME}"의 "{POST_SUBJECT}" 게시물이 신고되었습니다.
+
+보고서를 보려면 다음 링크를 클릭하십시오:
+{U_VIEW_REPORT}
+
+게시물을 보고 싶다면 다음 링크를 클릭하세요.
+{U_VIEW_POST}
+
+{EMAIL_SIG}

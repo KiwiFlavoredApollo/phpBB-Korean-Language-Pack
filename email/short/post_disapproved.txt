@@ -1,0 +1,11 @@
+Subject: 게시물이 비승인됨 - "{POST_SUBJECT}"
+
+{USERNAME}님 안녕하세요.
+
+"{SITENAME}"의 "{POST_SUBJECT}" 게시물이 운영자 또는 관리자에 의해 승인되지 않았습니다.
+
+비승인 사유:
+
+{REASON}
+
+{EMAIL_SIG}

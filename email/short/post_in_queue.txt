@@ -1,0 +1,13 @@
+Subject: 게시물 승인 필요 - "{TOPIC_TITLE}"
+
+{USERNAME}님 안녕하세요.
+
+"{SITENAME}"의 "{POST_SUBJECT}" 게시물에 승인이 필요합니다.
+
+게시물을 보고 싶다면 다음 링크를 클릭하세요.
+{U_VIEW_POST}
+
+글을 보려면 다음 링크를 클릭하십시오.
+{U_TOPIC}
+
+{EMAIL_SIG}

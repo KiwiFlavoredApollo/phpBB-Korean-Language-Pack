@@ -1,0 +1,9 @@
+Subject: 보고서 종료됨 - "{PM_SUBJECT}"
+
+{USERNAME}님 안녕하세요.
+
+"{SITENAME}"에서 비공개 메시지 "{PM_SUBJECT}"에 대해 제출하신 보고서는 중재자 또는 관리자가 처리했습니다. 이제 보고서가 닫힙니다.
+
+추가 질문이 있는 경우 비공개 메시지로 {CLOSER_NAME}에게 문의하세요.
+
+{EMAIL_SIG}

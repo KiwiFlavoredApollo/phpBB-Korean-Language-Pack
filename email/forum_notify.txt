@@ -1,0 +1,18 @@
+Subject: "{FORUM_NAME}"에서 답장
+List-Unsubscribe: <{U_STOP_WATCHING_FORUM}>
+
+{USERNAME}님 안녕하세요.
+
+"{FORUM_NAME}"은(는) 마지막으로 "{ 사이트 이름}". 글을 방문할 때까지 더 이상 알림이 전송되지 않습니다.
+{U_NEWEST_POST}
+
+글을 보려면 다음 링크를 클릭하십시오.
+{U_TOPIC}
+
+포럼을 보려면 다음 링크를 클릭하십시오.
+{U_FORUM}
+
+이 포럼을 더 이상 보고 싶지 않다면 다음 링크를 클릭하십시오.
+{U_STOP_WATCHING_FORUM}
+
+{EMAIL_SIG}

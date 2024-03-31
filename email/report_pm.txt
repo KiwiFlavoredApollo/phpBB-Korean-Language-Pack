@@ -1,0 +1,10 @@
+Subject: 비공개 메시지 보고서 - "{SUBJECT}"
+
+{USERNAME}님 안녕하세요.
+
+"{SITENAME}"에서 "{AUTHOR_NAME}"이(가) "{SUBJECT}"라는 제목의 비공개 메시지가 보고되었습니다.
+
+보고서를 보려면 다음 링크를 클릭하십시오:
+{U_VIEW_REPORT}
+
+{EMAIL_SIG}

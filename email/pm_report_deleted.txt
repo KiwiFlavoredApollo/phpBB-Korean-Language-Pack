@@ -1,0 +1,7 @@
+Subject: 보고서 삭제됨 - "{PM_SUBJECT}"
+
+{USERNAME}님 안녕하세요.
+
+"{SITENAME}"의 비공개 메시지 "{PM_SUBJECT}"에 대해 제출하신 보고서가 운영자 또는 관리자에 의해 삭제되었습니다.
+
+{EMAIL_SIG}
