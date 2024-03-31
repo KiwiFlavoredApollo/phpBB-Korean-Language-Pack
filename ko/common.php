@@ -651,8 +651,8 @@ $lang = array_merge($lang, array(
 	'REGISTERED_USERS'			=> '가입자:',
 	// "... and 2 hidden users online"
 	'REG_USERS_ONLINE'			=> array(
-		1	=> '가입자는 %1$d명이고 %2$s이 접속 중입니다',
-		2	=> '가입자는 %1$d명이고 %2$s이 접속 중입니다',
+		1	=> '가입자 %1$d명과 %2$s이 접속 중입니다',
+		2	=> '가입자 %1$d명과 %2$s이 접속 중입니다',
 	),
 	'REG_USERS_TOTAL'			=> array(
 		1	=> '가입자 %d명',
@@ -907,7 +907,7 @@ $lang = array_merge($lang, array(
 	'WELCOME_SUBJECT'	=> '%s 포럼에 오신 것을 환영합니다',
 	'WEBSITE'			=> '웹사이트',
 	'WHOIS'				=> '후이즈',
-	'WHO_IS_ONLINE'		=> '접속자 목록',
+	'WHO_IS_ONLINE'		=> '접속자',
 	'WRONG_PASSWORD'	=> '잘못된 비밀번호를 입력했습니다',
 
 	'WRONG_DATA_COLOUR'			=> '입력한 색상 값이 잘못되었습니다.',
