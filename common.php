@@ -651,8 +651,8 @@ $lang = array_merge($lang, array(
 	'REGISTERED_USERS'			=> '가입자:',
 	// "... and 2 hidden users online"
 	'REG_USERS_ONLINE'			=> array(
-		1	=> '가입자는 %1$d명이고 %2$s명이 접속 중입니다',
-		2	=> '가입자는 %1$d명이고 %2$s명이 접속 중입니다',
+		1	=> '가입자는 %1$d명이고 %2$s이 접속 중입니다',
+		2	=> '가입자는 %1$d명이고 %2$s이 접속 중입니다',
 	),
 	'REG_USERS_TOTAL'			=> array(
 		1	=> '가입자 %d명',
