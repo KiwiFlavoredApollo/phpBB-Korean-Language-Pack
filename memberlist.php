@@ -96,7 +96,7 @@ $lang = array_merge($lang, array(
 		1	=> '%d 사용자',
 		2	=> '%d 사용자',
 	),
-	'LOGIN_EXPLAIN_TEAM'		=> '모임 목록을 보려면 보드에 등록하고 로그인해야 합니다.',
+	'LOGIN_EXPLAIN_TEAM'		=> '운영진 목록을 보려면 보드에 등록하고 로그인해야 합니다.',
 	'LOGIN_EXPLAIN_MEMBERLIST'	=> '보드의 회원 목록에 접근하려면 등록 및 로그인이 필요합니다.',
 	'LOGIN_EXPLAIN_SEARCHUSER'	=> '보드를 이용하려면 회원가입 및 로그인이 필요합니다.',
 	'LOGIN_EXPLAIN_VIEWPROFILE'	=> '프로필을 보려면 보드에 등록하고 로그인해야 합니다.',

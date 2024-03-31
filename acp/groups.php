@@ -103,7 +103,7 @@ $lang = array_merge($lang, array(
 	'GROUP_SKIP_AUTH'				=> '권한에서 그룹 리더 제외',
 	'GROUP_SKIP_AUTH_EXPLAIN'		=> '활성화된 경우 그룹 리더는 더 이상 그룹에서 권한을 상속하지 않습니다.',
 	'GROUP_SPECIAL'					=> '미리 정의된',
-	'GROUP_TEAMPAGE'				=> '모임 페이지에 그룹 표시',
+	'GROUP_TEAMPAGE'				=> '운영진 페이지에 그룹 표시',
 	'GROUP_TYPE'					=> '그룹 유형',
 	'GROUP_TYPE_EXPLAIN'			=> '이는 이 그룹에 가입하거나 볼 수 있는 사용자를 결정합니다.',
 	'GROUP_UPDATED'					=> '그룹 기본 설정이 업데이트되었습니다.',
@@ -119,7 +119,7 @@ $lang = array_merge($lang, array(
 	'LEGEND_SORT_GROUPNAME_EXPLAIN'	=> '이 옵션을 사용할 경우 아래 순서는 무시됩니다.',
 
 	'MANAGE_LEGEND'			=> '관리 그룹 범례',
-	'MANAGE_TEAMPAGE'		=> '모임 페이지 관리',
+	'MANAGE_TEAMPAGE'		=> '운영진 페이지 관리',
 	'MAKE_DEFAULT_FOR_ALL'	=> '모든 구성원의 기본 그룹 만들기',
 	'MEMBERS'				=> '회원',
 
@@ -137,15 +137,15 @@ $lang = array_merge($lang, array(
 	'SPECIAL_GROUPS'			=> '미리 정의된 그룹',
 	'SPECIAL_GROUPS_EXPLAIN'	=> '미리 정의된 그룹은 특수 그룹이며 삭제하거나 직접 수정할 수 없습니다. 그러나 여전히 사용자를 추가하고 기본 설정을 변경할 수 있습니다',
 
-	'TEAMPAGE'					=> '모임 페이지',
+	'TEAMPAGE'					=> '운영진 페이지',
 	'TEAMPAGE_DISP_ALL'			=> '모든 멤버십',
 	'TEAMPAGE_DISP_DEFAULT'		=> '기본 그룹만',
 	'TEAMPAGE_DISP_FIRST'		=> '첫 번째 회원만',
-	'TEAMPAGE_EXPLAIN'			=> '모임 페이지에 표시되는 그룹:',
+	'TEAMPAGE_EXPLAIN'			=> '운영진 페이지에 표시되는 그룹:',
 	'TEAMPAGE_FORUMS'			=> '검토된 포럼 표시',
 	'TEAMPAGE_FORUMS_EXPLAIN'	=> '예 로 설정하면 운영자의 행에 운영자 권한이 있는 모든 포럼이 포함된 목록이 표시됩니다. 이것은 큰 보드의 경우 매우 데이터베이스 집약적일 수 있습니다.',
 	'TEAMPAGE_MEMBERSHIPS'		=> '사용자 멤버십 표시',
-	'TEAMPAGE_SETTINGS'			=> '모임 페이지 설정',
+	'TEAMPAGE_SETTINGS'			=> '운영진 페이지 설정',
 	'TOTAL_MEMBERS'				=> '회원',
 
 	'USERS_APPROVED'				=> '사용자가  승인되었습니다.',

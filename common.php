@@ -269,7 +269,7 @@ $lang = array_merge($lang, array(
 	'FORUM_LOCKED'			=> '포럼 잠김',
 	'FORUM_RULES'			=> '포럼 규칙',
 	'FORUM_RULES_LINK'		=> '포럼 규칙을 보려면 여기를 클릭하십시오.',
-	'FROM'					=> '으로 부터',
+	'FROM'					=> '(으)로 부터',
 	'FSOCK_DISABLED'		=> '<var>fsockopen</var> 기능이 비활성화되었거나 쿼리 중인 서버를 찾을 수 없기 때문에 작업을 완료할 수 없습니다.',
 	'FSOCK_TIMEOUT'			=> '네트워크 스트림에서 읽는 동안 시간 초과가 발생했습니다.',
 
@@ -335,7 +335,7 @@ $lang = array_merge($lang, array(
 	'G_BOTS'					=> '봇',
 	'G_GUESTS'					=> '게스트',
 	'G_REGISTERED'				=> '정식사용자',
-	'G_REGISTERED_COPPA'		=> '등록되 COPPA 사용자',
+	'G_REGISTERED_COPPA'		=> '등록된 COPPA 사용자',
 	'G_GLOBAL_MODERATORS'		=> '글로벌 운영자',
 	'G_NEWLY_REGISTERED'		=> '미인증 사용자',
 
@@ -757,7 +757,7 @@ $lang = array_merge($lang, array(
 	'TERMS_LINK'		=> '약관',
 	'TERMS_USE'			=> '이용약관',
 	'TEST_CONNECTION'	=> '연결 테스트',
-	'THE_TEAM'			=> '모임',
+	'THE_TEAM'			=> '운영진',
 	'TIB'				=> 'TiB',
 	'TIME'				=> '시간',
 	'TIMEOUT_PROCESSING_REQ'			=> '요청 시간이 초과되었습니다.',
