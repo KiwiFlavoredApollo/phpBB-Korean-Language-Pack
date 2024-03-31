@@ -944,39 +944,39 @@ $lang = array_merge($lang, array(
 		'Friday'	=> '금요일',
 		'Saturday'	=> '토요일',
 
-		'Sun'		=> '(일)',
-		'Mon'		=> '(월)',
-		'Tue'		=> '(화)',
-		'Wed'		=> '(수)',
-		'Thu'		=> '(목)',
-		'Fri'		=> '(금)',
-		'Sat'		=> '(토)',
+		'Sun'		=> '日',
+		'Mon'		=> '月',
+		'Tue'		=> '火',
+		'Wed'		=> '水',
+		'Thu'		=> '木',
+		'Fri'		=> '金',
+		'Sat'		=> '土',
 
-		'January'	=> '1월',
-		'February'	=> '2월',
-		'March'		=> '3월',
-		'April'		=> '4월',
-		'May'		=> '5월',
-		'June'		=> '6월',
-		'July'		=> '7월',
-		'August'	=> '8월',
-		'September' => '9월',
-		'October'	=> '10월',
-		'November'	=> '11월',
-		'December'	=> '12월',
+		'January'	=> 'January',
+		'February'	=> 'February',
+		'March'		=> 'March',
+		'April'		=> 'April',
+		'May'		=> 'May',
+		'June'		=> 'June',
+		'July'		=> 'July',
+		'August'	=> 'August',
+		'September' => 'September',
+		'October'	=> 'October',
+		'November'	=> 'November',
+		'December'	=> 'December',
 
-		'Jan'		=> '/ 1 /',
-		'Feb'		=> '/ 2 /',
-		'Mar'		=> '/ 3 /',
-		'Apr'		=> '/ 4 /',
-		'May_short'	=> '/ 5 /',	// Short representation of "May". May_short used because in English the short and long date are the same for May.
-		'Jun'		=> '/ 6 /',
-		'Jul'		=> '/ 7 /',
-		'Aug'		=> '/ 8 /',
-		'Sep'		=> '/ 9 /',
-		'Oct'		=> '/ 10 /',
-		'Nov'		=> '/ 11 /',
-		'Dec'		=> '/ 12 /',
+		'Jan'		=> 'Jan',
+		'Feb'		=> 'Feb',
+		'Mar'		=> 'Mar',
+		'Apr'		=> 'Apr',
+		'May_short'	=> 'May',	// Short representation of "May". May_short used because in English the short and long date are the same for May.
+		'Jun'		=> 'Jun',
+		'Jul'		=> 'Jul',
+		'Aug'		=> 'Aug',
+		'Sep'		=> 'Sep',
+		'Oct'		=> 'Oct',
+		'Nov'		=> 'Nov',
+		'Dec'		=> 'Dec',
 	),
 
 	// Timezones can be translated. We use this for the Etc/GMT timezones here,
@@ -1443,26 +1443,15 @@ $lang = array_merge($lang, array(
 	),
 
 	// 값은 예시일 뿐이며 현재 표시되는 시간으로 대체됩니다.
+	// 참고 https://www.php.net/manual/en/datetime.format.php
 	'dateformats'	=> array(
-		//'d M Y, H:i'			=> '01 Jan 2007, 13:37',
-		//'d M Y H:i'				=> '01 Jan 2007 13:37',
-		//'M jS, \'y, H:i'		=> 'Jan 1st, \'07, 13:37',
-		//'D M d, Y g:i a'		=> 'Mon Jan 01, 2007 1:37 오후',
-		//'F jS, Y, g:i a'		=> 'January 1st, 2007, 1:37 오후',
-		//'|d M Y|, H:i'			=> 'Today, 13:37 / 01 Jan 2007, 13:37',
-		//'|F jS, Y|, g:i a'		=> 'Today, 1:37 오후 / January 1st, 2007, 1:37 오후',
-
-		'Y M d, H:i'			=> '01 Jan 2007, 13:37',
-		'Y M d H:i'				=> '01 Jan 2007 13:37',
-		'Y, \'jS M, H:i'		=> 'Jan 1st, \'07, 13:37',
-		'Y, d M D g:i a'		=> 'Mon Jan 01, 2007 1:37 오후',
-		'F jS, Y, g:i a'		=> 'January 1st, 2007, 1:37 오후',
-		'|Y M d|, H:i'			=> 'Today, 13:37 / 01 Jan 2007, 13:37',
-		'|Y, js F|, g:i a'		=> 'Today, 1:37 오후 / January 1st, 2007, 1:37 오후',
+		'Y-m-d H:i'			=> '2007-01-01 13:37',
+		'Y-m-d l H:i'		=> '2007-01-01 월요일 13:37',
+		'Y-m-d D h:i A'		=> '2007-01-01 月 01:37 PM',
 	),
 
 	// 이 언어로 새로 설치할 때 사용할 기본 날짜 형식
 	// Translators should change this if a the usual date format is different
-	'default_dateformat'	=> 'Y M D d, g:i a', // Mon Jan 01, 2007 1:37 pm
+	'default_dateformat'	=> 'Y-m-d l H:i'  // 2007-01-01 월요일 13:37
 
 ));
