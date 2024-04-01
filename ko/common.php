@@ -80,7 +80,7 @@ $lang = array_merge($lang, array(
 	'ALL_FORUMS'					=> '모든 포럼',
 	'ALL_MESSAGES'					=> '모든 메시지',
 	'ALL_POSTS'						=> '모든 게시물',
-	'ALL_TIMES'						=> '모든 시간표시는 <span title="%2$s">%1$s</span>입니다',
+	'ALL_TIMES'						=> '모든 시간표시는 <span title="%2$s">%1$s</span> 입니다',
 	'ALL_TOPICS'					=> '모든 글',
 	'ALT_TEXT'						=> '대체 텍스트',
 	'AND'							=> '그리고',
