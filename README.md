@@ -30,9 +30,9 @@ hidden 비공개
 forum 포럼  
 board 게시판  
 
-topic 글타래, 주제글
-post 게시물
-reply 답글, 답변
+topic 글타래, 주제글  
+post 게시물  
+reply 답글, 답변  
 
 ## 구어체 사용하기
 
