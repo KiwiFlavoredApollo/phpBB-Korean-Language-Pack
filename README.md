@@ -23,9 +23,9 @@ registered user 가입자
 member 회원  
 
 online user 접속자  
-offline user  ~~비접속자~~
+offline user  미접속자
 
-private 개인
+private 개인  
 hidden 비공개  
 forum 포럼  
 board 게시판  
@@ -40,7 +40,7 @@ reply 답글, 답변
 
 ## Placeholder의 의미 
 
-`%1$d` 또는 `%2$s` 형태의 특수문자가 포함된 문자열이 있다. Placeholder의 순서와 데이터형을 의미한다. 예를들어 `%1`은 첫번째 placeholder라는 의미이고, `$d`는 정수 데이터형, `$s`는 문자열 데이터형을 의미한다.
+`%1$d` 또는 `%2$s` 형태의 특수문자가 포함된 문자열이 있다. Placeholder의 순서와 데이터형을 의미한다. 예를 들어, `%1`은 첫번째 placeholder라는 의미이고, `$d`는 정수 데이터형, `$s`는 문자열 데이터형을 의미한다.
 
 ## 참고문헌
 
