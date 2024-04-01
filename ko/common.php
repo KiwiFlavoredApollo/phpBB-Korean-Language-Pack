@@ -80,7 +80,7 @@ $lang = array_merge($lang, array(
 	'ALL_FORUMS'					=> '모든 포럼',
 	'ALL_MESSAGES'					=> '모든 메시지',
 	'ALL_POSTS'						=> '모든 게시물',
-	'ALL_TIMES'						=> '(협정세계시 <span title="%2$s">%1$s</span>입니다.)',
+	'ALL_TIMES'						=> '모든 시간표시는 <span title="%2$s">%1$s</span>입니다',
 	'ALL_TOPICS'					=> '모든 글',
 	'ALT_TEXT'						=> '대체 텍스트',
 	'AND'							=> '그리고',
@@ -192,7 +192,7 @@ $lang = array_merge($lang, array(
 	'COOKIE_CONSENT_OK'		=> '알았어요!(Got it!)',
 	'COOKIE_CONSENT_HREF'	=> 'http://cookiesandyou.com',
 	'COOKIES_DELETED'		=> '모든 보드 쿠키가 삭제되었습니다.',
-	'CURRENT_TIME'			=> '현재  %s 입니다',
+	'CURRENT_TIME'			=> '현재 시각은 %s 입니다',
 
 	'DAY'					=> '일',
 	'DAYS'					=> '일',
