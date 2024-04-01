@@ -2,7 +2,7 @@
 
 ## 개요
 
-이 깃허브 저장소는 [IT온세미로](bb.itosm.com)에서 syskiller님이 작업한 phpBB 3.3.5 한국어팩을 기반으로 하고 있다. 이 한국어팩은 [ColdBrew phpBB 포럼](https://forum.fractalcoffee.duckdns.org)에서 사용하고 있다. 
+이 깃허브 저장소는 [IT온세미로](http://bb.itosm.com)에서 syskiller님이 작업한 phpBB 3.3.5 한국어팩을 기반으로 하고 있다. 이 한국어팩은 [ColdBrew phpBB 포럼](https://forum.fractalcoffee.duckdns.org)에서 사용하고 있다. 
 
 ## 목표
 
