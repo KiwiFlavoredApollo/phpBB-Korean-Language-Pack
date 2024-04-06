@@ -944,13 +944,13 @@ $lang = array_merge($lang, array(
 		'Friday'	=> '금요일',
 		'Saturday'	=> '토요일',
 
-		'Sun'		=> '日',
-		'Mon'		=> '月',
-		'Tue'		=> '火',
-		'Wed'		=> '水',
-		'Thu'		=> '木',
-		'Fri'		=> '金',
-		'Sat'		=> '土',
+		'Sun'		=> '일',
+		'Mon'		=> '월',
+		'Tue'		=> '화',
+		'Wed'		=> '수',
+		'Thu'		=> '목',
+		'Fri'		=> '금',
+		'Sat'		=> '토',
 
 		'January'	=> 'January',
 		'February'	=> 'February',
@@ -1446,8 +1446,10 @@ $lang = array_merge($lang, array(
 	// 참고 https://www.php.net/manual/en/datetime.format.php
 	'dateformats'	=> array(
 		'Y-m-d H:i'			=> '2007-01-01 13:37',
+		'Y-m-d D h:i A'		=> '2007-01-01 월 01:37 PM',
 		'Y-m-d l H:i'		=> '2007-01-01 월요일 13:37',
-		'Y-m-d D h:i A'		=> '2007-01-01 月 01:37 PM',
+		'Y년 n월 j일 D h:i A'	=> '2007년 1월 1일 월 01:37 PM',
+		'Y년 n월 j일 l h:i A'	=> '2007년 1월 1일 월요일 01:37 PM',
 	),
 
 	// 이 언어로 새로 설치할 때 사용할 기본 날짜 형식
