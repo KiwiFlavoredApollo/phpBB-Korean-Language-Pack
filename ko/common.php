@@ -52,13 +52,13 @@ $lang = array_merge($lang, array(
 	// or ask the translation manager for help.
 	'PLURAL_RULE'		=> 1,
 
-	'1_DAY'			=> '1 일',
-	'1_MONTH'		=> '1 개월',
-	'1_YEAR'		=> '1 년',
-	'2_WEEKS'		=> '2 주',
-	'3_MONTHS'		=> '3 개월',
-	'6_MONTHS'		=> '6 개월',
-	'7_DAYS'		=> '7 일',
+	'1_DAY'			=> '1일',
+	'1_MONTH'		=> '1개월',
+	'1_YEAR'		=> '1년',
+	'2_WEEKS'		=> '2주',
+	'3_MONTHS'		=> '3개월',
+	'6_MONTHS'		=> '6개월',
+	'7_DAYS'		=> '7일',
 
 	'ACCOUNT_ALREADY_ACTIVATED'		=> '귀하의 계정은 이미 활성화되었습니다.',
 	'ACCOUNT_DEACTIVATED'			=> '우리 계정은 수동으로 비활성화되었으며 관리자만 다시 활성화할 수 있습니다.',
