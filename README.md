@@ -30,9 +30,15 @@ hidden 비공개
 forum 포럼  
 board 게시판  
 
-topic 글타래, 주제글  
-post 게시물  
+topic 주제글, 글  
+thread 글타래  
+post 게시글  
 reply 답글, 답변  
+
+BUMP(Bring Up My Post) 글 끌어올리기, 현재 *충돌*이라고 잘못 번역됨  
+
+mark 선택  
+mark read 읽음으로 표시  
 
 ## 구어체 사용하기
 
