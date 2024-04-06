@@ -41,13 +41,13 @@ $lang = array_merge($lang, array(
 	'ATTACHMENT'						=> '첨부파일',
 	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> '첨부파일 기능이 비활성화되었습니다.',
 
-	'BOOKMARK_ADDED'		=> '북마크한 글입니다.',
+	'BOOKMARK_ADDED'		=> '글을 북마크에 추가했습니다.',
 	'BOOKMARK_ERR'			=> '글을 북마크에 추가하지 못했습니다. 다시 시도해 주세요.',
-	'BOOKMARK_REMOVED'		=> '북마크된 글을  제거했습니다.',
-	'BOOKMARK_TOPIC'		=> '북마크 글',
-	'BOOKMARK_TOPIC_REMOVE'	=> '북마크에서 제거',
-	'BUMPED_BY'				=> '%2$s에 %1$s이(가) 마지막으로 충돌했습니다.',
-	'BUMP_TOPIC'			=> '충돌 글',
+	'BOOKMARK_REMOVED'		=> '글을 북마크에서 제거했습니다.',
+	'BOOKMARK_TOPIC'		=> '북마크에 추가하기',
+	'BOOKMARK_TOPIC_REMOVE'	=> '북마크에서 제거하기',
+	'BUMPED_BY'				=> '%2$s에 %1$s이(가) 마지막으로 끌어올렸습니다.',
+	'BUMP_TOPIC'			=> '끌어올리기',
 
 	'DELETE_TOPIC'			=> '글 삭제',
 	'DELETED_INFORMATION'	=> '%2$s에 %1$s에 의해 삭제됨',
@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 		1	=> '%2$s님이 %3$s에 마지막으로 수정했으며 총 %1$d번 수정했습니다.',
 		2	=> '%2$s님이 %3$s에 마지막으로 수정했으며 총 %1$d번 수정했습니다.',
 	),
-	'EMAIL_TOPIC'			=> '이메일 글',
+	'EMAIL_TOPIC'			=> '이메일로 보내기',
 	'ERROR_NO_ATTACHMENT'	=> '선택한 첨부파일이 더 이상 존재하지 않습니다.',
 
 	'FILE_NOT_FOUND_404'	=> '<strong>%s</strong> 파일이 존재하지 않습니다.',
@@ -92,7 +92,7 @@ $lang = array_merge($lang, array(
 	'POLL_RUN_TILL'			=> '설문조사가 %s 에 실행됩니다.',
 	'POLL_VOTED_OPTION'		=> '이 옵션에 투표했습니다.',
 	'POST_DELETED_RESTORE'	=> '이 게시물은 삭제되었습니다. 복구할 수 있습니다.',
-	'PRINT_TOPIC'			=> '인쇄 보기',
+	'PRINT_TOPIC'			=> '인쇄하기',
 
 	'QUICK_MOD'				=> '빠른-모드 도구',
 	'QUICKREPLY'			=> '빠른 답변',
