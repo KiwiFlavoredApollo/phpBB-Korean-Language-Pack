@@ -84,8 +84,8 @@ $lang = array_merge($lang, array(
 	'ALL_TOPICS'					=> '모든 글',
 	'ALT_TEXT'						=> '대체 텍스트',
 	'AND'							=> '그리고',
-	'ARE_WATCHING_FORUM'			=> '이 포럼의 새 게시물에 대한 알림을 받도록 구독했습니다.',
-	'ARE_WATCHING_TOPIC'			=> '이 글을 새 게시물에 대한 알림을 받도록 구독했습니다.',
+	'ARE_WATCHING_FORUM'			=> '이 포럼에서 새 게시물의 알림을 받습니다.',
+	'ARE_WATCHING_TOPIC'			=> '이 글에서 새 게시물의 알림을 받습니다.',
 	'ASCENDING'						=> '오름차순',
 	'ATTACHMENTS'					=> '첨부파일',
 	'ATTACHED_IMAGE_NOT_IMAGE'		=> '첨부하려는 이미지 파일이 잘못되었습니다.',
@@ -458,8 +458,8 @@ $lang = array_merge($lang, array(
 	'NO_NOTIFICATIONS'			=> '알림이 없습니다.',
 	'NOT_ALLOWED_MANAGE_GROUP'	=> '이 그룹을 관리할 수 없습니다.',
 	'NOT_AUTHORISED'			=> '이 영역에 액세스할 수 있는 권한이 없습니다.',
-	'NOT_WATCHING_FORUM'		=> '더 이상 이 포럼의 업데이트를 구독하지 않습니다.',
-	'NOT_WATCHING_TOPIC'		=> '더 이상 이 글을 구독하지 않습니다.',
+	'NOT_WATCHING_FORUM'		=> '더 이상 이 포럼에서 알람을 받지 않습니다.',
+	'NOT_WATCHING_TOPIC'		=> '더 이상 이 글에서 알람을 받지 않습니다.',
 	'NOTIFICATIONS'				=> '알림',
 	// This applies for NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	// %1$s will return a list of users that's concatenated using "," and "and" - see STRING_LIST
