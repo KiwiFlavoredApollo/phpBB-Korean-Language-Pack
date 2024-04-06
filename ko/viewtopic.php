@@ -69,10 +69,10 @@ $lang = array_merge($lang, array(
 	'LOGIN_NOTIFY_TOPIC'	=> '이 글에 대한 알림을 받았습니다. 이 글을 보려면 로그인하십시오.',
 	'LOGIN_VIEWTOPIC'		=> '이 글을 보려면 게시판에 등록하고 로그인해야 합니다.',
 
-	'MAKE_ANNOUNCE'				=> '"공지"로 변경',
-	'MAKE_GLOBAL'				=> '"글로벌"로 변경',
-	'MAKE_NORMAL'				=> '"표준 글"로 변경',
-	'MAKE_STICKY'				=> '"고정"으로 변경',
+	'MAKE_ANNOUNCE'				=> '"포럼공지글"로 변경',
+	'MAKE_GLOBAL'				=> '"전체공지글"로 변경',
+	'MAKE_NORMAL'				=> '"일반글"로 변경',
+	'MAKE_STICKY'				=> '"고정글"로 변경',
 	'MAX_OPTIONS_SELECT'		=> array(
 		1	=> '<strong>%d</strong> 옵션을 선택할 수 있습니다.',
 		2	=> '최대 <strong>%d</strong>개의 옵션을 선택할 수 있습니다.',
