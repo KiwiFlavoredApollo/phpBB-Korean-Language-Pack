@@ -47,7 +47,7 @@ $lang = array_merge($lang, array(
 
 	'LOGIN_NOTIFY_FORUM'	=> '이 포럼에 대한 알림을 받았습니다. 이 포럼을 보려면 로그인하십시오.',
 
-	'MARK_TOPICS_READ'		=> '읽은 글로 표시',
+	'MARK_TOPICS_READ'		=> '글을 읽음으로 표시',
 
 	'NEW_POSTS_HOT'			=> '새 게시물 [인기]',	// Not used anymore
 	'NEW_POSTS_LOCKED'		=> '새 게시물 [잠김]',	// Not used anymore
