@@ -751,7 +751,7 @@ $lang = array_merge($lang, array(
 	'SUBFORUM'					=> '하위포럼',
 	'SUBFORUMS'					=> '하위포럼',
 	'SUBJECT'					=> '제목',
-	'SUBMIT'					=> '제출',
+	'SUBMIT'					=> '제출하기',
 
 	'TB'				=> 'TB',
 	'TERMS_LINK'		=> '약관',
