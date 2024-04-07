@@ -94,8 +94,8 @@ $lang = array_merge($lang, array(
 	'POST_DELETED_RESTORE'	=> '이 게시물은 삭제되었습니다. 복구할 수 있습니다.',
 	'PRINT_TOPIC'			=> '인쇄하기',
 
-	'QUICK_MOD'				=> '빠른-모드 도구',
-	'QUICKREPLY'			=> '빠른 답변',
+	'QUICK_MOD'				=> '간편 운영자 도구',
+	'QUICKREPLY'			=> '간편 답글',
 
 	'REPLY_TO_TOPIC'		=> '글에 답장',
 	'RESTORE'				=> '복원',
