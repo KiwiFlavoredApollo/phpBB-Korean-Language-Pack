@@ -244,9 +244,9 @@ $lang = array_merge($lang, array(
 	'SMILIES'					=> '스마일',
 	'SMILIES_ARE_OFF'			=> '스마일 <em>꺼짐</em>',
 	'SMILIES_ARE_ON'			=> '스마일 <em>켜짐</em>',
-	'STICKY_ANNOUNCE_TIME_LIMIT'=> '고정글/포럼공지글/전체공지글 시간제한',
+	'STICKY_ANNOUNCE_TIME_LIMIT'=> '고정글/포럼공지글/전체공지글 고정 기간',
 	'STICK_TOPIC_FOR'			=> '고정 기간',
-	'STICK_TOPIC_FOR_EXPLAIN'	=> '고정글/포럼공지글/전체공지글의 시간제한을 설정하지 않을 경우 0을 입력합니다. 이 숫자는 게시날짜를 기준으로 합니다.',
+	'STICK_TOPIC_FOR_EXPLAIN'	=> '고정글/포럼공지글/전체공지글의 고정 기간을 설정하지 않을 경우 0을 입력합니다. 이 숫자는 게시 날짜를 기준으로 합니다.',
 	'STYLES_TIP'				=> '팁: 선택한 텍스트에 스타일을 빠르게 적용할 수 있습니다.',
 
 	'TOO_FEW_CHARS'				=> '메시지에 포함된 문자가 너무 적습니다.',
