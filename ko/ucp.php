@@ -393,8 +393,8 @@ $lang = array_merge($lang, array(
 	'NO_EDIT_READ_MESSAGE'		=> '비공개 메시지는 이미 읽었기 때문에 수정할 수 없습니다.',
 	'NO_EMAIL_USER'				=> '제출된 이메일/사용자 이름 정보를 찾을 수 없습니다.',
 	'EMAIL_NOT_UNIQUE'			=> '지정한 이메일을 여러 사용자가 사용하고 있습니다. 사용자 이름도 지정해야 합니다.',
-	'NO_FOES'					=> '현재 정의된 적 없음',
-	'NO_FRIENDS'				=> '현재 정의된 친구가 없습니다.',
+	'NO_FOES'					=> '현재 정의된 적이 없습니다',
+	'NO_FRIENDS'				=> '현재 정의된 친구가 없습니다',
 	'NO_FRIENDS_OFFLINE'		=> '오프라인 친구 없음',
 	'NO_FRIENDS_ONLINE'			=> '온라인에 친구가 없습니다.',
 	'NO_GROUP_SELECTED'			=> '지정된 그룹이 없습니다.',
@@ -620,9 +620,9 @@ $lang = array_merge($lang, array(
 
 	'YOUR_DETAILS'				=> '당신의 활동',
 	'YOUR_FOES'					=> '당신의 적',
-	'YOUR_FOES_EXPLAIN'			=> '사용자 이름을 제거하려면 사용자 이름을 선택하고 제출을 클릭하십시오.',
+	'YOUR_FOES_EXPLAIN'			=> '사용자 이름을 제거하려면 사용자 이름을 선택하고 제출하기를 클릭하십시오.',
 	'YOUR_FRIENDS'				=> '당신의 친구들',
-	'YOUR_FRIENDS_EXPLAIN'		=> '사용자 이름을 제거하려면 사용자 이름을 선택하고 제출을 클릭하십시오.',
+	'YOUR_FRIENDS_EXPLAIN'		=> '사용자 이름을 제거하려면 사용자 이름을 선택하고 제출하기를 클릭하십시오.',
 	'YOUR_WARNINGS'				=> '당신의 경고 레벨',
 
 	'PM_ACTION' => array(
