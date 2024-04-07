@@ -63,7 +63,7 @@ $lang = array_merge($lang, array(
 
 	'FILE_NOT_FOUND_404'	=> '<strong>%s</strong> 파일이 존재하지 않습니다.',
 	'FORK_TOPIC'			=> '글 복사',
-	'FULL_EDITOR'			=> '전체 에디터 &amp; 미리보기',
+	'FULL_EDITOR'			=> '전체 편집기 &amp; 미리보기',
 
 	'LINKAGE_FORBIDDEN'		=> '귀하는 이 사이트를 보거나 다운로드하거나 링크할 권한이 없습니다.',
 	'LOGIN_NOTIFY_TOPIC'	=> '이 글에 대한 알림을 받았습니다. 이 글을 보려면 로그인하십시오.',
