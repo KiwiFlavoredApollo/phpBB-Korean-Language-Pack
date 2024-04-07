@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'BUMPED_BY'				=> '%2$s에 %1$s이(가) 마지막으로 끌어올렸습니다.',
 	'BUMP_TOPIC'			=> '끌어올리기',
 
-	'DELETE_TOPIC'			=> '글 삭제',
+	'DELETE_TOPIC'			=> '글 삭제하기',
 	'DELETED_INFORMATION'	=> '%2$s에 %1$s에 의해 삭제됨',
 	'DISAPPROVE'					=> '비승인',
 	'DOWNLOAD_NOTICE'		=> '이 게시물에 첨부된 파일을 보는 데 필요한 권한이 없습니다.',
@@ -62,23 +62,23 @@ $lang = array_merge($lang, array(
 	'ERROR_NO_ATTACHMENT'	=> '선택한 첨부파일이 더 이상 존재하지 않습니다.',
 
 	'FILE_NOT_FOUND_404'	=> '<strong>%s</strong> 파일이 존재하지 않습니다.',
-	'FORK_TOPIC'			=> '글 복사',
+	'FORK_TOPIC'			=> '글 복사하기',
 	'FULL_EDITOR'			=> '전체 편집기 &amp; 미리보기',
 
 	'LINKAGE_FORBIDDEN'		=> '귀하는 이 사이트를 보거나 다운로드하거나 링크할 권한이 없습니다.',
 	'LOGIN_NOTIFY_TOPIC'	=> '이 글에 대한 알림을 받았습니다. 이 글을 보려면 로그인하십시오.',
 	'LOGIN_VIEWTOPIC'		=> '이 글을 보려면 게시판에 등록하고 로그인해야 합니다.',
 
-	'MAKE_ANNOUNCE'				=> '"포럼공지글"로 변경',
-	'MAKE_GLOBAL'				=> '"전체공지글"로 변경',
-	'MAKE_NORMAL'				=> '"일반글"로 변경',
-	'MAKE_STICKY'				=> '"고정글"로 변경',
+	'MAKE_ANNOUNCE'				=> '"포럼공지글"로 변경하기',
+	'MAKE_GLOBAL'				=> '"전체공지글"로 변경하기',
+	'MAKE_NORMAL'				=> '"일반글"로 변경하기',
+	'MAKE_STICKY'				=> '"고정글"로 변경하기',
 	'MAX_OPTIONS_SELECT'		=> array(
 		1	=> '<strong>%d</strong> 옵션을 선택할 수 있습니다.',
 		2	=> '최대 <strong>%d</strong>개의 옵션을 선택할 수 있습니다.',
 	),
 	'MISSING_INLINE_ATTACHMENT'	=> '첨부파일 <strong>%s</strong>을(를) 더 이상 사용할 수 없습니다.',
-	'MOVE_TOPIC'				=> '글 이동',
+	'MOVE_TOPIC'				=> '글 옮기기',
 
 	'NO_ATTACHMENT_SELECTED'=> '다운로드하거나 볼 첨부파일을 선택하지 않았습니다.',
 	'NO_NEWER_TOPICS'		=> '이 포럼에는 새글이 없습니다.',
