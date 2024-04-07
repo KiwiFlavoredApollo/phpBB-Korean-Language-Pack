@@ -200,7 +200,7 @@ $lang = array_merge($lang, array(
 	'DELETE_ALL'			=> '모두 삭제',
 	'DELETE_COOKIES'		=> '쿠키 삭제',
 	'DELETE_MARKED'			=> '선택 삭제',
-	'DELETE_POST'			=> '게시물 삭제하기',
+	'DELETE_POST'			=> '게시물 지우기',
 	'DELIMITER'				=> '구분자',
 	'DESCENDING'			=> '내림차순',
 	'DISABLED'				=> '비활성화',
@@ -218,7 +218,7 @@ $lang = array_merge($lang, array(
 		2	=> '%d번 다운로드됨',
 	),
 
-	'EDIT_POST'							=> '게시물 수정하기',
+	'EDIT_POST'							=> '게시물 고치기',
 	'ELLIPSIS'							=>	'…',
 	'EMAIL'								=> '이메일', // Short form for EMAIL_ADDRESS
 	'EMAIL_ADDRESS'						=> '이메일 주소',

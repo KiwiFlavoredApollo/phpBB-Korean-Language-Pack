@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'BUMPED_BY'				=> '%2$s에 %1$s이(가) 마지막으로 끌어올렸습니다.',
 	'BUMP_TOPIC'			=> '끌어올리기',
 
-	'DELETE_TOPIC'			=> '글 삭제하기',
+	'DELETE_TOPIC'			=> '글 지우기',
 	'DELETED_INFORMATION'	=> '%2$s에 %1$s에 의해 삭제됨',
 	'DISAPPROVE'					=> '비승인',
 	'DOWNLOAD_NOTICE'		=> '이 게시물에 첨부된 파일을 보는 데 필요한 권한이 없습니다.',
