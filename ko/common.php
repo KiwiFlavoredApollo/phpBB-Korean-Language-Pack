@@ -371,7 +371,7 @@ $lang = array_merge($lang, array(
 	'IP_BLACKLISTED'			=> '귀하의 IP %1$s은(는) 차단 목록에 포함되어 차단되었습니다. 자세한 내용은 <a href="%2$s">%2$s</a>를 참조하세요.',
 
 	'JABBER'				=> 'Jabber',
-	'JOINED'				=> '가입',
+	'JOINED'				=> '가입일',
 	'JUMP_PAGE'				=> '이동하려는 페이지 번호를 입력하세요.',
 	'JUMP_TO'				=> '이동',
 	'JUMP_TO_PAGE'			=> '페이지로 이동',
@@ -635,7 +635,7 @@ $lang = array_merge($lang, array(
 	'PRIVATE_MESSAGING'		=> '개인 메시지',
 	'PROFILE'				=> '사용자 제어판',
 
-	'QUICK_LINKS'			=> '빠른 링크',
+	'QUICK_LINKS'			=> '바로가기',
 
 	'RANK'						=> '순위',
 	'READING_FORUM'				=> '%s의 글 보는 중',
