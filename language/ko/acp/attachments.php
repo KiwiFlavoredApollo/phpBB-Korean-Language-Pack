@@ -65,6 +65,7 @@ $lang = array_merge($lang, array(
 	'ATTACH_MAX_PM_FILESIZE_EXPLAIN'	=> '0 부터 시작하여 무제한이며, 개인 메세지를 위해 첨부한 각각에 파일의 최대 크기. 기본값은 256KB',      // 3.0.3 에서 내용이 일부 변경됨
 	'ATTACH_ORPHAN_URL'					=> '1개의 첨부파일',
 	'ATTACH_POST_ID'					=> '게시글 아이디',
+	'ATTACH_POST_TYPE'					=> '게시글 유형',
 	'ATTACH_QUOTA'						=> '모든 첨부파일에게 각자 할당된 크기',
 	'ATTACH_QUOTA_EXPLAIN'				=> '0 부터 시작하여 무제한이며, 첨부파일은 전체 보드에서 최대 드라이브 공간만큼만 사용할 수 있습니다. 기본값은 50MB',
 	'ATTACH_TO_POST'					=> '파일을 게시글에 첨부합니다',
@@ -103,13 +104,13 @@ $lang = array_merge($lang, array(
 	'EXT_GROUP_PLAIN_TEXT'			=> '일반 텍스트',
 
 	'FILES_GONE'			=> '삭제를 위해 선택한 첨부파일 중 일부가 존재하지 않습니다. 이미 삭제되었을 수 있습니다. 존재했던 첨부파일이 삭제되었습니다.',
-	'FILES_STATS_WRONG'		=> '파일 통계가 정확하지 않을 수 있으며 다시 동기화해야 합니다. 실제 값: 첨부파일 수 = %1$d, 첨부파일의 총 크기 = %2$s.<br />재동기화하려면 %3$ 와 %4$s를 클릭하세요.',
+	'FILES_STATS_WRONG'		=> '파일 통계가 정확하지 않을 수 있으며 다시 동기화해야 합니다. 실제 값: 첨부파일 수 = %1$d, 첨부파일의 총 크기 = %2$s.<br />재동기화하려면 %3$s 와 %4$s를 클릭하세요.',
 
 	'GO_TO_EXTENSIONS'		=> '확장자 관리 화면으로 가기',
 	'GROUP_NAME'			=> '그룹 이름',
 
 	'IMAGE_LINK_SIZE'			=> '이미지 링크 규격',
-	'IMAGE_LINK_SIZE_EXPLAIN'	=> '여기서 정한 규격보다 크면,<br/>이미지 첨부파일이 링크 글자만 보입니다.<br/>이 동작을 사용하지 않으려면, 0px 와 0px 값으로 놔두세요.',
+	'IMAGE_LINK_SIZE_EXPLAIN'	=> '여기서 정한 규격보다 크면, 이미지 첨부파일이 링크 글자만 보입니다. 이 동작을 사용하지 않으려면, 0px 와 0px 값으로 놔두세요.',
 	'IMAGE_QUALITY'				=> '업로드된 이미지 첨부파일의 품질(JPEG만 해당)',
 	'IMAGE_QUALITY_EXPLAIN'		=> '50%(작은 파일 크기)와 90%(높은 품질) 사이의 값을 지정합니다. 90%보다 높은 품질은 파일 크기를 늘리고 비활성화됩니다. 설정은 최대 이미지 크기가 0px x 0px 이외의 값으로 설정된 경우에만 적용됩니다.',
 	'IMAGE_STRIP_METADATA'		=> '이미지 메타데이터 제거(JPEG만 해당)',
@@ -145,19 +146,19 @@ $lang = array_merge($lang, array(
 	'ORDER_ALLOW_DENY'		=> '허용',
 	'ORDER_DENY_ALLOW'		=> '거부',
 
-	'REMOVE_ALLOWED_IPS'		=> '<span style="color: blueviolet;">허용한</span> IPs/hostnames 을 삭제 또는 제외',
-	'REMOVE_DISALLOWED_IPS'		=> '<span style="color: blueviolet;">허용하지 않은</span> IPs/hostnames 을 삭제 또는 제외',
+	'REMOVE_ALLOWED_IPS'		=> '<em>허용한</em> IPs/hostnames을 삭제 또는 제외',
+	'REMOVE_DISALLOWED_IPS'		=> '<em>허용하지 않은</em> IPs/hostnames을 삭제 또는 제외',
 	'RESYNC_FILES_STATS_CONFIRM'	=> '파일 통계를 다시 동기화하시겠습니까?',
 
 	'SECURE_ALLOW_DENY'				=> '허용/거부 목록',
-	'SECURE_ALLOW_DENY_EXPLAIN'		=> '<span style="color: blueviolet;">화이트 리스트</span> 또는 <span style="color: black;">블랙 리스트</span> 형태인, 허용/거부 목록을 안전하게 다운로드 해 주기 위해서 기본 동작을 변경합니다.',
+	'SECURE_ALLOW_DENY_EXPLAIN'		=> '<strong>화이트리스트</strong> 또는 <strong>블랙리스트</strong> 형태인, 허용/거부 목록을 안전하게 다운로드 해 주기 위해서 기본 동작을 변경합니다.',
 	'SECURE_DOWNLOADS'				=> '안전한 다운로드 사용',
 	'SECURE_DOWNLOADS_EXPLAIN'		=> '이 옵션을 사용하면, 정해진 IP’s/hostnames 에서 제한된 다운로드를 합니다.',
 	'SECURE_DOWNLOAD_NOTICE'		=> '안전한 다운로드가 활성화되어 있지 않습니다. 아래의 설정을 활성화한 후 안전한 다운로드가 적용됩 니다.',
 	'SECURE_DOWNLOAD_UPDATE_SUCCESS'=> '그 IP 목록이  업데이트 되었습니다.',
 	'SECURE_EMPTY_REFERRER'			=> '빈 추천인 허용',
 	'SECURE_EMPTY_REFERRER_EXPLAIN'	=> '안전한 다운로드는 추천한 사람을 기반으로 합니다. 당신은 생략한 그들 추천인을 위해 다운로드 허용을 원하십니까?',
-	'SETTINGS_CAT_IMAGES'			=> '<span style="color: blueviolet;">이미지 분류 설정</span>',
+	'SETTINGS_CAT_IMAGES'			=> '이미지 분류 설정',
 	'SPECIAL_CATEGORY'				=> '특별한 카테고리',
 	'SPECIAL_CATEGORY_EXPLAIN'		=> '이것은 게시글의 범위내에서 제시되는 방법과는 좀 다릅니다.',
 	'SUCCESSFULLY_UPLOADED'			=> '업로드 성공.',
