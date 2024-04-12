@@ -77,5 +77,6 @@ $lang = array_merge($lang, array(
 	'PARENT_MODULE_FIND_ERROR'			=> '상위 모듈 식별자를 확인할 수 없음: %s',
 	'PERMISSION_NOT_EXIST'				=> '권한 설정 "%s"이(가) 예기치 않게 존재하지 않습니다.',
 
+	'ROLE_ASSIGNED_NOT_EXIST'			=> '"%1$s"에 부여된 권한 역할이 예기치 않게 존재하지 않습니다. 역할 식별번호: "%2$s"',
 	'ROLE_NOT_EXIST'					=> '권한 역할 "%s"이(가) 예기치 않게 존재하지 않습니다.',
 ));
