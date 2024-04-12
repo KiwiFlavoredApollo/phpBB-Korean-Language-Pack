@@ -9,9 +9,38 @@
 1. phpBB 3.3.11에 호환되도록 만든다.
 2. 자연스러운 한국어 인터페이스를 만든다.
 
-## 설치방법
+## 언어팩 설치방법
 
-`ko/` 디렉토리를 `phpbb/language/` 디렉토리로 복사한다.
+`language/ko/` 디렉토리를 `phpbb/language/` 디렉토리로 복사한다.
+
+## phpBB Translation Validator 사용하기
+
+1. PHP 개발환경 만들기
+2. composer 설치하기
+3. phpBB Translation Validator 설치하기
+
+### 1. php 개발환경 만들기
+
+[PHP Installer Tools on Windows](https://www.php.net/manual/en/install.windows.tools.php)에서 XAMPP 설치파일을 내려받고 설치한다.
+
+XAMPP는 PHP 개발환경이다.
+
+### 2. Composer 설치하기
+
+[Download Composer](https://getcomposer.org/download/)에서 설치파일을 내려받는다.
+
+Composer는 PHP 개발환경의 dependency manager이다. Python의 Pipfile이랑 비슷하다.
+
+### 3. phpBB Translation Validator 설치하기
+
+[Git Bash]() 프로그램을 사용하면 편리하다. 명령 프롬프트를 써봤지만 `composer.phar` 명령어를 사용하는데 문제가 있었다.
+
+```
+git clone https://github.com/KiwiFlavoredApollo/phpBB-Korean-Language-Pack.git
+cd phpBB-Korean-Language-Pack
+composer.phar install
+php vendor/bin/translation.php --package-dir=language/ --phpbb-version=3.3 
+```
 
 ## 어휘 목록
 
@@ -77,5 +106,6 @@ phpbb.com에서도 [Topic vs Thread](https://www.phpbb.com/community/viewtopic.p
 
 - [phpBB 3.0.5 한국어팩 - phpBBKorea by michael 2009년](http://www.phpbbkorea.com/viewtopic.php?f=6&t=2554)
 - [phpBB 3.3.5 한국어팩 - IT온세미로 by syskiller 2022년](http://bb.itosm.com/viewtopic.php?t=40&sid=f0ba38eba9f9bed54bd3a29b8b36c1e3)
-- [phpBB 3.2.X phpbb-korean by minwook-shin 2017년](https://github.com/minwook-shin/phpbb-korean)
+- [phpBB 3.2.X phpbb-korean - Github by minwook-shin 2017년](https://github.com/minwook-shin/phpbb-korean)
 - [phpBB 3.3.11 phpBB3ko - Github by sebuls 2024년](https://github.com/sebuls/phpBB3ko)
+- [Deutsche(독일어) Sprachdateien für phpBB 3.3.11 - Github](https://github.com/phpbb-de/phpbb-translation/tree/3.3.x)
