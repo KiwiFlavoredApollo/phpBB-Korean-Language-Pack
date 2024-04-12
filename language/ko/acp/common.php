@@ -232,7 +232,7 @@ $lang = array_merge($lang, array(
 	'COLOUR_SWATCH'			=> '웹에 적합한 색상 견본',
 	'CONFIG_UPDATED'		=> '구성이 업데이트되었습니다.',
 	'CRON_LOCK_ERROR'		=> '크론 잠금을 가져올 수 없습니다.',
-	'CRON_NO_SUCH_TASK'		=> '크론 작업 "%"를 찾을 수 없습니다.',
+	'CRON_NO_SUCH_TASK'		=> '크론 작업 "%s"를 찾을 수 없습니다.',
 	'CRON_NO_TASK'			=> '지금 당장 실행할 크론 작업이 없습니다.',
 	'CRON_NO_TASKS'			=> '크론 작업이 없습니다',
 	'CSV_INVALID'			=> '제공된 쉼표로 구분된 설정 "%1$s"이(가) 잘못되었습니다. 값은 쉼표로만 구분해야 하며 선행 또는 후행 구분 기호를 포함해서는 안 됩니다.',
@@ -738,6 +738,10 @@ $lang = array_merge($lang, array(
 	'LOG_SEARCH_INDEX_CREATED'	=> '<strong>생성된 검색 색인</strong><br />» %s',
 	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>제거된 검색 색인</strong><br />» %s',
 	'LOG_SPHINX_ERROR'			=> '<strong>Sphinx 오류</strong><br />» %s',
+
+	'LOG_SPAMHAUS_OPEN_RESOLVER'		=> 'Spamhaus does not allow queries using an open resolver. Blacklist checking has been disabled. For more information, see https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
+	'LOG_SPAMHAUS_VOLUME_LIMIT'			=> 'Spamhaus query volume limit has been exceeded. Blacklist checking has been disabled. For more information, see https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
+
 	'LOG_STYLE_ADD'				=> '<strong>새 스타일 추가</strong><br />» %s',
 	'LOG_STYLE_DELETE'			=> '<strong>삭제된 스타일</strong><br />» %s',
 	'LOG_STYLE_EDIT_DETAILS'	=> '<strong>스타일 수정</strong><br />» %s',
