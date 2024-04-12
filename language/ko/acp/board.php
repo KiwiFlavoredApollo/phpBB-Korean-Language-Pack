@@ -44,7 +44,7 @@ $lang = array_merge($lang, array(
 	'BOARD_STYLE'					=> '보드 스타일',
 	'CUSTOM_DATEFORMAT'				=> '커스텀…',
 	'DEFAULT_DATE_FORMAT'			=> '날짜 형식',
-	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> '날짜 형식은 PHP <a href="https://secure.php.net/manual/function.date.php">date functions</a>와 동일합니다.',
+	'DEFAULT_DATE_FORMAT_EXPLAIN'	=> 'PHP의 <a href="https://www.php.net/manual/datetime.format.php">date functions</a>와 같은 날짜 형식을 사용합니다.',
 	'DEFAULT_LANGUAGE'				=> '기본 언어',
 	'DEFAULT_STYLE'					=> '기본 스타일',
 	'DEFAULT_STYLE_EXPLAIN'			=> '신규 사용자를 위한 기본 스타일입니다.',
@@ -350,7 +350,7 @@ $lang = array_merge($lang, array(
 
 // Cookie Settings
 $lang = array_merge($lang, array(
-	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> '이러한 세부 정보는 사용자 브라우저에 쿠키를 보내는 데 사용되는 데이터를 정의합니다. 대부분의 경우 쿠키 설정의 기본값이면 충분합니다. 변경해야 하는 경우 주의하여 변경해야 하는 경우 잘못된 설정으로 인해 사용자가 로그인하지 못할 수 있습니다. 사용자가 게시판에 계속 로그인하는 데 문제가 있는 경우 <strong><a href="https://www.phpbb .com/support/go/cookie-settings">phpBB.com 기술 자료 - 잘못된 쿠키 설정 수정</a></strong>.',
+	'ACP_COOKIE_SETTINGS_EXPLAIN'		=> '이러한 세부 정보는 사용자 브라우저에 쿠키를 보내는 데 사용되는 데이터를 정의합니다. 대부분의 경우 쿠키 설정의 기본값이면 충분합니다. 변경해야 하는 경우 주의하여 변경해야 하는 경우 잘못된 설정으로 인해 사용자가 로그인하지 못할 수 있습니다. 사용자가 게시판에 계속 로그인하는 데 문제가 있는 경우 <strong><a href="https://www.phpbb.com/support/go/cookie-settings">phpBB.com 기술 자료 - 잘못된 쿠키 설정 수정</a></strong>.',
 
 	'COOKIE_DOMAIN'				=> '쿠키 도메인',
 	'COOKIE_DOMAIN_EXPLAIN'		=> '대부분의 경우 쿠키 도메인은 선택 사항입니다. 확실하지 않으면 공백으로 두십시오.<br><br> 보드가 다른 소프트웨어와 통합되었거나 여러 도메인이 있는 경우 쿠키 도메인을 결정하기 위해 다음을 수행해야 합니다. <i>example.com</i> 및 <i>forums.example.com</i> 또는 <i>forums.example.com</i> 및 <i>blog.example과 같은 항목이 있는 경우 .com</i>. 공통 도메인인 <i>example.com</i>을 찾을 때까지 하위 도메인을 제거합니다. 이제 공통 도메인 앞에 점을 추가하고 .example.com을 입력합니다(시작 부분의 점 참고).',
@@ -511,7 +511,7 @@ $lang = array_merge($lang, array(
 	'BROWSER_VALID'					=> '브라우저 확인',
 	'BROWSER_VALID_EXPLAIN'			=> '보안을 향상시키는 각 세션에 대한 브라우저 유효성 검사를 활성화합니다.',
 	'CHECK_DNSBL'					=> 'DNS 블랙홀 목록에 대한 IP 확인',
-	'CHECK_DNSBL_EXPLAIN'			=> '활성화된 경우 사용자의 IP 주소는 등록 및 게시 시 다음 DNSBL 서비스에 대해 확인됩니다. <a href="http://spamcop.net">spamcop.net</a> 및 <a href="http://www .spamhaus.org">www.spamhaus.org</a>. 이 조회는 서버 구성에 따라 시간이 걸릴 수 있습니다. 속도 저하가 발생하거나 오탐지가 너무 많이 보고되면 이 검사를 비활성화하는 것이 좋습니다.',
+	'CHECK_DNSBL_EXPLAIN'			=> '활성화된 경우 사용자의 IP 주소는 등록 및 게시 시 다음 DNSBL 서비스에 대해 확인됩니다. <a href="http://spamcop.net">spamcop.net</a> 및 <a href="http://www.spamhaus.org">www.spamhaus.org</a>. 이 조회는 서버 구성에 따라 시간이 걸릴 수 있습니다. 속도 저하가 발생하거나 오탐지가 너무 많이 보고되면 이 검사를 비활성화하는 것이 좋습니다.',
 	'CLASS_B'						=> 'A.B',
 	'CLASS_C'						=> 'A.B.C',
 	'EMAIL_CHECK_MX'				=> '유효한 MX 레코드의 이메일 도메인 확인',
@@ -600,7 +600,7 @@ $lang = array_merge($lang, array(
 	'SMTP_VERIFY_PEER_EXPLAIN'		=> 'SMTP 서버에서 사용하는 SSL 인증서 확인이 필요합니다. <br><em><strong>경고:</strong> 확인되지 않은 SSL 인증서로 피어를 연결하면 보안에 영향을 미칠 수 있습니다.</em>',
 	'SMTP_VERIFY_PEER_NAME'			=> 'SMTP 피어 이름 확인',
 	'SMTP_VERIFY_PEER_NAME_EXPLAIN'	=> 'SSL/TLS 연결을 사용하는 SMTP 서버의 피어 이름 확인이 필요합니다. <br><em><strong>경고:</strong> 확인되지 않은 피어에 연결하면 보안에 문제가 발생할 수 있습니다.</em>',
-	'TEST_EMAIL_SENT'				=> '테스트 이메일이 전송되었습니다.<br>메일을 받지 못한 경우 이메일 구성을 확인하세요.<br><br>도움이 필요하면 <a href="https://www.phpbb .com/community/">phpBB 지원 포럼</a>입니다.',
+	'TEST_EMAIL_SENT'				=> '테스트 이메일이 전송되었습니다.<br>이메일을 받지 못했다면 이메일 설정을 확인해보세요.<br><br>도움이 필요하면 <a href="https://www.phpbb.com/community/">phpBB support forum</a>을 방문해주세요.',
 
 	'USE_SMTP'						=> '이메일에 SMTP 서버 사용',
 	'USE_SMTP_EXPLAIN'				=> '로컬 메일 기능 대신 명명된 서버를 통해 이메일을 보내거나 보내야 하는 경우 "예"를 선택합니다.',
