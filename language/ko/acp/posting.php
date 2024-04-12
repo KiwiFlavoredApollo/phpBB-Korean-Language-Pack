@@ -115,7 +115,7 @@ $lang = array_merge($lang, array(
 	'EDIT_SMILIES'				=> '전체 스마일 편집',
 	'EMOTION'					=> '감정',
 	'EXPORT_ICONS'				=> 'icons.pak 내보내기 및 다운로드',
-	'EXPORT_ICONS_EXPLAIN'		=> '%s이 링크를 클릭하면 설치된 아이콘에 대한 구성이 <samp>icons.pak</samp>에 패키징되며 다운로드하면 <samp>.zip</samp> 또는 <samp>.tgz</samp>를 만드는 데 사용할 수 있습니다. 모든 아이콘과 이 <samp>icons.pak</samp> 구성 파일%s을 포함하는 </samp> 파일',
+	'EXPORT_ICONS_EXPLAIN'		=> '%s이 링크를 클릭하면 설치된 아이콘에 대한 구성이 <samp>icons.pak</samp>에 패키징되며, 다운로드하면 모든 아이콘과 <samp>icons.pak</samp>의 설정파일을 포함하는 <samp>.zip</samp> 또는 <samp>.tgz</samp> 파일을 만드는 데 사용할 수 있습니다.%s',
 	'EXPORT_SMILIES'			=> 'smilies.pak 내보내기 및 다운로드',
 	'EXPORT_SMILIES_EXPLAIN'	=> '%s이 링크를 클릭하면 설치된 smilies에 대한 구성이 <samp>smilies.pak</samp>에 패키징되며 다운로드되면 <samp>.zip</samp> 또는 <samp>.tgz를 만드는 데 사용할 수 있습니다. </samp> 파일에는 모든 웃음과 이 <samp>smilies.pak</samp> 구성 파일%s이 포함되어 있습니다.',
 
