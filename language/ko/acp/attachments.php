@@ -165,10 +165,11 @@ $lang = array_merge($lang, array(
 	'SUCCESS_EXTENSION_GROUP_EDIT'	=> '확장자 그룹이  업로드 되었습니다.',
 
 	'UPLOADING_FILES'				=> '업로드 중인 파일들',
-	'UPLOADING_FILE_TO'				=> '업로드 중인 파일 “%1$s” 을 게시한 횟수 %2$d 개…',        // 이 부분 모르겠슴, 죄송 (-.-) 
+	'UPLOADING_FILE_TO'				=> '파일 “%1$s”을(를) 게시물 번호 %2$d에 올리는 중…',
 	'UPLOAD_DENIED_FORUM'			=> '당신은 “%s” 포럼에 파일을 업로드 할 권한이 없습니다.',
 	'UPLOAD_DIR'					=> '업로드 폴더',
 	'UPLOAD_DIR_EXPLAIN'			=> '첨부파일이 서버에 저장된 경로 입니다.<br />폴더를 변경하면, 이미 서버에 저장된 파일들은,<br />당신이 수동으로 새 위치에 복사가 필요합니다.',
 	'UPLOAD_ICON'					=> '업로드 아이콘',
 	'UPLOAD_NOT_DIR'				=> '당신이 지정한 업로드 위치가 폴더에는 나타나지 않습니다.',
+	'UPLOAD_POST_NOT_EXIST'			=> '파일 “%1$s”을 업로드할 수 없습니다. 게시물 번호 %2$d에 해당하는 게시물이 존재하지 않습니다.',
 ));
