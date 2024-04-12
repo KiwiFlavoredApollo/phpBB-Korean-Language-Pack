@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'TERMS_OF_USE_CONTENT'	=> '"%1$s"(이하 "당사" , "%1$s", "%2$s")에 액세스하면 다음 조건에 법적으로 구속된다는 데 동의하는 것입니다. 다음 조건을 모두 법적으로 구속하는 데 동의하지 않는 경우 "%1$s"에 액세스하거나 사용하지 마십시오. 우리는 이것을 언제든지 변경할 수 있으며 최선을 다해 알려드릴 것입니다. 그러나 변경 후에도 "%1$s"를 계속 사용하는 것은 귀하가 이에 대한 법적 구속력에 동의함을 의미하므로 이를 정기적으로 직접 검토하는 것이 현명합니다. 업데이트 및/또는 수정되는 조건.
 	<br><br>
-	우리 포럼은 게시판 솔루션인 phpBB(이하 "그들", "phpBB 소프트웨어", "www.phpbb.com", "phpBB Limited", "phpBB Teams")에 의해 구동됩니다. "<a href="http://opensource.org/licenses/gpl-2.0.php">GNU General Public License v2</a>"(이하 "GPL")에 따라 <a href= "https://www.phpbb.com/">www.phpbb.com</a>. phpBB 소프트웨어는 인터넷 기반 토론만 가능하게 합니다. phpBB Limited는 우리가 허용하거나 허용하지 않는 콘텐츠 및/또는 행위에 대해 책임을 지지 않습니다. phpBB에 대한 자세한 내용은 <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>을 참조하십시오.
+	우리 포럼은 게시판 솔루션인 phpBB(이하 "그들", "phpBB 소프트웨어", "www.phpbb.com", "phpBB Limited", "phpBB Teams")에 의해 구동됩니다. "<a href="http://opensource.org/licenses/gpl-2.0.php">GNU General Public License v2</a>"(이하 "GPL")에 따라 <a href="https://www.phpbb.com/">www.phpbb.com</a>. phpBB 소프트웨어는 인터넷 기반 토론만 가능하게 합니다. phpBB Limited는 우리가 허용하거나 허용하지 않는 콘텐츠 및/또는 행위에 대해 책임을 지지 않습니다. phpBB에 대한 자세한 내용은 <a href="https://www.phpbb.com/">https://www.phpbb.com/</a>을 참조하십시오.
 	<br><br>
 	귀하는 욕설, 외설, 저속, 중상, 증오, 위협, 성적 지향 또는 귀하의 국가, "%1$s"이 호스팅되는 국가 또는 국제법의 법률을 위반할 수 있는 기타 자료를 게시하지 않을 것에 동의합니다. . 그렇게 하면 귀하가 즉시 영구적으로 금지될 수 있으며 당사가 요구하는 경우 귀하의 인터넷 서비스 제공업체에 통지합니다. 이러한 조건을 시행하는 데 도움이 되도록 모든 게시물의 IP 주소가 기록됩니다. 귀하는 "%1$s"이 적절하다고 판단되는 경우 언제든지 글을 제거, 편집, 이동 또는 닫을 수 있는 권한이 있다는 데 동의합니다. 사용자로서 귀하는 입력한 모든 정보가 데이터베이스에 저장되는 데 동의합니다. 이 정보는 귀하의 동의 없이 제3자에게 공개되지 않지만 "%1$s" 또는 phpBB는 데이터 손상으로 이어질 수 있는 해킹 시도에 대해 책임을 지지 않습니다.
 	',
@@ -115,8 +115,8 @@ $lang = array_merge($lang, array(
 	'BACK_TO_LOGIN'				=> '로그인 화면으로 돌아가기',
 	'BIRTHDAY'					=> '생일',
 	'BIRTHDAY_EXPLAIN'			=> '연도를 설정하면 생일을 표시할때 때 나이가 표시 됩니다.',
-	'BOARD_DATE_FORMAT'			=> '내의 날짜 형식',
-	'BOARD_DATE_FORMAT_EXPLAIN'	=> '사용된 구문은 PHP <a href="https://secure.php.net/manual/function.date.php">date()</a> 함수와 동일합니다.',
+	'BOARD_DATE_FORMAT'			=> '나의 날짜 형식',
+	'BOARD_DATE_FORMAT_EXPLAIN'	=> 'PHP의 <a href="https://www.php.net/manual/datetime.format.php">date functions</a>와 같은 날짜 형식을 사용합니다.',
 	'BOARD_LANGUAGE'			=> '나의 언어',
 	'BOARD_STYLE'				=> '나의보드 스타일',
 	'BOARD_TIMEZONE'			=> '나의 시간존',
