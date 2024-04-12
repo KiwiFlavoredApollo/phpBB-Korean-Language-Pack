@@ -40,7 +40,7 @@ if (empty($lang) || !is_array($lang))
 // 한국어 번역(또는 번안)은 저의 식견이 짧은 탓에 오역과 오류 또는 오자가 있음을 미리 밝혀 둡니다.
 $lang = array_merge($lang, array(
 	'ACP_ATTACHMENT_SETTINGS_EXPLAIN'	=> '여기에서는 첨부파일에 대한 중요 설정과 그것에 해당하는 특별한 카테고리를 설정할 수 있습니다.',
-	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> '여기서 당신은 확장자 그룹들을 추가, 삭제, 수정 또는 사용금지를 할 수 있습니다.<br />게다가 옵션에 그들의 특정 분류(category)에 대한 할당을 포함하고,<br />다운로드 메카니즘이 변하고, 업로드 아이콘이 명확히 되며, 그 그룹에 속한 첨부파일을 앞쪽으로 표시할 수 있습니다.<br />&#9824; <span style="color: tomato;">메커니즘</span> : 정해진 절차 또는 방법',
+	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> '여기서 당신은 확장자 그룹들을 추가, 삭제, 수정 또는 사용금지를 할 수 있습니다. 게다가 옵션에 그들의 특정 분류(category)에 대한 할당을 포함하고, 다운로드 메카니즘이 변하고, 업로드 아이콘이 명확히 되며, 그 그룹에 속한 첨부파일을 앞쪽으로 표시할 수 있습니다. 메커니즘이란, 정해진 절차 또는 방법을 말한다.',
 	'ACP_MANAGE_EXTENSIONS_EXPLAIN'		=> '여기서 당신은 허용된 확장자를 관리할 수 있습니다.<br />당신의 확장자를 활성화하려면, 확장자 그룹에 관리 패널을 참조하여 주십시요.<br />우리는 자신이 손수 개발한 확장자를 허용하지 않도록 강력히 추천합니다.<br />(이와같은 <code>php</code>, <code>php3</code>, <code>php4</code>, <code>phtml</code>, <code>pl</code>, <code>cgi</code>, <code>py</code>, <code>rb</code>, <code>asp</code>, <code>aspx</code>, 등…)',
 	'ACP_ORPHAN_ATTACHMENTS_EXPLAIN'	=> '여기서 당신은 분리된 파일을 볼 수 있습니다.<br />만약 사용자의 첨부파일에 이런 문제가 발생한다면, 게시글에 제출하지 마세요.<br />당신은 그 파일이나 첨부한 부분이 게시글에 이미 존재한다면, 그것들을 지울 수 있습니다.<br />게시글에 첨부하여 사용하려면, 유효한 게시글 아이디가 필요하며, 이 아이디는 자기자신이 결정합니다.<br />당신이 입력하여 게시글에 이미 업로드된 첨부파일을 할당합니다.',
 	'ADD_EXTENSION'						=> '확장자 추가',
