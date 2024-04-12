@@ -663,7 +663,7 @@ $lang = array_merge($lang, array(
 	'LOG_INSTALL_CONVERTED'	=> '<strong>%1$s에서 phpBB %2$s(으)로 변환됨</strong>',
 	'LOG_INSTALL_INSTALLED'	=> '<strong>설치 phpBB %s</strong>',
 
-	'LOG_IP_BROWSER_FORWARDED_CHECK'	=> '<strong>세션 IP/브라우저/X_FORWARDED_FOR 확인 실패</strong><br />»사용자 IP "<em>%1$s</em>"이 세션 IP "<em>%2$s에 대해 확인됨</em>", 세션 브라우저 문자열 "<em>%4$s</em>" 및 사용자 X_FORWARDED_FOR 문자열 "<em>%5$s<에 대해 확인된 사용자 브라우저 문자열 "<em>%3$s</em>" /em>"이 세션 X_FORWARDED_FOR 문자열 "<em>%6$s</em>"에 대해 확인되었습니다.',
+	'LOG_IP_BROWSER_FORWARDED_CHECK'	=> '<strong>세션 IP/브라우저/X_FORWARDED_FOR 확인 실패</strong><br />»사용자 IP "<em>%1$s</em>"이 세션 IP "<em>%2$s에 대해 확인됨</em>", 세션 브라우저 문자열 "<em>%3$s</em>" 에 대해 확인된 사용자 브라우저 문자열 "<em>%4$s</em>" 및 사용자 X_FORWARDED_FOR 문자열 "<em>%5$s</em>"이 세션 X_FORWARDED_FOR 문자열 "<em>%6$s</em>"에 대해 확인되었습니다.',
 
 	'LOG_JAB_CHANGED'			=> '<strong>Jabber 계정 변경됨</strong>',
 	'LOG_JAB_PASSCHG'			=> '<strong>Jabber 비밀번호 변경됨</strong>',
