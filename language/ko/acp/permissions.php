@@ -40,7 +40,7 @@ $lang = array_merge($lang, array(
 	'ACP_PERMISSIONS_EXPLAIN'	=> '
 		<p>권한은 매우 세분화되어 있으며 다음과 같은 네 가지 주요 섹션으로 그룹화됩니다.</p>
 
-		<h2> 글로벌 권한</h2>
+		<h2>글로벌 권한</h2>
 
 		<p>글로벌 레벨의 접근을 통제하고 전체 게시판에 적용하기 위해 사용됩니다. 다시 사용자 권한, 그룹 권한, 관리자 및 글로벌 운영자로 나뉩니다.</p>
 
@@ -52,9 +52,10 @@ $lang = array_merge($lang, array(
 
 		<h2>권한 마스크</h2>
 		<p>사용자, 운영자(로컬 및 글로벌), 관리자 또는 포럼에 할당된 유효 권한을 보는 데 사용됩니다.</p>
-<br />
+		
+		<br />
 
-<p>phpBB3 보드의 권한 설정 및 관리에 대한 추가 정보는 <a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/permissions 섹션을 참조하십시오. /">빠른 시작 가이드의 권한 설정</a>.</p>
+		<p>phpBB3 보드의 권한 설정 및 관리에 대한 추가 정보는 <a href="https://www.phpbb.com/support/docs/en/3.3/ug/quickstart/permissions/">빠른 시작 가이드의 권한 설정</a> 섹션을 참조하십시오. </p>
 	',
 
 	'ACL_NEVER'				=> '금지',
