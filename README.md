@@ -39,7 +39,7 @@ Composer는 PHP 개발환경의 dependency manager이다. Python의 Pipfile이�
 git clone https://github.com/KiwiFlavoredApollo/phpBB-Korean-Language-Pack.git
 cd phpBB-Korean-Language-Pack
 composer.phar install
-php vendor/bin/translation.php --package-dir=language/ --phpbb-version=3.3 
+php vendor/bin/translation.php validate ko --package-dir=language/ --phpbb-version=3.3 
 ```
 
 ## 어휘 목록
@@ -109,3 +109,4 @@ phpbb.com에서도 [Topic vs Thread](https://www.phpbb.com/community/viewtopic.p
 - [phpBB 3.2.X phpbb-korean - Github by minwook-shin 2017년](https://github.com/minwook-shin/phpbb-korean)
 - [phpBB 3.3.11 phpBB3ko - Github by sebuls 2024년](https://github.com/sebuls/phpBB3ko)
 - [Deutsche(독일어) Sprachdateien für phpBB 3.3.11 - Github](https://github.com/phpbb-de/phpbb-translation/tree/3.3.x)
+- [phpBB Translation Validator - Github](https://github.com/phpbb/phpbb-translation-validator)
