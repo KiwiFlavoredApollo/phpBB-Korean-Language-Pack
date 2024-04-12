@@ -40,7 +40,7 @@ $lang = array_merge($lang, array(
 	'ACP_FILES'						=> '언어 파일 관리',
 	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> '여기에서 언어 팩을 설치/제거할 수 있습니다. 기본 언어 팩은 별표(*)로 표시됩니다.',
 
-	'DELETE_LANGUAGE_CONFIRM'		=> '"%"를 삭제하시겠습니까?',
+	'DELETE_LANGUAGE_CONFIRM'		=> '"%s"를 삭제하시겠습니까?',
 
 	'INSTALLED_LANGUAGE_PACKS'		=> '설치된 언어 팩',
 
