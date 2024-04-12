@@ -19,7 +19,7 @@
 2. composer 설치하기
 3. phpBB Translation Validator 설치하기
 
-### 1. php 개발환경 만들기
+### 1. PHP 개발환경 만들기
 
 [PHP Installer Tools on Windows](https://www.php.net/manual/en/install.windows.tools.php)에서 XAMPP 설치파일을 내려받고 설치한다.
 
