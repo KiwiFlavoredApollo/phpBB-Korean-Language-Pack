@@ -124,6 +124,7 @@ $lang = array_merge($lang, array(
 		2	=> '현재 삭제 속도는 초당 약 %1$.1f개의 게시물입니다.<br />삭제 중…',
 	),
 	'SEARCH_INDEX_CREATED'					=> '게시판 데이터베이스의 모든 게시물을 성공적으로 색인화했습니다.',
+	'SEARCH_INDEX_PROGRESS'					=> '완료: %1$d | 대기중: %2$d | 총계: %3$d',
 	'SEARCH_INDEX_REMOVED'					=> '이 백엔드에 대한 검색 색인을 성공적으로 삭제했습니다.',
 	'SEARCH_INTERVAL'						=> '사용자 검색 플러드 간격',
 	'SEARCH_INTERVAL_EXPLAIN'				=> '사용자가 검색 사이에 기다려야 하는 시간(초)입니다. 이 간격은 각 사용자에 대해 독립적으로 확인됩니다.',
