@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CLI_APCU_CACHE_NOTICE'				=> 'APCu 캐시는 관리 제어판을 통해 제거해야 합니다.',
+	'CLI_APCU_CACHE_NOTICE'				=> 'APCu 캐시는 관리자 제어판을 통해 제거해야 합니다.',
 
 	'CLI_CONFIG_CANNOT_CACHED'			=> '구성 옵션이 너무 자주 변경되어 효율적으로 캐시될 수 없는 경우 이 옵션을 설정하십시오.',
 	'CLI_CONFIG_CURRENT'				=> '현재 구성 값, 0과 1을 사용하여 부울 값 지정',

@@ -219,10 +219,10 @@ $lang = array_merge($lang, array(
 	'ADD'					=> '추가',
 	'ADMIN'					=> '관리자',
 	'ADMIN_INDEX'			=> '관리자 정보 패널',
-	'ADMIN_PANEL'			=> '관리 제어판',
+	'ADMIN_PANEL'			=> '관리자 제어판',
 
 	'ADM_LOGOUT'			=> 'ACP로그아웃',
-	'ADM_LOGGED_OUT'		=> '관리 제어판에서 로그아웃되었습니다.',
+	'ADM_LOGGED_OUT'		=> '관리자 제어판에서 로그아웃되었습니다.',
 
 	'BACK'					=> '뒤로',
 
@@ -268,7 +268,7 @@ $lang = array_merge($lang, array(
 	'LOGGED_IN_AS'			=> '현재 로그인:',
 	'LOGIN_ADMIN'			=> '보드를 관리하려면 인증된 사용자여야 합니다.',
 	'LOGIN_ADMIN_CONFIRM'	=> '보드를 관리하려면 자신을 다시 인증해야 합니다.',
-	'LOGIN_ADMIN_SUCCESS'	=> ' 인증되었으며 이제 관리 제어판으로 리디렉션됩니다.',
+	'LOGIN_ADMIN_SUCCESS'	=> '인증되었으며 이제 관리자 제어판으로 리디렉션됩니다.',
 	'LOOK_UP_FORUM'			=> '포럼 선택',
 	'LOOK_UP_FORUMS_EXPLAIN'=> '포럼을 두 개 이상 선택할 수 있습니다.',
 
@@ -283,7 +283,7 @@ $lang = array_merge($lang, array(
 	'NO_ADMIN'				=> '이 보드를 관리할 권한이 없습니다.',
 	'NO_EMAILS_DEFINED'		=> '유효한 이메일 주소가 없습니다.',
 	'NO_FILES_TO_DELETE'	=> '삭제를 위해 선택한 첨부파일이 존재하지 않습니다.',
-	'NO_PASSWORD_SUPPLIED'	=> '관리 제어판에 액세스하려면 암호를 입력해야 합니다.',
+	'NO_PASSWORD_SUPPLIED'	=> '관리자 제어판에 액세스하려면 암호를 입력해야 합니다.',
 
 	'OFF'					=> 'Off',
 	'ON'					=> 'On',
