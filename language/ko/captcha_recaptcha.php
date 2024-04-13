@@ -58,7 +58,7 @@ $lang = array_merge($lang, [
 	'RECAPTCHA_V3_PRIVATE_EXPLAIN'	=> 'reCAPTCHA 보안 키입니다. 키는 <a href="https://www.google.com/recaptcha">www.google.com/recaptcha</a>에서 얻을 수 있습니다. reCAPTCHA v3를 사용하세요.',
 
 	'RECAPTCHA_V3_DOMAIN'				=> '도메인 요청',
-	'RECAPTCHA_V3_DOMAIN_EXPLAIN'		=> '요청을 확인할 때 스크립트를 가져오고 사용할 도메인입니다.<br><samp>google.com</samp>에 액세스할 수 없는 경우 <samp>recaptcha.net</samp>을 사용하세요',
+	'RECAPTCHA_V3_DOMAIN_EXPLAIN'		=> '요청을 확인할 때 스크립트를 가져오고 사용할 도메인입니다.<br><samp>google.com</samp>에 접근할 수 없는 경우 <samp>recaptcha.net</samp>을 사용하세요',
 
 	'RECAPTCHA_V3_METHOD'				=> '요청 방법',
 	'RECAPTCHA_V3_METHOD_EXPLAIN'		=> '요청을 확인할 때 사용할 방법입니다.<br>사용 안 함 옵션은 설정 내에서 사용할 수 없습니다.',

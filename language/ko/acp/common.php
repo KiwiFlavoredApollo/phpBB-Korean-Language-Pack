@@ -292,7 +292,7 @@ $lang = array_merge($lang, array(
 	'PARSE_SMILIES'						=> '스마일 파싱',
 	'PARSE_URLS'						=> '링크 파싱',
 	'PERMISSIONS_TRANSFERRED'			=> '이전된 권한',
-	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> '현재 %1$s의 권한이 있습니다. 이 사용자의 권한으로 게시판을 열람할 수 있지만 관리자 권한이 이전되지 않았기 때문에 관리자 제어판에 액세스할 수 없습니다. 언제든지 <a href="%2$s"><strong>권한 집합으로 되돌릴 수 있습니다</strong></a>.',
+	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> '현재 %1$s의 권한이 있습니다. 이 사용자의 권한으로 게시판을 열람할 수 있지만 관리자 권한이 이전되지 않았기 때문에 관리자 제어판에 접근할 수 없습니다. 언제든지 <a href="%2$s"><strong>권한 집합으로 되돌릴 수 있습니다</strong></a>.',
 	'PROCEED_TO_ACP'					=> '%sACP로 이동%s',
 
 	'RELEASE_ANNOUNCEMENT'		=> '공고',
@@ -504,8 +504,8 @@ $lang = array_merge($lang, array(
 	'LOG_ACL_ADD_ADMIN_GLOBAL_A_'		=> '<strong>관리자 추가 또는 수정</strong><br />» %s',
 	'LOG_ACL_ADD_MOD_GLOBAL_M_'			=> '<strong>글로벌 운영자 추가 또는 수정</strong><br />» %s',
 
-	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '%1$s<br />» %2$s에 <strong>사용자의 포럼 액세스를 추가하거나 수정했습니다</strong>.',
-	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '%1$s<br />» %2$s에 <strong>사용자의 포럼 운영자 액세스를 추가하거나 수정했습니다</strong>.',
+	'LOG_ACL_ADD_USER_LOCAL_F_'			=> '%1$s<br />» %2$s에 <strong>사용자의 포럼 접근을 추가하거나 수정했습니다</strong>.',
+	'LOG_ACL_ADD_USER_LOCAL_M_'			=> '%1$s<br />» %2$s에 <strong>사용자의 포럼 운영자 접근을 추가하거나 수정했습니다</strong>.',
 	'LOG_ACL_ADD_GROUP_LOCAL_F_'		=> '%1$s<br />» %2$s에 <strong>그룹의 포럼 액세스 권한을 추가하거나 수정했습니다</strong>.',
 	'LOG_ACL_ADD_GROUP_LOCAL_M_'		=> '%1$s<br />» %2$s에 <strong>그룹의 포럼 운영자 액세스 권한을 추가하거나 수정했습니다</strong>.',
 

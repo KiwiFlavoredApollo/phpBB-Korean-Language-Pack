@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 		<p>글로벌 레벨의 접근을 통제하고 전체 게시판에 적용하기 위해 사용됩니다. 다시 사용자 권한, 그룹 권한, 관리자 및 글로벌 운영자로 나뉩니다.</p>
 
 		<h2>포럼 기반 권한</h2>
-		<p>포럼별로 액세스를 제어하는 데 사용됩니다. 포럼 권한, 포럼 운영자, 사용자 포럼 권한 및 그룹 포럼 권한으로 세분화됩니다.</p>
+		<p>포럼별로 접근을 제어하는 데 사용됩니다. 포럼 권한, 포럼 운영자, 사용자 포럼 권한 및 그룹 포럼 권한으로 세분화됩니다.</p>
 
 		<h2>권한 역할</h2>
 		<p>이는 나중에 역할 기반으로 할당될 수 있는 다양한 권한 유형에 대해 다른 권한 집합을 만드는 데 사용됩니다. 기본 역할은 크고 작은 게시판 관리를 포함해야 하지만 4개 부서 내에서 적절하게 역할을 추가/편집/삭제할 수 있습니다.</p>
@@ -81,9 +81,9 @@ $lang = array_merge($lang, array(
 
 	'ACP_ADMINISTRATORS_EXPLAIN'				=> '여기에서 사용자 또는 그룹에 관리자 권한을 할당할 수 있습니다. 관리자 권한이 있는 모든 사용자는 관리자 제어판을 볼 수 있습니다.',
 	'ACP_FORUM_MODERATORS_EXPLAIN'				=> '여기에서 사용자와 그룹을 포럼 운영자로 지정할 수 있습니다. 사용자에게 포럼에 대한 액세스 권한을 할당하려면 글로벌 운영 권한 또는 관리자를 정의하려면 해당 페이지를 사용하십시오.',
-	'ACP_FORUM_PERMISSIONS_EXPLAIN'				=> '여기에서 어떤 사용자와 그룹이 어떤 포럼에 액세스할 수 있는지 변경할 수 있습니다. 운영자를 지정하거나 관리자를 정의하려면 해당 페이지를 사용하십시오.',
+	'ACP_FORUM_PERMISSIONS_EXPLAIN'				=> '여기에서 어떤 사용자와 그룹이 어떤 포럼에 접근할 수 있는지 변경할 수 있습니다. 운영자를 지정하거나 관리자를 정의하려면 해당 페이지를 사용하십시오.',
 	'ACP_FORUM_PERMISSIONS_COPY_EXPLAIN'		=> '여기에서 한 포럼에서 하나 이상의 다른 포럼으로 포럼 권한을 복사할 수 있습니다.',
-	'ACP_GLOBAL_MODERATORS_EXPLAIN'				=> '여기에서 사용자 또는 그룹에 글로벌 운영자 권한을 할당할 수 있습니다. 이 운영자는 보드의 모든 포럼에 액세스할 수 있다는 점을 제외하고는 일반 운영자와 같습니다.',
+	'ACP_GLOBAL_MODERATORS_EXPLAIN'				=> '여기에서 사용자 또는 그룹에 글로벌 운영자 권한을 할당할 수 있습니다. 이 운영자는 보드의 모든 포럼에 접근할 수 있다는 점을 제외하고는 일반 운영자와 같습니다.',
 	'ACP_GROUPS_FORUM_PERMISSIONS_EXPLAIN'		=> '여기에서 그룹에 포럼 권한을 할당할 수 있습니다.',
 	'ACP_GROUPS_PERMISSIONS_EXPLAIN'			=> '여기에서 사용자 권한, 글로벌 운영자 권한 및 관리자 권한과 같은 글로벌 권한을 그룹에 할당할 수 있습니다. 사용자 권한에는 아바타 사용, 개인 메시지 보내기 등과 같은 기능이 포함됩니다. 게시물 승인, 글관리, 차단 관리 등과 같은 글로벌 운영자 권한과 마지막으로 권한 변경, 사용자 정의 BBCode 정의, 포럼 관리 등과 같은 관리자 권한이 있습니다. 개별 사용자 권한은 드문 경우에만 변경해야 하며 선호하는 방법은 사용자를 그룹에 넣고 그룹 권한을 할당하는 것입니다.',
 	'ACP_ADMIN_ROLES_EXPLAIN'					=> '여기에서 관리자 권한에 대한 역할을 관리할 수 있습니다. 역할은 유효한 권한입니다. 역할을 변경하면 이 역할이 할당된 항목이 권한도 변경됩니다.',
@@ -185,15 +185,15 @@ $lang = array_merge($lang, array(
 	'ROLE_USER_STANDARD'		=> '표준 기능',
 	'ROLE_USER_NEW_MEMBER'		=> '미인증 사용자 기능',
 
-	'ROLE_DESCRIPTION_ADMIN_FORUM'			=> '포럼 관리 및 포럼 권한 설정에 액세스할 수 있습니다.',
-	'ROLE_DESCRIPTION_ADMIN_FULL'			=> '이 게시판의 모든 관리 기능에 액세스할 수 있습니다.<br />권장하지 않습니다.',
-	'ROLE_DESCRIPTION_ADMIN_STANDARD'		=> '대부분의 관리 기능에 액세스할 수 있지만 서버 또는 시스템 관련 도구를 사용할 수 없습니다.',
+	'ROLE_DESCRIPTION_ADMIN_FORUM'			=> '포럼 관리 및 포럼 권한 설정에 접근할 수 있습니다.',
+	'ROLE_DESCRIPTION_ADMIN_FULL'			=> '이 게시판의 모든 관리 기능에 접근할 수 있습니다.<br />권장하지 않습니다.',
+	'ROLE_DESCRIPTION_ADMIN_STANDARD'		=> '대부분의 관리 기능에 접근할 수 있지만 서버 또는 시스템 관련 도구를 사용할 수 없습니다.',
 	'ROLE_DESCRIPTION_ADMIN_USERGROUP'		=> '그룹 및 사용자 관리 가능: 권한, 설정 변경, 차단 관리, 순위 관리가 가능합니다.',
 	'ROLE_DESCRIPTION_FORUM_BOT'			=> '이 역할은 봇 및 검색 스파이더에 권장됩니다.',
 	'ROLE_DESCRIPTION_FORUM_FULL'			=> '공지사항 및 상위고정 게시를 포함한 모든 포럼 기능을 사용할 수 있습니다. 범람 제한을 무시할 수도 있습니다.<br />일반 사용자에게는 권장하지 않습니다.',
 	'ROLE_DESCRIPTION_FORUM_LIMITED'		=> '일부 포럼 기능을 사용할 수 있지만 파일을 첨부하거나 게시물 아이콘을 사용할 수 없습니다.',
 	'ROLE_DESCRIPTION_FORUM_LIMITED_POLLS'	=> '제한된 액세스에 따라 하지만 투표를 생성할 수도 있습니다.',
-	'ROLE_DESCRIPTION_FORUM_NOACCESS'		=> '포럼을 보거나 액세스할 수 없습니다.',
+	'ROLE_DESCRIPTION_FORUM_NOACCESS'		=> '포럼을 보거나 접근할 수 없습니다.',
 	'ROLE_DESCRIPTION_FORUM_ONQUEUE'		=> '첨부파일을 포함한 대부분의 포럼 기능을 사용할 수 있지만 게시물과 글은 운영자의 승인이 필요합니다.',
 	'ROLE_DESCRIPTION_FORUM_POLLS'			=> '표준 액세스 와 비슷하지만 투표를 생성할 수도 있습니다.',
 	'ROLE_DESCRIPTION_FORUM_READONLY'		=> '포럼을 읽을 수 있지만 새글을 만들거나 게시물에 답글을 달 수는 없습니다.',
@@ -204,10 +204,10 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_MOD_SIMPLE'			=> '기본 글 작업만 사용할 수 있습니다. 경고를 보내거나 중재 대기열을 사용할 수 없습니다.',
 	'ROLE_DESCRIPTION_MOD_STANDARD'			=> '대부분의 중재 도구를 사용할 수 있지만 사용자를 차단하거나 게시물 작성자를 변경할 수 없습니다.',
 	'ROLE_DESCRIPTION_USER_FULL'			=> '사용자 이름 변경 또는 플러드 제한 무시를 포함하여 사용자가 사용할 수 있는 모든 포럼 기능을 사용할 수 있습니다.<br />권장하지 않습니다.',
-	'ROLE_DESCRIPTION_USER_LIMITED'			=> '일부 사용자 기능에 액세스할 수 있습니다. 첨부파일, 이메일 또는 인스턴트 메시지는 허용되지 않습니다.',
+	'ROLE_DESCRIPTION_USER_LIMITED'			=> '일부 사용자 기능에 접근할 수 있습니다. 첨부파일, 이메일 또는 인스턴트 메시지는 허용되지 않습니다.',
 	'ROLE_DESCRIPTION_USER_NOAVATAR'		=> '제한된 기능 세트가 있으며 아바타 기능을 사용할 수 없습니다.',
 	'ROLE_DESCRIPTION_USER_NOPM'			=> '제한된 기능 세트가 있으며 개인 메시지를 사용할 수 없습니다.',
-	'ROLE_DESCRIPTION_USER_STANDARD'		=> '모든 사용자 기능은 아니지만 대부분의 사용자 기능에 액세스할 수 있습니다. 예를 들어 사용자 이름을 변경하거나 플러드 제한을 무시할 수 없습니다.',
+	'ROLE_DESCRIPTION_USER_STANDARD'		=> '모든 사용자 기능은 아니지만 대부분의 사용자 기능에 접근할 수 있습니다. 예를 들어 사용자 이름을 변경하거나 플러드 제한을 무시할 수 없습니다.',
 	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> '특별히 미인증 사용자 그룹의 구성원을 위한 역할. 새 사용자의 기능을 잠글 수 있는 <strong>없음</strong> 권한이 포함되어 있습니다.',
 
 	'ROLE_DESCRIPTION_EXPLAIN'		=> '역할이 하는 일이나 역할이 의미하는 바에 대한 간단한 설명을 입력할 수 있습니다. 여기에 입력한 텍스트는 권한 화면에도 표시됩니다.',
