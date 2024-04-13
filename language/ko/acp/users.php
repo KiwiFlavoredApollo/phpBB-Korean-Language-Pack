@@ -65,7 +65,7 @@ $lang = array_merge($lang, array(
 
 	'FORCE_REACTIVATION_SUCCESS'	=> '강제로 재활성화되었습니다.',
 	'FOUNDER'						=> '최고 관리자',
-	'FOUNDER_EXPLAIN'				=> '최고 관리자는 모든 관리 권한을 가지며 최고 관리자가 아닌 구성원에 의해 금지, 삭제 또는 변경될 수 없습니다.',
+	'FOUNDER_EXPLAIN'				=> '최고 관리자는 모든 관리자 권한을 가지며 최고 관리자가 아닌 구성원에 의해 금지, 삭제 또는 변경될 수 없습니다.',
 
 	'GROUP_APPROVE'					=> '회원 승인',
 	'GROUP_DEFAULT'					=> '구성원의 그룹을 기본값으로 설정',
