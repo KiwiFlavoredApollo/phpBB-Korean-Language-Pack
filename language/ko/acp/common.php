@@ -52,12 +52,12 @@ $lang = array_merge($lang, array(
 	'ACP_BAN_EMAILS'			=> '이메일 차단',
 	'ACP_BAN_IPS'				=> 'IP 차단',
 	'ACP_BAN_USERNAMES'			=> '차단 사용자',
-	'ACP_BBCODES'				=> 'BB코드',
+	'ACP_BBCODES'				=> 'BBCodes',
 	'ACP_BOARD_CONFIGURATION'	=> '보드 구성',
 	'ACP_BOARD_FEATURES'		=> '보드 기능',
 	'ACP_BOARD_MANAGEMENT'		=> '보드 운영',
 	'ACP_BOARD_SETTINGS'		=> '보드 설정',
-	'ACP_BOTS'					=> '스파이터/로봇',
+	'ACP_BOTS'					=> '스파이더/로봇',
 
 	'ACP_CAPTCHA'				=> 'CAPTCHA',
 
@@ -77,7 +77,7 @@ $lang = array_merge($lang, array(
 	'ACP_COOKIE_SETTINGS'		=> '쿠키 설정',
 	'ACP_CONTACT'				=> '연락처 페이지',
 	'ACP_CONTACT_SETTINGS'		=> '연락처 페이지 설정',
-	'ACP_CRITICAL_LOGS'			=> '애러 로그',
+	'ACP_CRITICAL_LOGS'			=> '에러 로그',
 	'ACP_CUSTOM_PROFILE_FIELDS'	=> '사용자 정의 프로필 필드',
 
 	'ACP_DATABASE'				=> '데이터베이스 관리',
@@ -221,7 +221,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_INDEX'			=> '관리자 정보 패널',
 	'ADMIN_PANEL'			=> '관리자 제어판',
 
-	'ADM_LOGOUT'			=> 'ACP로그아웃',
+	'ADM_LOGOUT'			=> 'ACP&nbsp;로그아웃',
 	'ADM_LOGGED_OUT'		=> '관리자 제어판에서 로그아웃되었습니다.',
 
 	'BACK'					=> '뒤로',
@@ -621,9 +621,9 @@ $lang = array_merge($lang, array(
 	'LOG_DOWNLOAD_IP'			=> '<strong>다운로드 목록에 IP/호스트 이름 추가</strong><br />» %s',
 	'LOG_DOWNLOAD_REMOVE_IP'	=> '<strong>다운로드 목록에서 제거된 IP/호스트 이름</strong><br />» %s',
 
-	'LOG_ERROR_JABBER'		=> '<strong>Jabber 애러</strong><br />» %s',
-	'LOG_ERROR_EMAIL'		=> '<strong>Email 애러</strong><br />» %s',
-	'LOG_ERROR_CAPTCHA'		=> '<strong>CAPTCHA 애러</strong><br />» %s',
+	'LOG_ERROR_JABBER'		=> '<strong>Jabber 에러</strong><br />» %s',
+	'LOG_ERROR_EMAIL'		=> '<strong>Email 에러</strong><br />» %s',
+	'LOG_ERROR_CAPTCHA'		=> '<strong>CAPTCHA 에러</strong><br />» %s',
 
 	'LOG_FORUM_ADD'							=> '<strong>새 포럼 생성</strong><br />» %s',
 	'LOG_FORUM_COPIED_PERMISSIONS'			=> '%1$s의 <strong>포럼 권한 복사</strong><br />» %2$s',
