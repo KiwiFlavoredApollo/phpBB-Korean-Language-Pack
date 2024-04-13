@@ -126,7 +126,7 @@ $lang = array_merge($lang, array(
 	'FORCE_UNSTABLE'					=> '항상 불안정한 버전 확인',
 	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> '버전 확인 설정',
 
-	'BROWSE_EXTENSIONS_DATABASE'		=> '확장 데이터베이스 찾아보기',
+	'BROWSE_EXTENSIONS_DATABASE'		=> 'extensions database 찾아보기',
 
 	'META_FIELD_NOT_SET'	=> '필수 메타 필드 %s이(가) 설정되지 않았습니다.',
 	'META_FIELD_INVALID'	=> '메타 필드 %s이(가) 잘못되었습니다.',
