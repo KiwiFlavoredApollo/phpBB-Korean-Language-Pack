@@ -15,7 +15,7 @@
 
 ## 번역 참여하기
 
-> 잘못 번역된 부분이 있을 수 있습니다. Issues에서 말씀해주시거나 깃허브 저장소를 fork하고 수정 후 pull request를 보내주세요.
+> 번역이 잘못된 부분이 있을 수 있습니다. Issues에서 말씀해주시거나 깃허브 저장소를 fork하고 수정 후 pull request를 보내주세요.
 
 ### phpBB Translation Validator 사용하기
 
