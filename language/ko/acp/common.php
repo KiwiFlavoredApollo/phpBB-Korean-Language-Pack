@@ -62,16 +62,16 @@ $lang = array_merge($lang, array(
 	'ACP_CAPTCHA'				=> 'CAPTCHA',
 
 	'ACP_CAT_CUSTOMISE'			=> '커스터마이즈',
-	'ACP_CAT_DATABASE'			=> '대이터배이스',
-	'ACP_CAT_DOT_MODS'			=> '확장',
+	'ACP_CAT_DATABASE'			=> '데이터배이스',
+	'ACP_CAT_DOT_MODS'			=> '확장기능',
 	'ACP_CAT_FORUMS'			=> '포럼',
 	'ACP_CAT_GENERAL'			=> '일반',
 	'ACP_CAT_MAINTENANCE'		=> '유지보수',
 	'ACP_CAT_PERMISSIONS'		=> '권한',
 	'ACP_CAT_POSTING'			=> '포스팅',
 	'ACP_CAT_STYLES'			=> '스타일',
-	'ACP_CAT_SYSTEM'			=> '시스탬',
-	'ACP_CAT_USERGROUP'			=> '사용자 와 그룹',
+	'ACP_CAT_SYSTEM'			=> '시스템',
+	'ACP_CAT_USERGROUP'			=> '사용자 및 그룹',
 	'ACP_CAT_USERS'				=> '사용자',
 	'ACP_CLIENT_COMMUNICATION'	=> '클라이언트 통신',
 	'ACP_COOKIE_SETTINGS'		=> '쿠키 설정',
@@ -86,8 +86,8 @@ $lang = array_merge($lang, array(
 
 	'ACP_EMAIL_SETTINGS'		=> '이메일 설정',
 	'ACP_EXTENSION_GROUPS'		=> '첨부파일 확장 그룹 관리',
-	'ACP_EXTENSION_MANAGEMENT'	=> '확장 관리',
-	'ACP_EXTENSIONS'			=> '확장 관리',
+	'ACP_EXTENSION_MANAGEMENT'	=> '확장기능 관리',
+	'ACP_EXTENSIONS'			=> '확장기능 관리하기',
 
 	'ACP_FORUM_BASED_PERMISSIONS'	=> '포럼 기반 권한',
 	'ACP_FORUM_LOGS'				=> '포럼 로그',
@@ -127,7 +127,7 @@ $lang = array_merge($lang, array(
 	'ACP_MANAGE_ATTACHMENTS'			=> '첨부파일 관리',
 	'ACP_MANAGE_ATTACHMENTS_EXPLAIN'	=> '여기에서 게시물 및 비공개 메시지에 첨부된 파일을 나열하고 삭제할 수 있습니다',
 
-	'ACP_MANAGE_EXTENSIONS'		=> '첨부파일 확장 관리',
+	'ACP_MANAGE_EXTENSIONS'		=> '첨부파일 확장자 관리',
 	'ACP_MANAGE_FORUMS'			=> '포럼 관리',
 	'ACP_MANAGE_RANKS'			=> '등급 관리',
 	'ACP_MANAGE_REASONS'		=> '신고/거부 사유 관리',
@@ -176,7 +176,7 @@ $lang = array_merge($lang, array(
 	'ACP_STYLE_MANAGEMENT'		=> '스타일 관리',
 	'ACP_STYLES'				=> '스타일',
 	'ACP_STYLES_CACHE'			=> '캐시 제거',
-	'ACP_STYLES_INSTALL'		=> '스타일 설치',
+	'ACP_STYLES_INSTALL'		=> '스타일 설치하기',
 
 	'ACP_SUBMIT_CHANGES'		=> '변경사항 제출',
 
@@ -354,7 +354,7 @@ $lang = array_merge($lang, array(
 
 // Index page
 $lang = array_merge($lang, array(
-	'ADMIN_INTRO'				=> '보드 솔루션으로 phpBB를 선택해 주셔서 감사합니다. 이 화면은 보드의 모든 다양한 통계에 대한 빠른 개요를 제공합니다. 이 화면의 왼쪽에 있는 링크를 사용하면 보드 경험의 모든 측면을 제어할 수 있습니다. 각 페이지에는 도구 사용 방법에 대한 지침이 있습니다.',
+	'ADMIN_INTRO'				=> '게시판 솔루션으로 phpBB를 선택해 주셔서 감사합니다. 이 화면에서 게시판에 대한 다양한 통계를 한 눈에 볼 수 있습니다. 왼쪽에 있는 링크를 통해서 게시판 세부설정을 할 수 있습니다. 각 페이지에서 게시판 세부설정을 어떻게 할 수 있는지에 대한 안내를 받을 수 있습니다.',
 	'ADMIN_LOG'					=> '기록된 관리자 작업',
 	'ADMIN_LOG_INDEX_EXPLAIN'	=> '이것은 보드 관리자가 수행한 마지막 5가지 작업에 대한 개요를 제공합니다. 로그의 전체 사본은 해당 메뉴 항목에서 또는 아래 링크를 따라 볼 수 있습니다.',
 	'AVATAR_DIR_SIZE'			=> '아바타 디렉토리 크기',
