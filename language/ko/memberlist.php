@@ -87,14 +87,13 @@ $lang = array_merge($lang, array(
 	'IM_RECIPIENT'			=> '받는 사람',
 	'IM_SEND'				=> '메시지 보내기',
 	'IM_SEND_MESSAGE'		=> '메시지 보내기',
-	'IM_SENT_JABBER'		=> '%1$s에 대한 메시지가  전송되었습니다',
+	'IM_SENT_JABBER'		=> '%1$s에 대한 메시지가 전송되었습니다',
 	'IM_USER'				=> '즉석 메시지 보내기',
 
 	'LAST_ACTIVE'				=> '마지막 활동',
 	'LESS_THAN'					=> '미만',
 	'LIST_USERS'				=> array(
-		1	=> '%d 사용자',
-		2	=> '%d 사용자',
+		1 => '%d 사용자',
 	),
 	'LOGIN_EXPLAIN_TEAM'		=> '운영진 목록을 보려면 보드에 등록하고 로그인해야 합니다.',
 	'LOGIN_EXPLAIN_MEMBERLIST'	=> '보드의 회원 목록에 접근하려면 등록 및 로그인이 필요합니다.',
@@ -137,9 +136,7 @@ $lang = array_merge($lang, array(
 	'USER_BAN'				=> '차단',
 	'USER_FORUM'			=> '사용자 통계',
 	'USER_LAST_REMINDED'	=> array(
-		0		=> '현재 전송된 알림 없음',
-		1		=> '%1$d 알림 전송됨<br />» %2$s',
-		2		=> '%1$d 알림 전송됨<br />» %2$s',
+		1 => '%1$d 알림 전송됨<br />» %2$s',
 	),
 	'USER_ONLINE'			=> '온라인',
 	'USER_PRESENCE'			=> '보드 존재',

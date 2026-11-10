@@ -122,8 +122,7 @@ $lang = array_merge($lang, array(
 	'LATEST_WARNINGS'			=> '최근 5개의 경고',
 	'LEAVE_SHADOW'				=> '섀도우 항목을 그대로 둡니다.',
 	'LIST_REPORTS'				=> array(
-		1	=> '%d 보고서',
-		2	=> '%d 보고서',
+		1 => '%d 보고서',
 	),
 	'LOCK'						=> '잠금',
 	'LOCK_POST_POST'			=> '게시물 잠금',
@@ -142,7 +141,7 @@ $lang = array_merge($lang, array(
 	'LOOKUP_ALL'				=> '모든 IP 조회',
 	'LOOKUP_IP'					=> 'IP 조회',
 
-	'MARKED_NOTES_DELETED'		=> '표시된 모든 사용자 메모를  제거했습니다.',
+	'MARKED_NOTES_DELETED'		=> '표시된 모든 사용자 메모를 제거했습니다.',
 
 	'MCP_ADD'						=> '경고 추가',
 
@@ -259,7 +258,7 @@ $lang = array_merge($lang, array(
 	'ONLY_TOPIC'			=> '오로지 글 "%s"만',
 	'OTHER_USERS'			=> '이 IP에서 게시하는 다른 사용자',
 
-	'QUICKMOD_ACTION_NOT_ALLOWED' => "%s은(는) 빠른 모드로 허용되지 않습니다.",
+	'QUICKMOD_ACTION_NOT_ALLOWED' => '%s은(는) 빠른 중재 작업으로 허용되지 않습니다.',
 
 	'PM_REPORT_CLOSED_SUCCESS'	=> '선택한 PM 보고서가 성공적으로 마감되었습니다.',
 	'PM_REPORT_DELETED_SUCCESS'	=> '선택한 PM 보고서가 성공적으로 삭제되었습니다.',
@@ -267,9 +266,7 @@ $lang = array_merge($lang, array(
 	'PM_REPORTS_CLOSED_SUCCESS'	=> '선택한 PM 보고서가 성공적으로 마감되었습니다.',
 	'PM_REPORTS_DELETED_SUCCESS'=> '선택한 PM 보고서가 성공적으로 삭제되었습니다.',
 	'PM_REPORTS_TOTAL'			=> array(
-		0	=> '검토할 PM 보고서가 없습니다',
-		1	=> '총 검토할 PM 보고서가 <strong>1</strong>개 있습니다.',
-		2	=> '총 검토할 PM 보고서가 <strong>%d</strong>개 있습니다.',
+		1 => '총 검토할 PM 보고서가 <strong>%d</strong>개 있습니다.',
 	),
 	'PM_REPORT_DETAILS'			=> '비공개 메시지 보고서 세부정보',
 	'POSTER'					=> '게시자',
@@ -296,13 +293,11 @@ $lang = array_merge($lang, array(
 	'REPORTER'					=> '보고자',
 	'REPORTED'					=> '보고됨',
 	'REPORTED_BY'				=> '신고자',
-	'REPORTED_ON_DATE'			=> '온(on)',
+	'REPORTED_ON_DATE'			=> '신고일',
 	'REPORTS_CLOSED_SUCCESS'	=> '선택한 보고서가 성공적으로 닫혔습니다.',
 	'REPORTS_DELETED_SUCCESS'	=> '선택한 보고서가 성공적으로 삭제되었습니다.',
 	'REPORTS_TOTAL'				=> array(
-		0	=> '검토할 보고서가 없습니다.',
-		1	=> '검토할 보고서가 총 <strong>1</strong>개 있습니다.',
-		2	=> '검토할 보고서가 총 <strong>%d</strong>개 있습니다.',
+		1 => '검토할 보고서가 총 <strong>%d</strong>개 있습니다.',
 	),
 	'REPORT_CLOSED'				=> '이 보고서는 이미 닫혔습니다.',
 	'REPORT_CLOSED_SUCCESS'		=> '선택한 보고서가 성공적으로 마감되었습니다.',
@@ -384,9 +379,7 @@ $lang = array_merge($lang, array(
 	'TOTAL_WARNINGS'			=> '총 경고',
 
 	'UNAPPROVED_POSTS_TOTAL'		=> array(
-		0	=> '승인 대기 중인 게시물이 없습니다',
-		1	=> '총 <strong>1</strong>개의 게시물이 승인 대기 중입니다.',
-		2	=> '총 <strong>%d</strong>개의 게시물이 승인 대기 중입니다.',
+		1 => '총 <strong>%d</strong>개의 게시물이 승인 대기 중입니다.',
 	),
 	'UNLOCK'						=> '잠금해제',
 	'UNLOCK_POST'					=> '게시물 잠금 해제',

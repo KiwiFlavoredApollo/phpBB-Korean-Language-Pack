@@ -61,8 +61,8 @@ $lang = array_merge($lang, array(
 
 	'SELECT_USERS_EXPLAIN'		=> '여기에 특정 사용자 이름을 입력하십시오. 위의 기준보다 우선적으로 사용됩니다. 최고 관리자는 정리할 수 없습니다.',
 
-	'USER_DEACTIVATE_SUCCESS'	=> '선택한 사용자가  비활성화되었습니다.',
-	'USER_DELETE_SUCCESS'		=> '선택한 사용자가  삭제되었습니다.',
+	'USER_DEACTIVATE_SUCCESS'	=> '선택한 사용자가 비활성화되었습니다.',
+	'USER_DELETE_SUCCESS'		=> '선택한 사용자가 삭제되었습니다.',
 	'USER_PRUNE_FAILURE'		=> '선택한 기준에 맞는 사용자가 없습니다.',
 
 	'WRONG_ACTIVE_JOINED_DATE'	=> '입력한 날짜가 잘못되었습니다. <kbd>YYYY-MM-DD</kbd> 형식이어야 합니다.',

@@ -37,7 +37,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CAPTCHA_QA'				=> 'Q&amp;A',
+	'CAPTCHA_QA'				=> '질문과 답변',
 	'CONFIRM_QUESTION_EXPLAIN'	=> '이 질문은 스팸봇에 의한 자동 양식 제출을 방지하기 위한 수단입니다.',
 	'CONFIRM_QUESTION_WRONG'	=> '질문에 잘못된 답변을 제공했습니다.',
 	'CONFIRM_QUESTION_MISSING'	=> '보안 문자에 대한 질문을 검색할 수 없습니다. 게시판 관리자에게 문의하세요.',

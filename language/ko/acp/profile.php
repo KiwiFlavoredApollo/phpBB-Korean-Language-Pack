@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'BOOL_ENTRIES_EXPLAIN'	=> '지금 옵션 입력',
 	'BOOL_TYPE_EXPLAIN'		=> '확인란 또는 라디오 버튼으로 유형을 정의합니다. 지정된 사용자에 대해 체크박스가 선택된 경우에만 체크박스가 표시됩니다. 이 경우 <strong>두 번째</strong> 언어 옵션이 사용됩니다. 라디오 버튼은 값에 관계없이 표시됩니다.',
 
-	'CHANGED_PROFILE_FIELD'		=> '프로필 필드를  변경했습니다.',
+	'CHANGED_PROFILE_FIELD'		=> '프로필 필드를 변경했습니다.',
 	'CHARS_ANY'					=> '모든 문자',
 	'CHECKBOX'					=> '체크박스',
 	'COLUMNS'					=> '열',

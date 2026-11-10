@@ -55,8 +55,7 @@ $lang = array_merge($lang, array(
 	'DOWNLOAD_NOTICE'		=> '이 게시물에 첨부된 파일을 보는 데 필요한 권한이 없습니다.',
 
 	'EDITED_TIMES_TOTAL'	=> array(
-		1	=> '%2$s님이 %3$s에 마지막으로 수정했으며 총 %1$d번 수정했습니다.',
-		2	=> '%2$s님이 %3$s에 마지막으로 수정했으며 총 %1$d번 수정했습니다.',
+		1 => '%2$s님이 %3$s에 마지막으로 수정했으며 총 %1$d번 수정했습니다.',
 	),
 	'EMAIL_TOPIC'			=> '이메일로 보내기',
 	'ERROR_NO_ATTACHMENT'	=> '선택한 첨부파일이 더 이상 존재하지 않습니다.',
@@ -74,8 +73,7 @@ $lang = array_merge($lang, array(
 	'MAKE_NORMAL'				=> '"일반글"로 변경하기',
 	'MAKE_STICKY'				=> '"고정글"로 변경하기',
 	'MAX_OPTIONS_SELECT'		=> array(
-		1	=> '<strong>%d</strong> 옵션을 선택할 수 있습니다.',
-		2	=> '최대 <strong>%d</strong>개의 옵션을 선택할 수 있습니다.',
+		1 => '최대 <strong>%d</strong>개의 옵션을 선택할 수 있습니다.',
 	),
 	'MISSING_INLINE_ATTACHMENT'	=> '첨부파일 <strong>%s</strong>을(를) 더 이상 사용할 수 없습니다.',
 	'MOVE_TOPIC'				=> '글 옮기기',
@@ -112,10 +110,10 @@ $lang = array_merge($lang, array(
 	'VIEW_INFO'				=> '게시물 세부정보',
 	'VIEW_NEXT_TOPIC'		=> '다음 글',
 	'VIEW_PREVIOUS_TOPIC'	=> '이전 글',
+	'VIEW_QUOTED_POST'		=> '인용된 게시글 보기',
 	'VIEW_RESULTS'			=> '결과 보기',
 	'VIEW_TOPIC_POSTS'		=> array(
-		1	=> '게시물 %d개',
-		2	=> '%d개의 게시물',
+		1 => '%d개의 게시물',
 	),
 	'VIEW_UNREAD_POST'		=> '읽지 않은 첫 번째 게시물',
 	'VOTE_SUBMITTED'		=> '투표가 완료되었습니다.',

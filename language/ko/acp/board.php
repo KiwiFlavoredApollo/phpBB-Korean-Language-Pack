@@ -139,7 +139,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_FORWARD_PM'			=> '개인 메세지 전달 허용',
 	'ALLOW_IMG_PM'				=> '<code>[IMG]</code> BBCode 태그(tag) 사용을 허용',
 	'ALLOW_MASS_PM'				=> '개인 메세지를 여러 유저나 그룹에게 보내는 것을 허용',
-    'ALLOW_MASS_PM_EXPLAIN'		=> '설정된 그룹 페이지 범위안에서, 해당 그룹 전송을 매번 조정할 수 있습니다.',       // 3.0.3 에서 추가 된 부분
+	'ALLOW_MASS_PM_EXPLAIN'		=> '설정된 그룹 페이지 범위안에서, 해당 그룹 전송을 매번 조정할 수 있습니다.',       // 3.0.3 에서 추가 된 부분
 	'ALLOW_PRINT_PM'			=> '개인 메세지를 인쇄하여 보기를 허용',
 	'ALLOW_QUOTE_PM'			=> '개인 메세지에 인용을 허용',
 	'ALLOW_SIG_PM'				=> '개인 메세지에 서명을 허용',
@@ -154,8 +154,8 @@ $lang = array_merge($lang, array(
 	'HOLD_NEW_MESSAGES'			=> '새 메세지 잠금',
 	'PM_EDIT_TIME'				=> '메세지 편집 시간 제한',
 	'PM_EDIT_TIME_EXPLAIN'		=> '시간 제한이 있는 개인 메세지가 아직 배달되지 않았으면,유효한 편집을 할 수 있습니다.값을 0 으로 설정하면, 이 동작은 해제됩니다.',
-    'PM_MAX_RECIPIENTS'			=> '허용된 최대 수신자 수',
-    'PM_MAX_RECIPIENTS_EXPLAIN'	=> '개인 메세지안에서 허용된 최대 수신자 수.만약 0 값을 입력하면, 무제한으로 갯수가 허용됩니다.이 설정은 해당 그룹 페이지 범위안의 모든 그룹에 적용할 수 있습니다.',      // 상동
+	'PM_MAX_RECIPIENTS'			=> '허용된 최대 수신자 수',
+	'PM_MAX_RECIPIENTS_EXPLAIN'	=> '개인 메세지안에서 허용된 최대 수신자 수.만약 0 값을 입력하면, 무제한으로 갯수가 허용됩니다.이 설정은 해당 그룹 페이지 범위안의 모든 그룹에 적용할 수 있습니다.',      // 상동
 ));
 
 // Post Settings
@@ -169,7 +169,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_POST_FLASH_EXPLAIN'			=> '허용되지 않으면 게시물에서 BBCode 태그가 비활성화됩니다. <code>[FLASH]</code> 그렇지 않으면 권한 시스템이 <code>[FLASH]</code> BBCode 태그를 사용할 수 있는 사용자를 제어합니다.',
 
 	'BUMP_INTERVAL'					=> '올리는 간격',
-	'BUMP_INTERVAL_EXPLAIN'			=> '글에 대한 마지막 게시물과 해당 글을 올릴수 있는 기능  분, 시간 또는 일 수의 간격 입니다. 값을 0으로 설정하면 범핑이 완전히 비활성화됩니다.',
+	'BUMP_INTERVAL_EXPLAIN'			=> '글에 대한 마지막 게시물과 해당 글을 올릴수 있는 기능 분, 시간 또는 일 수의 간격 입니다. 값을 0으로 설정하면 범핑이 완전히 비활성화됩니다.',
 	'CHAR_LIMIT'					=> '각 게시글당 최대 글자 수',
 	'CHAR_LIMIT_EXPLAIN'			=> '각 게시글안에서 허용되는 글자의 수.무제한 글자를 사용하려면 0 을 설정합니다.',
 	'DELETE_TIME'					=> '삭제 제한 시간',
@@ -260,7 +260,7 @@ $lang = array_merge($lang, array(
 	'USERNAME_LETTER_NUM_SPACERS'	=> '모든 문자, 숫자 및 공백',
 	'USERNAME_CHARS'			=> '사용자 이름 글자 수 제한',
 	'USERNAME_CHARS_ANY'		=> '모든 문자',
-	'USERNAME_CHARS_EXPLAIN'	=> '사용자 이름에 사용할 수 있는 문자 유형을 제한하고 공백 문자는 공백, -, +, _, [AND]입니다.',
+	'USERNAME_CHARS_EXPLAIN'	=> '사용자 이름에 사용할 수 있는 문자 유형을 제한합니다. 구분 문자로 공백, -, +, _, [ 및 ]를 사용할 수 있습니다.',
 	'USERNAME_LENGTH'			=> '유저네임 길이',
 	'USERNAME_LENGTH_EXPLAIN'	=> '유저네임의 최소 및 최대 문자 수를 정합니다.',
 ));
@@ -370,6 +370,12 @@ $lang = array_merge($lang, array(
 
 // Contact Settings
 $lang = array_merge($lang, array(
+	'SESSION_GC'					=> '세션 정리 간격',
+	'SESSION_GC_EXPLAIN'			=> '지정한 시간(초)이 지난 세션을 정리합니다.',
+	'SESSION_GUEST_LENGTH'			=> '손님 세션 유지 시간',
+	'SESSION_GUEST_LENGTH_EXPLAIN'	=> '손님 세션은 지정한 시간(초)이 지나면 만료됩니다.',
+	'SESSION_GUEST_GC'				=> '손님 세션 정리 간격',
+	'SESSION_GUEST_GC_EXPLAIN'		=> '지정한 시간(초)이 지난 손님 세션을 정리합니다.',
 	'ACP_CONTACT_SETTINGS_EXPLAIN'		=> '여기에서 연락처 페이지를 활성화 및 비활성화하고 페이지에 표시되는 텍스트를 추가할 수도 있습니다.',
 
 	'CONTACT_US_ENABLE'				=> '연락처 페이지 활성화',
@@ -435,14 +441,14 @@ $lang = array_merge($lang, array(
 
 	'AUTH_PROVIDER_OAUTH_ERROR_ELEMENT_MISSING'	=> '활성화된 각 OAuth 서비스 공급자의 키와 암호를 모두 제공해야 합니다. OAuth 서비스 공급자에 대해 하나만 제공되었습니다.',
 	'AUTH_PROVIDER_OAUTH_EXPLAIN'				=> '각 OAuth 공급자는 외부 서버에 인증하기 위해 고유한 비밀과 키가 필요합니다. 이는 웹사이트를 등록할 때 OAuth 서비스에서 제공해야 하며 제공된 대로 정확하게 입력해야 합니다.<br>여기에 입력된 키와 비밀번호가 모두 없는 서비스는 사용할 수 없습니다. 포럼 사용자. 또한 사용자는 여전히 DB 인증 플러그인을 사용하여 등록 및 로그인할 수 있습니다.',
-	'AUTH_PROVIDER_OAUTH_KEY'					=> 'Key',
+	'AUTH_PROVIDER_OAUTH_KEY'					=> '키',
 	'AUTH_PROVIDER_OAUTH_TITLE'					=> 'OAuth',
-	'AUTH_PROVIDER_OAUTH_SECRET'				=> 'Secret',
+	'AUTH_PROVIDER_OAUTH_SECRET'				=> '비밀 키',
 
 	'APACHE_SETUP_BEFORE_USE'	=> 'phpBB를 이 인증 방법으로 전환하기 전에 아파치 인증을 설정해야 합니다. 아파치 인증에 사용하는 사용자 이름은 phpBB 사용자 이름과 같아야 합니다. Apache 인증은 mod_php에서만 사용할 수 있습니다(CGI 버전이 아님).',
 
 	'LDAP'							=> 'LDAP',
-	'LDAP_DN'						=> 'LDAP base <var>dn</var>',
+	'LDAP_DN'						=> 'LDAP 기본 <var>dn</var>',
 	'LDAP_DN_EXPLAIN'				=> '이것은 사용자 정보를 찾는 고유 이름입니다. <samp>o=My Company,c=US</samp>.',
 	'LDAP_EMAIL'					=> 'LDAP 이메일 속성',
 	'LDAP_EMAIL_EXPLAIN'			=> '새 사용자의 이메일 주소를 자동으로 설정하려면 이를 사용자 항목 이메일 속성의 이름(있는 경우)으로 설정하십시오. 이 필드를 비워 두면 처음 로그인하는 사용자의 이메일 주소가 비어 있습니다.',
@@ -600,7 +606,7 @@ $lang = array_merge($lang, array(
 	'SMTP_VERIFY_PEER_EXPLAIN'		=> 'SMTP 서버에서 사용하는 SSL 인증서 확인이 필요합니다. <br><em><strong>경고:</strong> 확인되지 않은 SSL 인증서로 피어를 연결하면 보안에 영향을 미칠 수 있습니다.</em>',
 	'SMTP_VERIFY_PEER_NAME'			=> 'SMTP 피어 이름 확인',
 	'SMTP_VERIFY_PEER_NAME_EXPLAIN'	=> 'SSL/TLS 연결을 사용하는 SMTP 서버의 피어 이름 확인이 필요합니다. <br><em><strong>경고:</strong> 확인되지 않은 피어에 연결하면 보안에 문제가 발생할 수 있습니다.</em>',
-	'TEST_EMAIL_SENT'				=> '테스트 이메일이 전송되었습니다.<br>이메일을 받지 못했다면 이메일 설정을 확인해보세요.<br><br>도움이 필요하면 <a href="https://www.phpbb.com/community/">phpBB support forum</a>을 방문해주세요.',
+	'TEST_EMAIL_SENT'				=> '테스트 이메일이 전송되었습니다.<br>이메일을 받지 못했다면 이메일 설정을 확인해보세요.<br><br>도움이 필요하면 <a href="https://www.phpbb.com/community/">phpBB 지원 포럼</a>을 방문해 주세요.',
 
 	'USE_SMTP'						=> '이메일에 SMTP 서버 사용',
 	'USE_SMTP_EXPLAIN'				=> '로컬 메일 기능 대신 명명된 서버를 통해 이메일을 보내거나 보내야 하는 경우 "예"를 선택합니다.',

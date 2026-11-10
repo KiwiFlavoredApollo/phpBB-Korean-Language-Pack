@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 
 	'CANNOT_JOIN_GROUP'			=> '이 그룹에 가입할 수 없습니다. 공개 및 무료 공개 그룹에만 가입할 수 있습니다.',
 	'CANNOT_RESIGN_GROUP'		=> '이 그룹에서 탈퇴할 수 없습니다. 개방적이고 자유롭게 개방된 그룹에서만 탈퇴할 수 있습니다.',
-	'CHANGED_DEFAULT_GROUP'		=> '기본 그룹을  변경했습니다.',
+	'CHANGED_DEFAULT_GROUP'		=> '기본 그룹을 변경했습니다.',
 
 	'GROUP_AVATAR'						=> '그룹 아바타',
 	'GROUP_CHANGE_DEFAULT'				=> '기본 구성원 자격을 "%s" 그룹으로 변경하시겠습니까?',
@@ -60,8 +60,8 @@ $lang = array_merge($lang, array(
 	'GROUP_JOIN_CONFIRM'				=> '선택한 그룹에 가입하시겠습니까?',
 	'GROUP_JOIN_PENDING'				=> '그룹 가입 요청',
 	'GROUP_JOIN_PENDING_CONFIRM'		=> '선택한 그룹에 가입을 요청하시겠습니까?',
-	'GROUP_JOINED'						=> '선택한 그룹에  가입했습니다.',
-	'GROUP_JOINED_PENDING'				=> '그룹 멤버십을  요청했습니다. 그룹 리더가 승인할 때까지 기다려주십시오.',
+	'GROUP_JOINED'						=> '선택한 그룹에 가입했습니다.',
+	'GROUP_JOINED_PENDING'				=> '그룹 멤버십을 요청했습니다. 그룹 리더가 승인할 때까지 기다려주십시오.',
 	'GROUP_LIST'						=> '사용자 관리',
 	'GROUP_MEMBERS'						=> '그룹 멤버',
 	'GROUP_NAME'						=> '그룹 이름',
@@ -71,8 +71,8 @@ $lang = array_merge($lang, array(
 	'GROUP_RESIGN_MEMBERSHIP_CONFIRM'	=> '선택한 그룹에서 탈퇴하시겠습니까?',
 	'GROUP_RESIGN_PENDING'				=> '보류 중인 그룹 회원 탈퇴',
 	'GROUP_RESIGN_PENDING_CONFIRM'		=> '선택한 그룹에서 보류 중인 멤버십을 사임하시겠습니까?',
-	'GROUP_RESIGNED_MEMBERSHIP'			=> '선택한 그룹에서  제거되었습니다.',
-	'GROUP_RESIGNED_PENDING'			=> '보류 중인 멤버십이 선택한 그룹에서  제거되었습니다.',
+	'GROUP_RESIGNED_MEMBERSHIP'			=> '선택한 그룹에서 제거되었습니다.',
+	'GROUP_RESIGNED_PENDING'			=> '보류 중인 멤버십이 선택한 그룹에서 제거되었습니다.',
 	'GROUP_TYPE'						=> '그룹 유형',
 	'GROUP_UNDISCLOSED'					=> '숨겨진 그룹',
 	'FORUM_UNDISCLOSED'					=> '숨겨진 포럼 조정',
@@ -91,5 +91,5 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_CHANGE'			=> '"%1$s" 그룹에서 "%2$s"그룹 으로',
 	'USER_GROUP_DEMOTE'			=> '리더십 강등',
 	'USER_GROUP_DEMOTE_CONFIRM'	=> '선택한 그룹에서 그룹 리더로 강등하시겠습니까?',
-	'USER_GROUP_DEMOTED'		=> '리더쉽을  강등시켰습니다.',
+	'USER_GROUP_DEMOTED'		=> '리더쉽을 강등시켰습니다.',
 ));

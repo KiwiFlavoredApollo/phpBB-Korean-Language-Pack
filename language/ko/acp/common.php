@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 	'ACP_BOARD_SETTINGS'		=> '보드 설정',
 	'ACP_BOTS'					=> '스파이더/로봇',
 
-	'ACP_CAPTCHA'				=> 'CAPTCHA',
+	'ACP_CAPTCHA'				=> '보안 문자',
 
 	'ACP_CAT_CUSTOMISE'			=> '커스터마이즈',
 	'ACP_CAT_DATABASE'			=> '데이터배이스',
@@ -274,7 +274,7 @@ $lang = array_merge($lang, array(
 
 	'MANAGE'				=> '관리',
 	'MENU_TOGGLE'			=> '사이드 메뉴 숨기기 또는 표시',
-	'MORE'					=> 'More',			// 현재 사용되지 않음
+	'MORE'					=> '더 보기',			// 현재 사용되지 않음
 	'MORE_INFORMATION'		=> '추가 정보 »',
 	'MOVE_DOWN'				=> '아래로 이동',
 	'MOVE_UP'				=> '위로 이동',
@@ -285,8 +285,8 @@ $lang = array_merge($lang, array(
 	'NO_FILES_TO_DELETE'	=> '삭제를 위해 선택한 첨부파일이 존재하지 않습니다.',
 	'NO_PASSWORD_SUPPLIED'	=> '관리자 제어판에 액세스하려면 암호를 입력해야 합니다.',
 
-	'OFF'					=> 'Off',
-	'ON'					=> 'On',
+	'OFF'					=> '끔',
+	'ON'					=> '켬',
 
 	'PARSE_BBCODE'						=> 'BB코드 파싱',
 	'PARSE_SMILIES'						=> '스마일 파싱',
@@ -398,12 +398,12 @@ $lang = array_merge($lang, array(
 	'PURGE_CACHE'			=> '캐시 제거',
 	'PURGE_CACHE_CONFIRM'	=> '캐시를 지우시겠습니까?',
 	'PURGE_CACHE_EXPLAIN'	=> '모든 캐시 관련 항목을 제거합니다. 여기에는 캐시된 템플릿 파일 또는 쿼리가 포함됩니다.',
-	'PURGE_CACHE_SUCCESS'	=> '캐시가  제거되었습니다..',
+	'PURGE_CACHE_SUCCESS'	=> '캐시가 제거되었습니다..',
 
 	'PURGE_SESSIONS'			=> '모든 세션 제거',
 	'PURGE_SESSIONS_CONFIRM'	=> '모든 세션을 지우시겠습니까? 그러면 모든 사용자가 로그아웃됩니다.',
 	'PURGE_SESSIONS_EXPLAIN'	=> '모든 세션을 제거합니다. 이렇게 하면 세션 테이블이 잘려서 모든 사용자가 로그아웃됩니다.',
-	'PURGE_SESSIONS_SUCCESS'	=> '세션이  제거되었습니다.',
+	'PURGE_SESSIONS_SUCCESS'	=> '세션이 제거되었습니다.',
 
 	'RESET_DATE'					=> '보드 시작 날짜 재설정',
 	'RESET_DATE_CONFIRM'			=> '보드 시작 날짜를 재설정하시겠습니까?',
@@ -496,7 +496,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'LOG_ACL_ADD_USER_GLOBAL_U_'		=> '<strong>사용자의 사용자 권한 추가 또는 수정</strong><br />» %s',
 	'LOG_ACL_ADD_GROUP_GLOBAL_U_'		=> '<strong>그룹의 사용자 권한 추가 또는 수정</strong><br />» %s',
-	'LOG_ACL_ADD_USER_GLOBAL_M_'		=> '<strong>사용자의  글로벌 운영자 권한 추가 또는 수정</strong><br />» %s',
+	'LOG_ACL_ADD_USER_GLOBAL_M_'		=> '<strong>사용자의 글로벌 운영자 권한 추가 또는 수정</strong><br />» %s',
 	'LOG_ACL_ADD_GROUP_GLOBAL_M_'		=> '<strong>그룹의 글로벌 운영자 권한 추가 또는 수정</strong><br />» %s',
 	'LOG_ACL_ADD_USER_GLOBAL_A_'		=> '<strong>사용자의 관리자 권한 추가 또는 수정</strong><br />» %s',
 	'LOG_ACL_ADD_GROUP_GLOBAL_A_'		=> '<strong>그룹의 관리자 권한 추가 또는 수정</strong><br />» %s',
@@ -610,6 +610,7 @@ $lang = array_merge($lang, array(
 	'LOG_UNLOCK'				=> '<strong>잠금 해제된 글</strong><br />» %s',
 	'LOG_UNLOCK_POST'			=> '<strong>잠금 해제된 게시물</strong><br />» %s',
 
+	'LOG_VERSION_CHECK_FAIL'	=> '<strong>버전 확인 실패</strong>',
 	'LOG_DISALLOW_ADD'		=> '<strong>허용되지 않는 사용자 이름 추가</strong><br />» %s',
 	'LOG_DISALLOW_DELETE'	=> '<strong>허용되지 않는 사용자 이름 삭제</strong>',
 
@@ -622,7 +623,7 @@ $lang = array_merge($lang, array(
 	'LOG_DOWNLOAD_REMOVE_IP'	=> '<strong>다운로드 목록에서 제거된 IP/호스트 이름</strong><br />» %s',
 
 	'LOG_ERROR_JABBER'		=> '<strong>Jabber 에러</strong><br />» %s',
-	'LOG_ERROR_EMAIL'		=> '<strong>Email 에러</strong><br />» %s',
+	'LOG_ERROR_EMAIL'		=> '<strong>이메일 오류</strong><br />» %s',
 	'LOG_ERROR_CAPTCHA'		=> '<strong>CAPTCHA 에러</strong><br />» %s',
 
 	'LOG_FORUM_ADD'							=> '<strong>새 포럼 생성</strong><br />» %s',
@@ -739,8 +740,8 @@ $lang = array_merge($lang, array(
 	'LOG_SEARCH_INDEX_REMOVED'	=> '<strong>제거된 검색 색인</strong><br />» %s',
 	'LOG_SPHINX_ERROR'			=> '<strong>Sphinx 오류</strong><br />» %s',
 
-	'LOG_SPAMHAUS_OPEN_RESOLVER'		=> 'Spamhaus does not allow queries using an open resolver. Blacklist checking has been disabled. For more information, see https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
-	'LOG_SPAMHAUS_VOLUME_LIMIT'			=> 'Spamhaus query volume limit has been exceeded. Blacklist checking has been disabled. For more information, see https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/.',
+	'LOG_SPAMHAUS_OPEN_RESOLVER'		=> 'Spamhaus는 공개 리졸버를 통한 조회를 허용하지 않습니다. 블랙리스트 검사를 비활성화했습니다. 자세한 내용은 https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/를 참조하십시오.',
+	'LOG_SPAMHAUS_VOLUME_LIMIT'			=> 'Spamhaus 조회량 한도를 초과했습니다. 블랙리스트 검사를 비활성화했습니다. 자세한 내용은 https://www.spamhaus.com/product/help-for-spamhaus-public-mirror-users/를 참조하십시오.',
 
 	'LOG_STYLE_ADD'				=> '<strong>새 스타일 추가</strong><br />» %s',
 	'LOG_STYLE_DELETE'			=> '<strong>삭제된 스타일</strong><br />» %s',
@@ -815,8 +816,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_WARNING_DELETED'		=> '<strong>삭제된 사용자 경고</strong><br />» %s',
 	'LOG_WARNINGS_DELETED'		=> array(
-		1 => '<strong>삭제된 사용자 경고</strong><br />» %1$s',
-		2 => '<strong>삭제된 사용자 경고 %2$d개</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+		1 => '<strong>삭제된 사용자 경고 %2$d개</strong><br />» %1$s',
 	),
 	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>모든 사용자 경고 삭제</strong><br />» %s',
 

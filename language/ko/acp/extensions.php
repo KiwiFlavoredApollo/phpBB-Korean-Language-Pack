@@ -47,6 +47,7 @@ $lang = array_merge($lang, array(
 
 	'DETAILS'				=> '상세한 설명',
 
+	'EXTENSIONS_NOT_INSTALLED'	=> '설치되지 않은 확장 기능',
 	'EXTENSIONS_DISABLED'	=> '비활성화된 확장기능',
 	'EXTENSIONS_ENABLED'	=> '활성화된 확장기능',
 
@@ -67,11 +68,11 @@ $lang = array_merge($lang, array(
 	'EXTENSION_ENABLE_SUCCESS'		=> '확장기능이 활성화되었습니다.',
 
 	'EXTENSION_NAME'			=> '확장기능 이름',
-	'EXTENSION_ACTIONS'			=> '엑션',
+	'EXTENSION_ACTIONS'			=> '작업',
 	'EXTENSION_OPTIONS'			=> '옵션',
 	'EXTENSION_INSTALL_HEADLINE'=> '확장기능 설치',
 	'EXTENSION_INSTALL_EXPLAIN'	=> '<ol>
-			<li>phpBB의 extensions database에서 확장기능 다운로드</li>
+			<li>phpBB 확장 기능 데이터베이스에서 확장 기능을 다운로드합니다.</li>
 			<li>확장기능의 압축을 풀고 phpBB 보드의 <samp>ext/</samp> 디렉토리에 업로드합니다</li>
 			<li>확장기능 관리자에서 확장기능을 활성화하십시오.</li>
 		</ol>',
@@ -97,15 +98,15 @@ $lang = array_merge($lang, array(
 	'RETURN_TO_EXTENSION_LIST'	=> '확장기능 목록으로 돌아가기',
 
 	'EXT_DETAILS'			=> '확장기능 세부 정보',
-	'DISPLAY_NAME'			=> 'Display Name',
-	'CLEAN_NAME'			=> 'Clean Name',
+	'DISPLAY_NAME'			=> '표시 이름',
+	'CLEAN_NAME'			=> '정규화된 이름',
 	'TYPE'					=> '유형',
 	'DESCRIPTION'			=> '설명',
 	'VERSION'				=> '버전',
 	'HOMEPAGE'				=> '홈페이지',
 	'PATH'					=> '파일 경로',
 	'TIME'					=> '출시일',
-	'LICENSE'				=> '라이센스',
+	'LICENSE'				=> '라이선스',
 
 	'REQUIREMENTS'			=> '요구 사항',
 	'PHPBB_VERSION'			=> 'phpBB 버전',
@@ -126,7 +127,7 @@ $lang = array_merge($lang, array(
 	'FORCE_UNSTABLE'					=> '항상 불안정한 버전 확인',
 	'EXTENSIONS_VERSION_CHECK_SETTINGS'	=> '버전 확인 설정',
 
-	'BROWSE_EXTENSIONS_DATABASE'		=> 'extensions database 찾아보기',
+	'BROWSE_EXTENSIONS_DATABASE'		=> '확장 기능 데이터베이스 찾아보기',
 
 	'META_FIELD_NOT_SET'	=> '필수 메타 필드 %s이(가) 설정되지 않았습니다.',
 	'META_FIELD_INVALID'	=> '메타 필드 %s이(가) 잘못되었습니다.',

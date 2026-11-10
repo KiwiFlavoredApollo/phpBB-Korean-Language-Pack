@@ -74,12 +74,10 @@ $lang = array_merge($lang, array(
 	'CANNOT_POST_STICKY'		=> '죄송하지만 고정글을 게시할 수 없습니다.',
 	'CHANGE_TOPIC_TO'			=> '글 유형을 다음으로 변경',
 	'CHARS_POST_CONTAINS'		=> array(
-		1	=> '메시지에 %1$d 문자가 포함되어 있습니다.',
-		2	=> '메시지에 %1$d 문자가 포함되어 있습니다.',
+		1 => '메시지에 %1$d 문자가 포함되어 있습니다.',
 	),
 	'CHARS_SIG_CONTAINS'		=> array(
-		1	=> '서명에 %1$d자가 포함되어 있습니다.',
-		2	=> '서명에 %1$d자가 포함되어 있습니다.',
+		1 => '서명에 %1$d자가 포함되어 있습니다.',
 	),
 	'CLOSE_TAGS'				=> '태그 닫기',
 	'CURRENT_TOPIC'				=> '현재 글',
@@ -92,8 +90,7 @@ $lang = array_merge($lang, array(
 	'DELETE_POST_CONFIRM'		=> '이 게시물을 삭제하시겠습니까?',
 	'DELETE_POST_PERMANENTLY_CONFIRM'	=> '이 게시물을 <strong>완전히</strong> 삭제하시겠습니까?',
 	'DELETE_POST_PERMANENTLY'	=> array(
-		1	=> '복구할 수 없도록 이 게시물을 영구 삭제합니다.',
-		2	=> '복구할 수 없도록 %1$d개의 게시물을 영구적으로 삭제',
+		1 => '복구할 수 없도록 %1$d개의 게시물을 영구적으로 삭제',
 	),
 	'DELETE_POSTS_CONFIRM'		=> '이 게시물을 삭제하시겠습니까?',
 	'DELETE_POSTS_PERMANENTLY_CONFIRM'	=> '이 게시물을 <strong>완전히</strong> 삭제하시겠습니까?',
@@ -102,8 +99,7 @@ $lang = array_merge($lang, array(
 	'DELETE_POST_WARN'			=> '이 게시물 삭제',
 	'DELETE_TOPIC_CONFIRM'		=> '이 글을 삭제하시겠습니까?',
 	'DELETE_TOPIC_PERMANENTLY'	=> array(
-		1	=> '이 글을 영구적으로 삭제하여 복구할 수 없습니다.',
-		2	=> '복구할 수 없도록 %1$d 글을 완전히 삭제',
+		1 => '복구할 수 없도록 %1$d 글을 완전히 삭제',
 	),
 	'DELETE_TOPIC_PERMANENTLY_CONFIRM'	=> '이 글을 <strong>완전히</strong> 삭제하시겠습니까?',
 	'DELETE_TOPICS_CONFIRM'		=> '이 글을 삭제하시겠습니까?',
@@ -115,7 +111,7 @@ $lang = array_merge($lang, array(
 	'DISALLOWED_EXTENSION'		=> '확장자 %s은(는) 허용되지 않습니다.',
 	'DRAFT_LOADED'				=> '초안이 게시 영역에 로드되었습니다. 지금 게시물을 완료하는 것이 좋습니다.<br />이 게시물을 제출하면 초안이 삭제됩니다.',
 	'DRAFT_LOADED_PM'			=> '초안이 메시지 영역에 로드되었습니다. 지금 비공개 메시지를 완료할 수 있습니다.<br />이 비공개 메시지를 제출하면 초안이 삭제됩니다.',
-	'DRAFT_SAVED'				=> '초안이  저장되었습니다.',
+	'DRAFT_SAVED'				=> '초안이 저장되었습니다.',
 	'DRAFT_TITLE'				=> '초안 제목',
 
 	'EDIT_REASON'				=> '이 글을 수정한 사유',
@@ -154,28 +150,22 @@ $lang = array_merge($lang, array(
 	'MAX_ATTACHMENT_FILESIZE'	=> '첨부파일당 최대 파일크기: %s.',
 	'MAX_FONT_SIZE_EXCEEDED'	=> '글꼴은 최대 %d개까지만 사용할 수 있습니다.',
 	'MAX_FLASH_HEIGHT_EXCEEDED'	=> array(
-		1	=> '플래시 파일의 높이는 최대 %d픽셀입니다.',
-		2	=> '플래시 파일의 높이는 최대 %d픽셀입니다.',
+		1 => '플래시 파일의 높이는 최대 %d픽셀입니다.',
 	),
 	'MAX_FLASH_WIDTH_EXCEEDED'	=> array(
-		1	=> '플래시 파일의 너비는 최대 %d픽셀입니다.',
-		2	=> '플래시 파일의 너비는 최대 %d픽셀입니다.',
+		1 => '플래시 파일의 너비는 최대 %d픽셀입니다.',
 	),
 	'MAX_IMG_HEIGHT_EXCEEDED'	=> array(
-		1	=> '이미지의 높이는 최대 %1$d픽셀입니다.',
-		2	=> '이미지의 높이는 최대 %1$d픽셀입니다.',
+		1 => '이미지의 높이는 최대 %1$d픽셀입니다.',
 	),
 	'MAX_IMG_WIDTH_EXCEEDED'	=> array(
-		1	=> '이미지의 너비는 최대 %d픽셀입니다.',
-		2	=> '이미지의 너비는 최대 %d픽셀입니다.',
+		1 => '이미지의 너비는 최대 %d픽셀입니다.',
 	),
 
 	'MESSAGE_BODY_EXPLAIN'		=> array(
-		0	=> '', // zero means no limit, so we don't view a message here.
-		1	=> '여기에 메시지를 입력하십시오. <strong>%d</strong>자를 초과할 수 없습니다.',
-		2	=> '여기에 메시지를 입력하세요. <strong>%d</strong>자 이하여야 합니다.',
+		1 => '여기에 메시지를 입력하세요. <strong>%d</strong>자 이하여야 합니다.',
 	),
-	'MESSAGE_DELETED'			=> '이 메시지는  삭제되었습니다.',
+	'MESSAGE_DELETED'			=> '이 메시지는 삭제되었습니다.',
 	'MORE_SMILIES'				=> '더 많은 스마일 보기',
 
 	'NOTIFY_REPLY'				=> '답글이 게시되면 알림',
@@ -199,12 +189,10 @@ $lang = array_merge($lang, array(
 	'POLL_MAX_OPTIONS_EXPLAIN'	=> '이것은 각 사용자가 투표할 때 선택할 수 있는 옵션의 수입니다.',
 	'POLL_OPTIONS'				=> '투표 옵션',
 	'POLL_OPTIONS_EXPLAIN'		=> array(
-		1	=> '각 옵션을 새 줄에 배치합니다. <strong>%d</strong> 옵션을 입력할 수 있습니다.',
-		2	=> '각 옵션을 새 줄에 배치합니다. 최대 <strong>%d</strong>개의 옵션을 입력할 수 있습니다.',
+		1 => '각 옵션을 새 줄에 배치합니다. 최대 <strong>%d</strong>개의 옵션을 입력할 수 있습니다.',
 	),
 	'POLL_OPTIONS_EDIT_EXPLAIN'		=> array(
-		1	=> '각 옵션을 새 줄에 배치합니다. <strong>%d</strong> 옵션을 입력할 수 있습니다. 옵션을 제거하거나 추가하면 이전의 모든 투표가 재설정됩니다.',
-		2	=> '각 옵션을 새 줄에 배치합니다. 최대 <strong>%d</strong>개의 옵션을 입력할 수 있습니다. 옵션을 제거하거나 추가하면 이전의 모든 투표가 재설정됩니다.',
+		1 => '각 옵션을 새 줄에 배치합니다. 최대 <strong>%d</strong>개의 옵션을 입력할 수 있습니다. 옵션을 제거하거나 추가하면 이전의 모든 투표가 재설정됩니다.',
 	),
 	'POLL_QUESTION'				=> '설문조사 질문',
 	'POLL_TITLE_TOO_LONG'		=> '설문 제목은 100자 미만이어야 합니다.',
@@ -215,9 +203,9 @@ $lang = array_merge($lang, array(
 	'POST_APPROVAL_NOTIFY'		=> '게시물이 승인되면 알려드립니다.',
 	'POST_CONFIRMATION'			=> '게시물 확인',
 	'POST_CONFIRM_EXPLAIN'		=> '자동 게시를 방지하려면 게시판에서 확인 코드를 입력해야 합니다. 코드는 아래에 표시되어야 하는 이미지에 표시됩니다. 시각 장애가 있거나 이 코드를 읽을 수 없는 경우 %s보드 관리자%s에게 문의하십시오',
-	'POST_DELETED'				=> '이 게시물은  삭제되었습니다.',
-	'POST_EDITED'				=> '이 게시물은  수정되었습니다.',
-	'POST_EDITED_MOD'			=> '이 게시물은  편집되었지만 공개적으로 보기 전에 운영자의 승인을 받아야 합니다.',
+	'POST_DELETED'				=> '이 게시물은 삭제되었습니다.',
+	'POST_EDITED'				=> '이 게시물은 수정되었습니다.',
+	'POST_EDITED_MOD'			=> '이 게시물은 편집되었지만 공개적으로 보기 전에 운영자의 승인을 받아야 합니다.',
 	'POST_GLOBAL'				=> '전체공지글',
 	'POST_ICON'					=> '게시물 아이콘',
 	'POST_NORMAL'				=> '일반글',
@@ -225,14 +213,13 @@ $lang = array_merge($lang, array(
 	'POST_REVIEW_EDIT'			=> '리뷰 게시 편집',
 	'POST_REVIEW_EDIT_EXPLAIN'	=> '이 게시물은 편집하는 동안 다른 사용자에 의해 변경되었습니다. 이 게시물의 현재 버전을 검토하고 수정 사항을 조정할 수 있습니다.',
 	'POST_REVIEW_EXPLAIN'		=> '이 글에 대해 하나 이상의 새 게시물이 작성되었습니다. 이에 비추어 게시물을 검토할 수 있습니다.',
-	'POST_STORED'				=> '이 메시지는  게시되었습니다.',
-	'POST_STORED_MOD'			=> '이 메시지는  제출되었지만 공개적으로 보려면 운영자의 승인을 받아야 합니다.',
+	'POST_STORED'				=> '메시지를 게시했습니다.',
+	'POST_STORED_MOD'			=> '메시지를 제출했지만 공개하려면 중재자의 승인이 필요합니다.',
 	'POST_TOPIC_AS'				=> '게시 방식',
 	'PROGRESS_BAR'				=> '진행 표시 줄',
 
 	'QUOTE_DEPTH_EXCEEDED'		=> array(
-		1	=> '서로 %d개의 인용문만 포함할 수 있습니다.',
-		2	=> '서로 %d개의 인용문만 포함할 수 있습니다.',
+		1 => '서로 %d개의 인용문만 포함할 수 있습니다.',
 	),
 	'QUOTE_NO_NESTING'			=> '서로 따옴표를 포함할 수 없습니다.',
 
@@ -251,21 +238,19 @@ $lang = array_merge($lang, array(
 
 	'TOO_FEW_CHARS'				=> '메시지에 포함된 문자가 너무 적습니다.',
 	'TOO_FEW_CHARS_LIMIT'		=> array(
-		1	=> '최소 %1$d자를 입력해야 합니다.',
-		2	=> '최소 %1$d자를 입력해야 합니다.',
+		1 => '최소 %1$d자를 입력해야 합니다.',
 	),
 	'TOO_FEW_POLL_OPTIONS'		=> '투표 옵션을 두 개 이상 입력해야 합니다.',
 	'TOO_MANY_ATTACHMENTS'		=> '다른 첨부파일을 추가할 수 없습니다. 최대 %d개입니다.',
 	'TOO_MANY_CHARS'			=> '메시지에 너무 많은 문자가 포함되어 있습니다.',
 	'TOO_MANY_CHARS_LIMIT'		=> array(
-		1	=> '허용되는 최대 문자 수는 %1$d입니다.',
-		2	=> '허용되는 최대 문자 수는 %1$d입니다.',
+		1 => '허용되는 최대 문자 수는 %1$d입니다.',
 	),
 	'TOO_MANY_POLL_OPTIONS'		=> '너무 많은 투표 옵션을 입력하려고 했습니다.',
 	'TOO_MANY_SMILIES'			=> '귀하의 메시지에는 너무 많은 스마일이 포함되어 있습니다. 허용되는 최대 스마일 수는 %d개입니다.',
 	'TOO_MANY_URLS'				=> '메시지에 너무 많은 URL이 포함되어 있습니다. 허용되는 최대 URL 수는 %d개입니다.',
 	'TOO_MANY_USER_OPTIONS'		=> '기존 폴링 옵션보다 사용자당 더 많은 옵션을 지정할 수 없습니다.',
-	'TOPIC_BUMPED'				=> '글이  충돌했습니다.',
+	'TOPIC_BUMPED'				=> '글이 충돌했습니다.',
 
 	'UNAUTHORISED_BBCODE'		=> '특정 BBCode: %s을(를) 사용할 수 없습니다.',
 	'UNSUPPORTED_CHARACTERS_MESSAGE'	=> '메시지에 지원되지 않는 다음 문자가 포함되어 있습니다.<br />%s',
