@@ -159,9 +159,9 @@ $lang = array_merge($lang, array(
 	'ACL_M_MERGE'	=> '글 병합 가능',
 
 	'ACL_M_INFO'		=> '게시물 세부정보를 볼 수 있음',
-	'ACL_M_WARN'		=> '경고를 발행가능<br /><em>이 설정은 글로벌적으로만 할당됩니다. 포럼 기반이 아닙니다.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_PM_REPORT'	=> '비공개 메시지 보고서를 닫고 삭제가능<br /><em>이 설정은 글로벌적으로만 할당됩니다. 포럼 기반이 아닙니다.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_BAN'			=> '차단을 관리가능<br /><em>이 설정은 글로벌적으로만 할당됩니다. 포럼 기반이 아닙니다.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_WARN'		=> '경고 발행 가능', // This moderator setting is only global (and not local)
+	'ACL_M_PM_REPORT'	=> '비공개 메시지 신고를 닫고 삭제 가능', // This moderator setting is only global (and not local)
+	'ACL_M_BAN'			=> '차단 관리 가능', // This moderator setting is only global (and not local)
 ));
 
 // Admin Permissions

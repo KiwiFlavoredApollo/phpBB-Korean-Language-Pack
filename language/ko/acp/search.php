@@ -112,16 +112,16 @@ $lang = array_merge($lang, array(
 	'SEARCH_GUEST_INTERVAL'					=> '게스트 검색 플러드 간격',
 	'SEARCH_GUEST_INTERVAL_EXPLAIN'			=> '게스트가 검색 사이에 기다려야 하는 시간(초)입니다. 한 게스트가 검색하면 다른 모든 게스트는 시간 간격이 지날 때까지 기다려야 합니다.',
 	'SEARCH_INDEX_CREATE_REDIRECT'			=> array(
-		1 => '게시물 ID %2$d까지의 모든 게시물의 색인이 생성되었으며 이 중 %1$d개의 게시물이 이 단계에 포함되었습니다.<br />',
+		1 => '게시물 ID %2$d까지의 모든 게시물의 색인이 생성되었으며 이 중 %1$d개의 게시물이 이 단계에 포함되었습니다.',
 	),
 	'SEARCH_INDEX_CREATE_REDIRECT_RATE'		=> array(
-		1 => '현재 색인 생성 속도는 초당 약 %1$.1f개의 게시물입니다.<br />색인 생성 중…',
+		1 => '현재 색인 생성 속도는 초당 약 %1$.1f개의 게시물입니다.',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT'			=> array(
-		1 => '게시물 ID %2$d까지의 모든 게시물이 검색 색인에서 제거되었으며 그 중 %1$d개의 게시물이 이 단계에 포함되었습니다.<br />',
+		1 => '게시물 ID %2$d까지의 모든 게시물이 검색 색인에서 제거되었으며 그 중 %1$d개의 게시물이 이 단계에 포함되었습니다.',
 	),
 	'SEARCH_INDEX_DELETE_REDIRECT_RATE'		=> array(
-		1 => '현재 삭제 속도는 초당 약 %1$.1f개의 게시물입니다.<br />삭제 중…',
+		1 => '현재 삭제 속도는 초당 약 %1$.1f개의 게시물입니다.',
 	),
 	'SEARCH_INDEX_CREATED'					=> '게시판 데이터베이스의 모든 게시물을 성공적으로 색인화했습니다.',
 	'SEARCH_INDEX_PROGRESS'					=> '완료: %1$d | 대기중: %2$d | 총계: %3$d',

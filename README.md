@@ -4,7 +4,7 @@
 
 ## 호환 버전
 
-- 언어 팩 버전: **1.0.0**
+- 언어 팩 버전: **3.3.19**
 - 대상 phpBB 버전: **3.3.19**
 - 언어 코드: **ko**
 
@@ -34,14 +34,14 @@ VigLink와 prosilver 리소스도 저장소의 영어 기준 파일과 별도로
 PowerShell에서 다음 명령을 실행하면 `dist/`에 배포용 압축 파일을 만듭니다.
 
 ```powershell
-./build-release.ps1 -Version 1.0.0
+./build-release.ps1 -Version 3.3.19
 ```
 
-압축 파일의 루트에는 `LICENSE`와 `AUTHORS.md`가 포함되며, `language/ko/LICENSE`는 공식 검증을 위해 유지됩니다. 배포 전 한국어 원어민의 최종 검수를 권장합니다. 특히 phpBB 3.3.19에서 새로 추가된 설치 프로그램 문구와 업데이트 알림 문구를 확인하십시오.
+압축 파일에는 `language/ko/`, `ext/phpbb/viglink/language/ko/`, `styles/prosilver/theme/ko/`만 포함됩니다. 라이선스와 참여자 정보는 공식 검증 정책에 따라 `language/ko/LICENSE`와 `language/ko/AUTHORS.md`에 포함됩니다. 배포 전 한국어 원어민의 최종 검수를 권장합니다. 특히 phpBB 3.3.19에서 새로 추가된 설치 프로그램 문구와 업데이트 알림 문구를 확인하십시오.
 
 ## 라이선스 및 참여자
 
-이 번역은 phpBB와 동일한 GNU General Public License version 2(GPL-2.0)로 배포됩니다. 참여자 정보는 `AUTHORS.md`를 참조하십시오.
+이 번역은 phpBB와 동일한 GNU General Public License version 2(GPL-2.0)로 배포됩니다. 참여자 정보는 저장소의 `AUTHORS.md`와 배포 패키지의 `language/ko/AUTHORS.md`를 참조하십시오.
 
 ## 참고문헌
 

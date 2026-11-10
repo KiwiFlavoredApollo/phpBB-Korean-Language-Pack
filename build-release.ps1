@@ -1,5 +1,5 @@
 param(
-	[string] $Version = '1.0.0'
+	[string] $Version = '3.3.19'
 )
 
 $ErrorActionPreference = 'Stop'
@@ -23,8 +23,6 @@ try
 		New-Item -ItemType Directory -Path (Split-Path -Parent $destination) -Force | Out-Null
 		Copy-Item -LiteralPath $source -Destination $destination -Recurse
 	}
-	Copy-Item -LiteralPath (Join-Path $repositoryRoot 'LICENSE') -Destination (Join-Path $stagingDirectory 'LICENSE')
-	Copy-Item -LiteralPath (Join-Path $repositoryRoot 'AUTHORS.md') -Destination (Join-Path $stagingDirectory 'AUTHORS.md')
 
 	New-Item -ItemType Directory -Path $distributionDirectory -Force | Out-Null
 	if (Test-Path -LiteralPath $archivePath)
