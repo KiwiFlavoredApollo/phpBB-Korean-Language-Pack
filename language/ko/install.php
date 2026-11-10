@@ -45,7 +45,7 @@ $lang = array_merge($lang, array(
 
 	// Introduction page
 	'INTRODUCTION_TITLE'	=> '소개',
-	'INTRODUCTION_BODY'		=> 'phpBB3에 오신 것을 환영합니다!<br /><br />phpBB®는 전 세계에서 널리 사용되는 오픈 소스 게시판 솔루션입니다. 2000년에 시작된 phpBB 제품군의 최신 버전인 phpBB3는 다양한 기능과 편리한 사용 환경을 제공하며 phpBB 팀의 지원을 받습니다. phpBB2의 장점을 크게 개선하고 이전 버전에 없던 여러 요청 기능을 추가했습니다.<br /><br />이 설치 시스템은 phpBB3의 새 설치, 이전 릴리스에서 최신 버전으로의 업데이트, 다른 게시판 시스템(phpBB2 포함)에서 phpBB3로의 변환을 안내합니다. 자세한 내용은 <a href="%1$s">설치 안내서</a>를 참조하십시오.<br /><br />phpBB3 라이선스나 지원 정책을 확인하려면 옆 메뉴에서 해당 항목을 선택하십시오. 계속하려면 위의 알맞은 탭을 선택하십시오.',
+	'INTRODUCTION_BODY'		=> 'phpBB3에 오신 것을 환영합니다!<br /><br />phpBB®는 전 세계에서 널리 사용되는 오픈 소스 게시판 솔루션입니다. 2000년에 시작된 phpBB 제품군의 최신 버전인 phpBB3는 다양한 기능과 편리한 사용 환경을 제공하며 phpBB 팀의 지원을 받습니다. phpBB2의 장점을 크게 개선하고 이전 버전에 없던 여러 요청 기능을 추가했습니다. 여러분의 기대를 뛰어넘기를 바랍니다.<br /><br />이 설치 시스템은 phpBB3의 새 설치, 이전 릴리스에서 최신 버전으로의 업데이트, 다른 게시판 시스템(phpBB2 포함)에서 phpBB3로의 변환을 안내합니다. 자세한 내용은 <a href="%1$s">설치 안내서</a>를 참조하십시오.<br /><br />phpBB3 라이선스나 지원 정책을 확인하려면 옆 메뉴에서 해당 항목을 선택하십시오. 계속하려면 위의 알맞은 탭을 선택하십시오.',
 
 	// Support page
 	'SUPPORT_TITLE'		=> '지원',
@@ -178,7 +178,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_INVALID_PREFIX'	=> '입력한 접두사가 올바르지 않습니다. 문자로 시작해야 하며 문자, 숫자, 밑줄만 포함할 수 있습니다.',
 	'INST_ERR_PREFIX_TOO_LONG'		=> '지정한 테이블 접두사가 너무 깁니다. 최대 길이는 %d자입니다.',
 	'INST_ERR_DB_NO_NAME'			=> '데이터베이스 이름을 지정하지 않았습니다.',
-	'INST_ERR_DB_FORUM_PATH'		=> '지정한 데이터베이스 파일이 게시판 디렉터리 안에 있습니다. 웹에서 접근할 수 없는 위치에 두십시오.',
+	'INST_ERR_DB_FORUM_PATH'		=> '지정한 데이터베이스 파일이 게시판 디렉터리 구조 안에 있습니다. 웹에서 접근할 수 없는 위치에 두십시오.',
 	'INST_ERR_DB_CONNECT'			=> '데이터베이스에 연결할 수 없습니다. 아래 오류 메시지를 확인하십시오.',
 	'INST_ERR_DB_NO_WRITABLE'		=> '데이터베이스와 이를 포함하는 디렉터리 모두에 쓸 수 있어야 합니다.',
 	'INST_ERR_DB_NO_ERROR'			=> '오류 메시지가 없습니다.',
@@ -186,7 +186,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR_DB_NO_MYSQLI'			=> '이 컴퓨터에 설치된 MySQL 버전은 선택한 “MySQLi 확장을 사용하는 MySQL” 옵션과 호환되지 않습니다. 대신 “MySQL” 옵션을 사용해 보십시오.',
 	'INST_ERR_DB_NO_SQLITE3'		=> '설치된 SQLite 확장 버전이 너무 오래되었습니다. 최소 3.6.15로 업그레이드해야 합니다.',
 	'INST_ERR_DB_NO_ORACLE'			=> '이 컴퓨터에 설치된 Oracle 버전에서는 <var>NLS_CHARACTERSET</var> 매개 변수를 <var>UTF8</var>로 설정해야 합니다. 9.2 이상으로 업그레이드하거나 매개 변수를 변경하십시오.',
-	'INST_ERR_DB_NO_POSTGRES'		=> '선택한 데이터베이스가 <var>UNICODE</var> 또는 <var>UTF8</var> 인코딩으로 생성되지 않았습니다. 해당 인코딩으로 만든 데이터베이스를 사용해 설치하십시오.',
+	'INST_ERR_DB_NO_POSTGRES'		=> '선택한 데이터베이스가 <var>UNICODE</var> 또는 <var>UTF8</var> 인코딩으로 생성되지 않았습니다. <var>UNICODE</var> 또는 <var>UTF8</var> 인코딩으로 만든 데이터베이스를 사용해 설치하십시오.',
 	'INST_SCHEMA_FILE_NOT_WRITABLE'	=> '스키마 파일에 쓸 수 없습니다',
 
 	//
@@ -224,7 +224,7 @@ $lang = array_merge($lang, array(
 
 	'RANKS_SITE_ADMIN_TITLE'		=> '사이트 관리자',
 	'REPORT_WAREZ'					=> '게시글에 불법 또는 불법 복제 소프트웨어 링크가 있습니다.',
-	'REPORT_SPAM'					=> '신고된 게시글의 목적이 웹사이트나 다른 제품의 광고뿐입니다.',
+	'REPORT_SPAM'					=> '신고된 게시글은 웹사이트나 기타 제품을 광고하는 것만을 목적으로 합니다.',
 	'REPORT_OFF_TOPIC'				=> '신고된 게시글이 주제에서 벗어났습니다.',
 	'REPORT_OTHER'					=> '신고된 게시글이 다른 분류에 해당하지 않습니다. 추가 정보 필드를 사용하십시오.',
 
@@ -303,8 +303,8 @@ $lang = array_merge($lang, array(
 	'SKIP_MODULE'	=> '“%s” 모듈 건너뛰기',
 	'SKIP_TASK'		=> '“%s” 작업 건너뛰기',
 
-	'TASK_SERVICE_INSTALLER_MISSING'	=> '모든 설치 작업 서비스는 “installer”로 시작해야 합니다',
-	'TASK_CLASS_NOT_FOUND'				=> '설치 작업 서비스 정의가 올바르지 않습니다. 지정한 서비스 이름은 “%1$s”이며, 이에 필요한 클래스 네임스페이스는 “%2$s”입니다. 자세한 내용은 task_interface 문서를 참조하십시오.',
+	'TASK_SERVICE_INSTALLER_MISSING'	=> '모든 설치 프로그램 작업 서비스는 “installer”로 시작해야 합니다',
+	'TASK_CLASS_NOT_FOUND'				=> '설치 작업 서비스 정의가 올바르지 않습니다. 지정한 서비스 이름은 “%1$s”이며, 이에 예상되는 클래스 네임스페이스는 “%2$s”입니다. 자세한 내용은 task_interface 문서를 참조하십시오.',
 
 	'INSTALLER_CONFIG_NOT_WRITABLE'	=> '설치 프로그램 설정 파일에 쓸 수 없습니다.',
 ));
@@ -429,7 +429,7 @@ $lang = array_merge($lang, array(
 	'DEV_NO_TEST_FILE'			=> '변환기의 test_file 변수에 값을 지정하지 않았습니다. 변환기 사용자라면 표시되지 않아야 하는 오류이므로 변환기 작성자에게 이 메시지를 알려 주십시오. 변환기 작성자라면 경로를 확인할 수 있도록 원본 게시판에 존재하는 파일 이름을 지정해야 합니다.',
 	'COULD_NOT_COPY'			=> '<strong>%1$s</strong> 파일을 <strong>%2$s</strong>(으)로 복사할 수 없습니다.<br><br>대상 디렉터리가 존재하고 웹 서버에서 쓸 수 있는지 확인하십시오.',
 	'COULD_NOT_FIND_PATH'		=> '이전 게시판의 경로를 찾을 수 없습니다. 설정을 확인하고 다시 시도하십시오.<br />» 원본 경로로 %s이(가) 지정되었습니다.',
-	'CONFIG_PHPBB_EMPTY'		=> '“%s”의 phpBB3 config 변수가 비어 있습니다.',
+	'CONFIG_PHPBB_EMPTY'		=> '“%s”에 대한 phpBB3 설정 변수가 비어 있습니다.',
 
 	'MAKE_FOLDER_WRITABLE'		=> '다음 폴더가 존재하고 웹 서버에서 쓸 수 있는지 확인한 뒤 다시 시도하십시오.<br />»<strong>%s</strong>.',
 	'MAKE_FOLDERS_WRITABLE'		=> '다음 폴더들이 존재하고 웹 서버에서 쓸 수 있는지 확인한 뒤 다시 시도하십시오.<br />»<strong>%s</strong>.',
@@ -467,7 +467,7 @@ $lang = array_merge($lang, array(
 	'FORUM_PATH'				=> '게시판 경로',
 	'FORUM_PATH_EXPLAIN'		=> '현재 <strong>phpBB3 설치 루트</strong>를 기준으로 이전 게시판이 있는 디스크의 <strong>상대</strong> 경로입니다.',
 	'REFRESH_PAGE'				=> '페이지를 새로 고쳐 변환 계속',
-	'REFRESH_PAGE_EXPLAIN'		=> '예로 설정하면 각 단계가 끝난 뒤 변환기가 페이지를 새로 고쳐 변환을 계속합니다. 처음 시험하는 변환이고 오류를 미리 확인하려면 아니요로 설정하는 것이 좋습니다.',
+	'REFRESH_PAGE_EXPLAIN'		=> '‘예’로 설정하면 각 단계가 끝난 뒤 변환기가 페이지를 새로 고쳐 변환을 계속합니다. 처음으로 변환을 시험하고 오류를 미리 확인하려는 경우에는 ‘아니요’로 설정하는 것이 좋습니다.',
 
 	// Conversion
 	'STAGE_IN_PROGRESS'			=> '변환 진행 중',
@@ -477,24 +477,24 @@ $lang = array_merge($lang, array(
 	'CONFIG_CONVERT'			=> '설정 변환 중',
 	'DONE'						=> '완료',
 	'PREPROCESS_STEP'			=> '전처리 함수/쿼리 실행 중',
-	'FILLING_TABLE'				=> '<strong>%s</strong> 테이블 채우는 중',
-	'FILLING_TABLES'			=> '테이블 채우는 중',
+	'FILLING_TABLE'				=> '<strong>%s</strong> 테이블을 채우는 중',
+	'FILLING_TABLES'			=> '테이블을 채우는 중',
 	'DB_ERR_INSERT'				=> '<code>INSERT</code> 쿼리 처리 중 오류가 발생했습니다.',
 	'DB_ERR_LAST'				=> '<var>query_last</var> 처리 중 오류가 발생했습니다.',
 	'DB_ERR_QUERY_FIRST'		=> '<var>query_first</var> 실행 중 오류가 발생했습니다.',
 	'DB_ERR_QUERY_FIRST_TABLE'	=> '<var>query_first</var> 실행 중 오류가 발생했습니다: %s (“%s”).',
 	'DB_ERR_SELECT'				=> '<code>SELECT</code> 쿼리 실행 중 오류가 발생했습니다.',
-	'STEP_PERCENT_COMPLETED'	=> '<strong>%d</strong>/<strong>%d</strong>단계',
+	'STEP_PERCENT_COMPLETED'	=> '<strong>%d</strong>/<strong>%d</strong> 단계',
 	'FINAL_STEP'				=> '마지막 단계 처리',
 	'SYNC_FORUMS'				=> '포럼 동기화 시작',
 	'SYNC_POST_COUNT'			=> 'post_counts 동기화 중',
 	'SYNC_POST_COUNT_ID'		=> '<var>entry</var> %1$s부터 %2$s까지 post_counts 동기화 중.',
 	'SYNC_TOPICS'				=> '주제 동기화 시작',
 	'SYNC_TOPIC_ID'				=> '<var>topic_id</var> %1$s부터 %2$s까지 주제 동기화 중.',
-	'PROCESS_LAST'					=> '마지막 명령 처리 중',
-	'UPDATE_TOPICS_POSTED'		=> '작성한 주제 정보 생성 중',
-	'UPDATE_TOPICS_POSTED_ERR'	=> '작성한 주제 정보를 생성하는 중 오류가 발생했습니다. 변환이 완료된 후 ACP에서 이 단계를 다시 시도할 수 있습니다.',
-	'CONTINUE_LAST'				=> '마지막 명령 계속',
+	'PROCESS_LAST'					=> '마지막 구문 처리 중',
+	'UPDATE_TOPICS_POSTED'		=> '게시한 주제 정보 생성 중',
+	'UPDATE_TOPICS_POSTED_ERR'	=> '게시한 주제 정보를 생성하는 중 오류가 발생했습니다. 변환이 완료된 후 ACP에서 이 단계를 다시 시도할 수 있습니다.',
+	'CONTINUE_LAST'				=> '마지막 구문 처리 계속',
 	'CLEAN_VERIFY'				=> '최종 구조 정리 및 검증 중',
 	'NOT_UNDERSTAND'			=> '%s #%d, 테이블 %s(“%s”)을(를) 해석할 수 없습니다',
 	'NAMING_CONFLICT'			=> '이름 충돌: %s 및 %s 모두 별칭입니다.<br /><br />%s',

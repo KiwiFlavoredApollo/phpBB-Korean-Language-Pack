@@ -1,16 +1,16 @@
 # phpBB 한국어 언어 팩
 
-이 저장소는 IT온세미로에서 Blear(syskiller)님이 작업한 phpBB 3.3.5 한국어 팩과 KiwiFlavoredApollo의 번역·검수를 기반으로 합니다. phpBB 3.3.19 업데이트에서는 sebuls/phpBB3ko의 각 문자열도 비교하여 더 나은 번역을 선별했습니다.
+이 저장소는 `KiwiFlavoredApollo/phpBB-Korean-Language-Pack`을 기반으로 합니다. 해당 언어 팩은 IT온세미로에서 Blear(syskiller)님이 작업한 phpBB 3.3.5 한국어 팩을 바탕으로 KiwiFlavoredApollo가 번역·검수한 결과물입니다. phpBB 3.3.19 업데이트에서는 sebuls/phpBB3ko의 번역도 문자열별로 비교해 더 정확하고 자연스러운 번역을 선별했습니다.
 
 ## 호환 버전
 
-- 언어 팩 버전: **1.0.0**
+- 언어 팩 버전: **3.3.19**
 - 대상 phpBB 버전: **3.3.19**
 - 언어 코드: **ko**
 
 ## 설치
 
-저장소의 다음 디렉터리를 phpBB 설치의 같은 위치에 복사하십시오.
+저장소의 다음 디렉터리를 phpBB 설치 디렉터리의 동일한 경로에 복사하십시오.
 
 - `language/ko/`
 - `ext/phpbb/viglink/language/ko/`
@@ -27,21 +27,21 @@ composer install
 php vendor/bin/translation.php validate ko --language-dir=language --phpbb-version=3.3 --safe-mode
 ```
 
-VigLink와 prosilver 리소스도 저장소의 영어 기준 파일과 별도로 비교해야 합니다. 저장소의 `language/en/`, `ext/.../en/`, `styles/.../en/`은 검증용 기준 파일이며 릴리스 압축 파일에는 포함되지 않습니다.
+위 공식 검증 명령은 `language/`를 검사하므로 VigLink와 prosilver 리소스는 저장소의 영어 기준 파일과 따로 비교해야 합니다. 저장소의 `language/en/`, `ext/.../en/`, `styles/.../en/`은 작업과 검증에만 사용하는 기준 파일이며 릴리스 압축 파일에는 포함되지 않습니다.
 
 ## 릴리스 압축 파일
 
 PowerShell에서 다음 명령을 실행하면 `dist/`에 배포용 압축 파일을 만듭니다.
 
 ```powershell
-./build-release.ps1 -Version 1.0.0
+./build-release.ps1 -Version 3.3.19
 ```
 
-압축 파일의 루트에는 `LICENSE`와 `AUTHORS.md`가 포함되며, `language/ko/LICENSE`는 공식 검증을 위해 유지됩니다. 배포 전 한국어 원어민의 최종 검수를 권장합니다. 특히 phpBB 3.3.19에서 새로 추가된 설치 프로그램 문구와 업데이트 알림 문구를 확인하십시오.
+압축 파일에는 `language/ko/`, `ext/phpbb/viglink/language/ko/`, `styles/prosilver/theme/ko/`만 포함됩니다. 라이선스와 참여자 정보는 공식 검증 정책에 따라 `language/ko/LICENSE`와 `language/ko/AUTHORS.md`에 포함됩니다. 배포 전 한국어 원어민의 최종 검수를 권장합니다. 특히 phpBB 3.3.19에서 새로 추가된 설치 프로그램 문구와 업데이트 알림 문구를 확인하십시오.
 
 ## 라이선스 및 참여자
 
-이 번역은 phpBB와 동일한 GNU General Public License version 2(GPL-2.0)로 배포됩니다. 참여자 정보는 `AUTHORS.md`를 참조하십시오.
+이 번역은 phpBB와 동일한 GNU General Public License version 2(GPL-2.0)로 배포됩니다. 참여자 정보는 저장소의 `AUTHORS.md`와 배포 패키지의 `language/ko/AUTHORS.md`를 참조하십시오.
 
 ## 참고문헌
 
