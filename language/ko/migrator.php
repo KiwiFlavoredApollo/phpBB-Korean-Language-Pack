@@ -61,8 +61,8 @@ $lang = array_merge($lang, array(
 	'MIGRATION_REVERT_SCHEMA_IN_PROGRESS'	=> '스키마 되돌리기: %1$s; 시간: %2$.2f초',
 	'MIGRATION_REVERT_SCHEMA_RUNNING'	=> '스키마 되돌리기: %s.',
 
-	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> '마이그레이션이 잘못되었습니다. if 문 도우미에 조건이 없습니다.',
-	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> '마이그레이션이 잘못되었습니다. if 문 도우미에 마이그레이션 단계에 대한 유효한 호출이 없습니다.',
+	'MIGRATION_INVALID_DATA_MISSING_CONDITION'		=> '마이그레이션이 잘못되었습니다. 조건문 도우미에 조건이 없습니다.',
+	'MIGRATION_INVALID_DATA_MISSING_STEP'			=> '마이그레이션이 잘못되었습니다. 조건문 도우미에 마이그레이션 단계에 대한 유효한 호출이 없습니다.',
 	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> '마이그레이션이 잘못되었습니다. 사용자 정의 호출 가능 함수를 호출할 수 없습니다.',
 	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> '마이그레이션이 잘못되었습니다. 알 수 없는 마이그레이션 도구 유형이 발견되었습니다.',
 	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> '마이그레이션이 잘못되었습니다. 정의되지 않은 마이그레이션 도구가 발견되었습니다.',

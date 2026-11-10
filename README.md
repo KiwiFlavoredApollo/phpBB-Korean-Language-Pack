@@ -1,52 +1,47 @@
-# README
+# phpBB 한국어 언어 팩
 
-## 개요
+이 저장소는 IT온세미로에서 Blear(syskiller)님이 작업한 phpBB 3.3.5 한국어 팩과 KiwiFlavoredApollo의 번역·검수를 기반으로 합니다. phpBB 3.3.19 업데이트에서는 sebuls/phpBB3ko의 각 문자열도 비교하여 더 나은 번역을 선별했습니다.
 
-이 깃허브 저장소는 [IT온세미로](http://bb.itosm.com)에서 Blear(syskiller)님이 작업한 phpBB 3.3.5 한국어팩을 기반으로 하고 있다. 이 한국어팩은 [ColdBrew phpBB 포럼](https://forum.fractalcoffee.duckdns.org)에서 사용하고 있다. 
+## 호환 버전
 
-## 목표
+- 언어 팩 버전: **1.0.0**
+- 대상 phpBB 버전: **3.3.19**
+- 언어 코드: **ko**
 
-1. phpBB 3.3.11에 호환되도록 만든다.
-2. 자연스러운 한국어 인터페이스를 만든다.
+## 설치
 
-## 언어 팩(Language Pack) 설치하기
+저장소의 다음 디렉터리를 phpBB 설치의 같은 위치에 복사하십시오.
 
-`language/ko/` 디렉토리를 `phpbb/language/` 디렉토리로 복사한다.
+- `language/ko/`
+- `ext/phpbb/viglink/language/ko/`
+- `styles/prosilver/theme/ko/`
 
-## 번역 참여하기
+관리자 제어판에서 한국어 언어 팩을 설치한 뒤 사용자 또는 게시판 기본 언어로 선택하십시오.
 
-> 번역이 잘못된 부분이 있을 수 있습니다. Issues에서 말씀해주시거나 깃허브 저장소를 fork하고 수정 후 pull request를 보내주세요.
+## 검증
 
-### phpBB Translation Validator 사용하기
+개발 의존성을 설치한 뒤 공식 phpBB Translation Validator를 실행합니다.
 
-phpBB에 공식적으로 언어 팩을 등록하기 위해서는 일정 조건을 충족해야 한다. phpBB Translation Validator는 번역이 누락되거나 형식에 맞지 않는 부분이 있는지 검사해서 알려준다. 
-
-1. PHP 개발환경 만들기
-2. composer 설치하기
-3. phpBB Translation Validator 설치하기
-
-### 1. PHP 개발환경 만들기
-
-[PHP Installer Tools on Windows](https://www.php.net/manual/en/install.windows.tools.php)에서 XAMPP 설치파일을 내려받고 설치한다.
-
-XAMPP는 PHP 개발환경이다.
-
-### 2. Composer 설치하기
-
-[Download Composer](https://getcomposer.org/download/)에서 설치파일을 내려받는다.
-
-Composer는 PHP 개발환경의 dependency manager이다. Python의 Pipfile이랑 비슷하다.
-
-### 3. phpBB Translation Validator 설치하기
-
-[Git Bash]() 프로그램을 사용하면 편리하다. 명령 프롬프트를 써봤지만 `composer.phar` 명령어를 사용하는데 문제가 있었다.
-
+```shell
+composer install
+php vendor/bin/translation.php validate ko --language-dir=language --phpbb-version=3.3 --safe-mode
 ```
-git clone https://github.com/KiwiFlavoredApollo/phpBB-Korean-Language-Pack.git
-cd phpBB-Korean-Language-Pack
-composer.phar install
-php vendor/bin/translation.php validate ko --package-dir=language/ --phpbb-version=3.3 
+
+VigLink와 prosilver 리소스도 저장소의 영어 기준 파일과 별도로 비교해야 합니다. 저장소의 `language/en/`, `ext/.../en/`, `styles/.../en/`은 검증용 기준 파일이며 릴리스 압축 파일에는 포함되지 않습니다.
+
+## 릴리스 압축 파일
+
+PowerShell에서 다음 명령을 실행하면 `dist/`에 배포용 압축 파일을 만듭니다.
+
+```powershell
+./build-release.ps1 -Version 1.0.0
 ```
+
+압축 파일의 루트에는 `LICENSE`와 `AUTHORS.md`가 포함되며, `language/ko/LICENSE`는 공식 검증을 위해 유지됩니다. 배포 전 한국어 원어민의 최종 검수를 권장합니다. 특히 phpBB 3.3.19에서 새로 추가된 설치 프로그램 문구와 업데이트 알림 문구를 확인하십시오.
+
+## 라이선스 및 참여자
+
+이 번역은 phpBB와 동일한 GNU General Public License version 2(GPL-2.0)로 배포됩니다. 참여자 정보는 `AUTHORS.md`를 참조하십시오.
 
 ## 참고문헌
 

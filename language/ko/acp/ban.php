@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'BAN_LENGTH'			=> '차단 기간',
 	'BAN_REASON'			=> '차단 사유',
 	'BAN_GIVE_REASON'		=> '차단대상에 표시되는 내용',
-	'BAN_UPDATE_SUCCESSFUL'	=> '차단 목록이  업데이트되었습니다.',
+	'BAN_UPDATE_SUCCESSFUL'	=> '차단 목록이 업데이트되었습니다.',
 	'BANNED_UNTIL_DATE'		=> '%s까지', // Example: "until Mon 13.Jul.2009, 14:44"
 	'BANNED_UNTIL_DURATION'	=> '%1$s (%2$s까지)', // Example: "7 days (until Tue 14.Jul.2009, 14:44)"
 

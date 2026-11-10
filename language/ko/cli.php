@@ -39,15 +39,15 @@ $lang = array_merge($lang, array(
 
 	'CLI_CONFIG_CANNOT_CACHED'			=> '구성 옵션이 너무 자주 변경되어 효율적으로 캐시될 수 없는 경우 이 옵션을 설정하십시오.',
 	'CLI_CONFIG_CURRENT'				=> '현재 구성 값, 0과 1을 사용하여 부울 값 지정',
-	'CLI_CONFIG_DELETE_SUCCESS'			=> '구성 %s을(를)  삭제했습니다..',
+	'CLI_CONFIG_DELETE_SUCCESS'			=> '구성 %s을(를) 삭제했습니다..',
 	'CLI_CONFIG_NEW'					=> '새 구성 값, 0과 1을 사용하여 부울 값 지정',
 	'CLI_CONFIG_NOT_EXISTS'				=> '구성 %s이(가) 존재하지 않습니다.',
 	'CLI_CONFIG_OPTION_NAME'			=> '구성 옵션의 이름',
 	'CLI_CONFIG_PRINT_WITHOUT_NEWLINE'	=> '끝에 새 줄 없이 값을 인쇄해야 하는 경우 이 옵션을 설정합니다.',
 	'CLI_CONFIG_INCREMENT_BY'			=> '증분할 양',
-	'CLI_CONFIG_INCREMENT_SUCCESS'		=> '구성 %s을(를)  증가시켰습니다.',
+	'CLI_CONFIG_INCREMENT_SUCCESS'		=> '구성 %s을(를) 증가시켰습니다.',
 	'CLI_CONFIG_SET_FAILURE'			=> '구성 %s을(를) 설정할 수 없습니다.',
-	'CLI_CONFIG_SET_SUCCESS'			=> '구성 %s을(를)  설정했습니다.',
+	'CLI_CONFIG_SET_SUCCESS'			=> '구성 %s을(를) 설정했습니다.',
 
 	'CLI_DESCRIPTION_CRON_LIST'					=> '준비 및 준비되지 않은 cron 작업 목록을 인쇄합니다.',
 	'CLI_DESCRIPTION_CRON_RUN'					=> '모든 준비된 cron 작업을 실행합니다.',
@@ -75,6 +75,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_REPARSER_REPARSE'					=> '현재 text_formatter 서비스로 저장된 텍스트를 재분석합니다.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_ARG_1'			=> '재분석할 텍스트 유형입니다. 모든 것을 재분석하려면 비워 둡니다.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_DRY_RUN'		=> '변경 사항을 저장하지 마십시오. 그냥 무슨 일이 일어날지 인쇄',
+	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_FORCE_BBCODE'	=> '예외 없이 모든 BBCode를 다시 분석합니다. 이전에 비활성화된 BBCode도 다시 처리하고 활성화하여 완전히 렌더링합니다.',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MIN'	=> '처리할 가장 낮은 레코드 ID',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_MAX'	=> '처리할 최고 레코드 ID',
 	'CLI_DESCRIPTION_REPARSER_REPARSE_OPT_RANGE_SIZE'	=> '한 번에 처리할 대략적인 레코드 수',
@@ -108,6 +109,8 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_USER_ADD_OPTION_NOTIFY'	=> '새 사용자에게 계정 활성화 이메일 보내기(기본적으로 전송되지 않음)',
 	'CLI_DESCRIPTION_USER_DELETE'				=> '사용자 계정을 삭제합니다.',
 	'CLI_DESCRIPTION_USER_DELETE_USERNAME'		=> '삭제할 사용자의 사용자 이름',
+	'CLI_DESCRIPTION_USER_DELETE_ID'			=> 'ID로 사용자 계정을 삭제합니다.',
+	'CLI_DESCRIPTION_USER_DELETE_ID_OPTION_ID'	=> '삭제할 사용자의 사용자 ID',
 	'CLI_DESCRIPTION_USER_DELETE_OPTION_POSTS'	=> '사용자가 작성한 모든 게시물을 삭제합니다. 이 옵션이 없으면 사용자의 게시물이 유지됩니다.',
 	'CLI_DESCRIPTION_USER_RECLEAN'				=> '사용자 이름을 다시 정리합니다.',
 
@@ -157,12 +160,14 @@ $lang = array_merge($lang, array(
 
 	'CLI_USER_ADD_SUCCESS'		=> '사용자 %s을(를) 성공적으로 추가했습니다.',
 	'CLI_USER_DELETE_CONFIRM'	=> '"%s"을(를) 삭제하시겠습니까? [예/아니요]',
+	'CLI_USER_DELETE_ID_CONFIRM'	=> '사용자 ID ‘%s’을(를) 삭제하시겠습니까? [y/N]',
+	'CLI_USER_DELETE_ID_SUCCESS'	=> '사용자 ID를 성공적으로 삭제했습니다.',
+	'CLI_USER_DELETE_ID_START'		=> 'ID로 사용자 삭제 중',
+	'CLI_USER_DELETE_NONE'			=> '사용자 ID로 삭제된 사용자가 없습니다.',
 	'CLI_USER_RECLEAN_START'	=> '사용자 이름 다시 정리',
-	'CLI_USER_RECLEAN_DONE'		=> [
-		0	=> '재창소 완료. 정리할 사용자 이름이 없습니다.',
-		1	=> '재청소 완료. %d명의 사용자 이름이 삭제되었습니다.',
-		2	=> '재청소 완료. %d명의 사용자 이름이 삭제되었습니다.',
-	],
+	'CLI_USER_RECLEAN_DONE'		=> array(
+		1 => '재청소 완료. %d명의 사용자 이름이 삭제되었습니다.',
+	),
 ));
 
 // Additional help for commands.

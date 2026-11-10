@@ -64,7 +64,7 @@ $lang = array_merge($lang, [
 	'RECAPTCHA_V3_METHOD_EXPLAIN'		=> '요청을 확인할 때 사용할 방법입니다.<br>사용 안 함 옵션은 설정 내에서 사용할 수 없습니다.',
 	'RECAPTCHA_V3_METHOD_CURL'			=> 'cURL',
 	'RECAPTCHA_V3_METHOD_POST'			=> 'POST',
-	'RECAPTCHA_V3_METHOD_SOCKET'		=> 'Socket',
+	'RECAPTCHA_V3_METHOD_SOCKET'		=> '소켓',
 
 	'RECAPTCHA_V3_THRESHOLD_DEFAULT'			=> '기본 임계값',
 	'RECAPTCHA_V3_THRESHOLD_DEFAULT_EXPLAIN'	=> '다른 조치가 적용되지 않을 때 사용됩니다.',

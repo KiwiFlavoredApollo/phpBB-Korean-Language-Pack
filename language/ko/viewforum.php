@@ -67,7 +67,6 @@ $lang = array_merge($lang, array(
 
 	'VIEW_FORUM'			=> '포럼 보기',
 	'VIEW_FORUM_TOPICS'		=> array(
-		1	=> '%d 글',
-		2	=> '%d 글',
+		1 => '%d 글',
 	),
 ));

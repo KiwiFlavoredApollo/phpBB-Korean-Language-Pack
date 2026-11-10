@@ -85,7 +85,7 @@ $lang = array_merge($lang, array(
 	'FORUM_DESC_TOO_LONG'				=> '포럼 설명이 너무 깁니다. 4000자 미만이어야 합니다.',
 	'FORUM_DELETE'						=> '포럼 삭제',
 	'FORUM_DELETE_EXPLAIN'				=> '아래 양식을 사용하면 포럼을 삭제할 수 있습니다. 포럼이 게시 가능한 경우 포함된 모든 글(또는 포럼)를 어디에 둘 것인지 결정할 수 있습니다.',
-	'FORUM_DELETED'						=> '포럼이  삭제되었습니다.',
+	'FORUM_DELETED'						=> '포럼이 삭제되었습니다.',
 	'FORUM_DESC'						=> '설명',
 	'FORUM_DESC_EXPLAIN'				=> '여기에 입력된 모든 HTML 마크업은 있는 그대로 표시됩니다. 선택한 포럼 유형이 카테고리인 경우 설명이 사용되지 않습니다.',
 	'FORUM_EDIT_EXPLAIN'				=> '아래 양식을 사용하여 이 포럼을 사용자 정의할 수 있습니다. 중재 및 게시물 수 제어는 각 사용자 또는 사용자 그룹에 대한 포럼 권한을 통해 설정됩니다.',
@@ -110,7 +110,7 @@ $lang = array_merge($lang, array(
 	'FORUM_PRUNE_SETTINGS'				=> '포럼 정리 설정',
 	'FORUM_PRUNE_SHADOW'				=> '섀도우 글 자동 정리 활성화',
 	'FORUM_PRUNE_SHADOW_EXPLAIN'			=> '그림자 글을 포럼을 정리하고 아래에서 빈도/연령 매개변수를 설정합니다.',
-	'FORUM_RESYNCED'					=> '포럼 "%s"이(가)  다시 동기화되었습니다.',
+	'FORUM_RESYNCED'					=> '포럼 "%s"이(가) 다시 동기화되었습니다.',
 	'FORUM_RULES_EXPLAIN'				=> '포럼 규칙은 지정된 포럼 내의 모든 페이지에 표시됩니다.',
 	'FORUM_RULES_LINK'					=> '포럼 규칙에 대한 링크',
 	'FORUM_RULES_LINK_EXPLAIN'			=> '여기에 포럼 규칙이 포함된 페이지/게시물의 URL을 입력할 수 있습니다. 이 설정은 지정한 포럼 규칙 텍스트를 무시합니다',
@@ -122,7 +122,7 @@ $lang = array_merge($lang, array(
 	'FORUM_TOPICS_PAGE'					=> '페이지당 글',
 	'FORUM_TOPICS_PAGE_EXPLAIN'			=> '0이 아닌 경우 이 값은 페이지당 기본 글 설정보다 우선합니다',
 	'FORUM_TYPE'						=> '포럼 종류',
-	'FORUM_UPDATED'						=> '포럼 정보가  업데이트되었습니다.',
+	'FORUM_UPDATED'						=> '포럼 정보가 업데이트되었습니다.',
 
 	'FORUM_WITH_SUBFORUMS_NOT_TO_LINK'		=> '하위 포럼이 있는 게시 가능한 포럼을 링크로 변경하려고 합니다. 링크로 변경한 후에는 현재 이 포럼에 연결된 하위 포럼을 더 이상 볼 수 없으므로 계속하기 전에 이 포럼에서 모든 하위 포럼을 이동하십시오.',
 

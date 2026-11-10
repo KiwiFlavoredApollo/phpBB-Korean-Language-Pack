@@ -1,20 +1,20 @@
-Subject: "{TOPIC_TITLE}"에서 답장
+Subject: "{TOPIC_TITLE}" 주제의 새 답글
 List-Unsubscribe: <{U_STOP_WATCHING_TOPIC}>
 
-{USERNAME}님 안녕하세요.
+안녕하세요, {USERNAME}님.
 
-"{TOPIC_TITLE}" 글에 대한 새 답장을 받았습니다. 글을 방문할 때까지 더 이상 이메일이 전송되지 않습니다.
+마지막으로 "{SITENAME}"을(를) 방문한 뒤 "{TOPIC_TITLE}" 주제에<!-- IF AUTHOR_NAME != '' --> {AUTHOR_NAME}님이<!-- ENDIF --> 새 답글을 작성했습니다. 해당 주제를 방문할 때까지 추가 이메일은 전송되지 않습니다.
 
-최신 게시물을 보려면 다음 링크를 클릭하십시오.
+최신 게시글을 보려면 다음 링크를 클릭하십시오.
 {U_NEWEST_POST}
 
-글을 보려면 다음 링크를 클릭하십시오.
+주제를 보려면 다음 링크를 클릭하십시오.
 {U_TOPIC}
 
 포럼을 보려면 다음 링크를 클릭하십시오.
 {U_FORUM}
 
-이 글을 더 이상 보고 싶지 않다면 다음 링크를 클릭하십시오.
+이 주제를 더 이상 구독하지 않으려면 다음 링크를 클릭하십시오.
 {U_STOP_WATCHING_TOPIC}
 
 {EMAIL_SIG}

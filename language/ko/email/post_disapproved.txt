@@ -1,8 +1,8 @@
-Subject: Post disapproved - "{POST_SUBJECT}"
+Subject: 게시물 비승인 - "{POST_SUBJECT}"
 
 {USERNAME}님 안녕하세요.
 
-Your post "{POST_SUBJECT}" at "{SITENAME}" was disapproved by a moderator or administrator.
+"{SITENAME}"의 게시물 "{POST_SUBJECT}"이(가) 운영자 또는 관리자에 의해 승인되지 않았습니다.
 
 비승인 사유:
 
