@@ -37,18 +37,18 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'CONFIG_NOT_EXIST'					=> '구성 설정 "%s"이(가) 예기치 않게 존재하지 않습니다.',
+	'CONFIG_NOT_EXIST'					=> '구성 설정 “%s”이(가) 존재해야 하지만 찾을 수 없습니다.',
 
-	'GROUP_NOT_EXIST'					=> '그룹 "%s"이(가) 예기치 않게 존재하지 않습니다.',
+	'GROUP_NOT_EXIST'					=> '그룹 “%s”이(가) 존재해야 하지만 찾을 수 없습니다.',
 
 	'MIGRATION_APPLY_DEPENDENCIES'		=> '%s의 종속성을 적용합니다.',
 	'MIGRATION_DATA_DONE'				=> '설치된 데이터: %1$s; 시간: %2$.2f초',
 	'MIGRATION_DATA_IN_PROGRESS'		=> '데이터 설치 중: %1$s; 시간: %2$.2f초',
 	'MIGRATION_DATA_RUNNING'			=> '데이터 설치 중: %s.',
-	'MIGRATION_EFFECTIVELY_INSTALLED'	=> '마이그레이션이 이미 효과적으로 설치되었습니다(건너뜀): %s',
+	'MIGRATION_EFFECTIVELY_INSTALLED'	=> '마이그레이션이 이미 설치된 것으로 처리되어 건너뜁니다: %s',
 	'MIGRATION_EXCEPTION_ERROR'			=> '요청하는 동안 문제가 발생하여 예외가 발생했습니다. 오류가 발생하기 전에 변경한 사항은 최선을 다해 되돌렸지만 게시판에 오류가 있는지 확인해야 합니다.',
-	'MIGRATION_NOT_FULFILLABLE'			=> '마이그레이션 "%1$s"을(를) 수행할 수 없으며 마이그레이션 "%2$s"이(가) 없습니다.',
-	'MIGRATION_NOT_INSTALLED'			=> '마이그레이션 "%s"이(가) 설치되지 않았습니다',
+	'MIGRATION_NOT_FULFILLABLE'			=> '필요한 마이그레이션 “%2$s”이(가) 없어 마이그레이션 “%1$s”을(를) 수행할 수 없습니다.',
+	'MIGRATION_NOT_INSTALLED'			=> '마이그레이션 “%s”이(가) 설치되지 않았습니다.',
 	'MIGRATION_NOT_VALID'				=> '%s은(는) 유효한 마이그레이션이 아닙니다.',
 	'MIGRATION_SCHEMA_DONE'				=> '설치된 스키마: %1$s; 시간: %2$.2f초',
 	'MIGRATION_SCHEMA_IN_PROGRESS'		=> '스키마 설치 중: %1$s; 시간: %2$.2f초',
@@ -66,17 +66,17 @@ $lang = array_merge($lang, array(
 	'MIGRATION_INVALID_DATA_CUSTOM_NOT_CALLABLE'	=> '마이그레이션이 잘못되었습니다. 사용자 정의 호출 가능 함수를 호출할 수 없습니다.',
 	'MIGRATION_INVALID_DATA_UNKNOWN_TYPE'			=> '마이그레이션이 잘못되었습니다. 알 수 없는 마이그레이션 도구 유형이 발견되었습니다.',
 	'MIGRATION_INVALID_DATA_UNDEFINED_TOOL'			=> '마이그레이션이 잘못되었습니다. 정의되지 않은 마이그레이션 도구가 발견되었습니다.',
-	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> '마이그레이션이 잘못되었습니다. 정의되지 않은 마이그레이션 도구 방법이 발견되었습니다.',
+	'MIGRATION_INVALID_DATA_UNDEFINED_METHOD'		=> '마이그레이션이 잘못되었습니다. 정의되지 않은 마이그레이션 도구 메서드가 발견되었습니다.',
 
 	'MODULE_ERROR'						=> '모듈을 생성하는 동안 오류가 발생했습니다: %s',
 	'MODULE_EXISTS'						=> '모듈이 이미 있습니다: %s',
-	'MODULE_EXIST_MULTIPLE'				=> '지정된 상위 모듈 langname을 가진 여러 모듈이 이미 존재합니다: %s. 모듈 배치를 명확히 하기 위해 전/후 키를 사용해 보십시오.',
+	'MODULE_EXIST_MULTIPLE'				=> '지정한 상위 모듈 언어 이름을 가진 모듈이 여러 개 존재합니다: %s. 모듈 위치를 명확히 하려면 before/after 키를 사용하십시오.',
 	'MODULE_INFO_FILE_NOT_EXIST'		=> '필수 모듈 정보 파일이 없습니다: %2$s',
 	'MODULE_NOT_EXIST'					=> '필수 모듈이 없습니다: %s',
 
-	'PARENT_MODULE_FIND_ERROR'			=> '상위 모듈 식별자를 확인할 수 없음: %s',
-	'PERMISSION_NOT_EXIST'				=> '권한 설정 "%s"이(가) 예기치 않게 존재하지 않습니다.',
+	'PARENT_MODULE_FIND_ERROR'			=> '상위 모듈 식별자를 확인할 수 없습니다: %s',
+	'PERMISSION_NOT_EXIST'				=> '권한 설정 “%s”이(가) 존재해야 하지만 찾을 수 없습니다.',
 
-	'ROLE_ASSIGNED_NOT_EXIST'			=> '"%1$s"에 부여된 권한 역할이 예기치 않게 존재하지 않습니다. 역할 식별번호: "%2$s"',
-	'ROLE_NOT_EXIST'					=> '권한 역할 "%s"이(가) 예기치 않게 존재하지 않습니다.',
+	'ROLE_ASSIGNED_NOT_EXIST'			=> '그룹 “%1$s”에 할당된 권한 역할이 존재해야 하지만 찾을 수 없습니다. 역할 ID: “%2$s”',
+	'ROLE_NOT_EXIST'					=> '권한 역할 “%s”이(가) 존재해야 하지만 찾을 수 없습니다.',
 ));

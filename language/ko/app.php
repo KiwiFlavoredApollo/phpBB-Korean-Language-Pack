@@ -41,8 +41,8 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> '인수 #%1$s에 대한 값 누락: <strong>%2$s</strong> 클래스의 <strong>%3$s</strong>',
+	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> '인수 #%1$s에 필요한 값 <strong>%3$s</strong>이(가) 클래스 <strong>%2$s</strong>에 없습니다.',
 	'CONTROLLER_NOT_SPECIFIED'			=> '컨트롤러가 지정되지 않았습니다.',
-	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> '컨트롤러에 지정된 방법이 없습니다',
-	'CONTROLLER_SERVICE_UNDEFINED'		=> '컨트롤러 "<strong>%s</strong>"에 대한 서비스가 ./config/services.yml 에 정의되어 있지 않습니다..',
+	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> '컨트롤러의 메서드가 지정되지 않았습니다.',
+	'CONTROLLER_SERVICE_UNDEFINED'		=> '컨트롤러 “<strong>%s</strong>”의 서비스가 ./config/services.yml에 정의되어 있지 않습니다.',
 ));

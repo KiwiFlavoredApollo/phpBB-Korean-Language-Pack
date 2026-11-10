@@ -1,6 +1,6 @@
 # phpBB 한국어 언어 팩
 
-이 저장소는 IT온세미로에서 Blear(syskiller)님이 작업한 phpBB 3.3.5 한국어 팩과 KiwiFlavoredApollo의 번역·검수를 기반으로 합니다. phpBB 3.3.19 업데이트에서는 sebuls/phpBB3ko의 각 문자열도 비교하여 더 나은 번역을 선별했습니다.
+이 저장소는 `KiwiFlavoredApollo/phpBB-Korean-Language-Pack`을 기반으로 합니다. 해당 언어 팩은 IT온세미로에서 Blear(syskiller)님이 작업한 phpBB 3.3.5 한국어 팩을 바탕으로 KiwiFlavoredApollo가 번역·검수한 결과물입니다. phpBB 3.3.19 업데이트에서는 sebuls/phpBB3ko의 번역도 문자열별로 비교해 더 정확하고 자연스러운 번역을 선별했습니다.
 
 ## 호환 버전
 
@@ -10,7 +10,7 @@
 
 ## 설치
 
-저장소의 다음 디렉터리를 phpBB 설치의 같은 위치에 복사하십시오.
+저장소의 다음 디렉터리를 phpBB 설치 디렉터리의 동일한 경로에 복사하십시오.
 
 - `language/ko/`
 - `ext/phpbb/viglink/language/ko/`
@@ -27,7 +27,7 @@ composer install
 php vendor/bin/translation.php validate ko --language-dir=language --phpbb-version=3.3 --safe-mode
 ```
 
-VigLink와 prosilver 리소스도 저장소의 영어 기준 파일과 별도로 비교해야 합니다. 저장소의 `language/en/`, `ext/.../en/`, `styles/.../en/`은 검증용 기준 파일이며 릴리스 압축 파일에는 포함되지 않습니다.
+위 공식 검증 명령은 `language/`를 검사하므로 VigLink와 prosilver 리소스는 저장소의 영어 기준 파일과 따로 비교해야 합니다. 저장소의 `language/en/`, `ext/.../en/`, `styles/.../en/`은 작업과 검증에만 사용하는 기준 파일이며 릴리스 압축 파일에는 포함되지 않습니다.
 
 ## 릴리스 압축 파일
 

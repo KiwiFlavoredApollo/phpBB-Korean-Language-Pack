@@ -39,14 +39,14 @@ if (empty($lang) || !is_array($lang))
 // Database Backup/Restore
 $lang = array_merge($lang, array(
 	'ACP_BACKUP_EXPLAIN'	=> '여기에서 모든 phpBB 관련 데이터를 백업할 수 있습니다. 결과 아카이브는 <samp>store/</samp> 폴더에 저장됩니다. 서버 구성에 따라 다양한 형식으로 파일을 압축할 수 있습니다.',
-	'ACP_RESTORE_EXPLAIN'	=> '이것은 저장된 파일에서 모든 phpBB 테이블의 전체 복원을 수행합니다. 서버에서 지원하는 경우 gzip 또는 bzip2 압축 텍스트 파일을 사용할 수 있으며 자동으로 압축이 해제됩니다. <strong>경고</strong> 기존 데이터를 덮어씁니다. 복원을 처리하는 데 시간이 오래 걸릴 수 있습니다. 완료될 때까지 이 페이지에서 이동하지 마십시오. 백업은 <samp>store/</samp> 폴더에 저장되며 phpBB의 백업 기능에 의해 생성되는 것으로 가정합니다. 내장 시스템에 의해 생성되지 않은 백업 복원은 작동하거나 작동하지 않을 수 있습니다.',
+	'ACP_RESTORE_EXPLAIN'	=> '저장된 파일에서 모든 phpBB 테이블을 완전히 복원합니다. 서버에서 지원하는 경우 gzip 또는 bzip2로 압축된 텍스트 파일을 사용할 수 있으며 자동으로 압축이 해제됩니다. <strong>경고</strong> 기존 데이터를 모두 덮어씁니다. 복원에는 시간이 오래 걸릴 수 있으므로 완료될 때까지 이 페이지를 벗어나지 마십시오. 백업은 <samp>store/</samp> 폴더에 저장되며 phpBB 백업 기능으로 생성된 파일이라고 가정합니다. 내장 시스템에서 생성하지 않은 백업은 제대로 복원되지 않을 수 있습니다.',
 
 	'BACKUP_DELETE'			=> '백업 파일이 성공적으로 삭제되었습니다.',
 	'BACKUP_INVALID'		=> '선택한 백업 파일이 잘못되었습니다.',
-	'BACKUP_NOT_SUPPORTED'	=> '선택한 백업은 지원되지 않습니다',
+	'BACKUP_NOT_SUPPORTED'	=> '선택한 백업은 지원되지 않습니다.',
 	'BACKUP_OPTIONS'		=> '백업 옵션',
 	'BACKUP_SUCCESS'		=> '백업 파일이 성공적으로 생성되었습니다.',
-	'BACKUP_TYPE'			=> '백업 형삭',
+	'BACKUP_TYPE'			=> '백업 형식',
 
 	'DATABASE'			=> '데이터베이스 유틸리티',
 	'DATA_ONLY'			=> '데이터만',
@@ -57,12 +57,12 @@ $lang = array_merge($lang, array(
 
 	'FILE_TYPE'			=> '파일 형식',
 	'FILE_WRITE_FAIL'	=> '저장 폴더에 파일을 쓸 수 없습니다.',
-	'FULL_BACKUP'		=> '풍백업',
+	'FULL_BACKUP'		=> '전체',
 
 	'RESTORE_FAILURE'		=> '백업 파일이 손상되었을 수 있습니다.',
 	'RESTORE_OPTIONS'		=> '복원 옵션',
 	'RESTORE_SELECTED_BACKUP'	=> '선택한 백업을 복원하시겠습니까?',
-	'RESTORE_SUCCESS'		=> '데이터베이스가 성공적으로 복원되었습니다.<br /><br />보드가 백업 당시의 상태로 돌아가야 합니다.',
+	'RESTORE_SUCCESS'		=> '데이터베이스를 성공적으로 복원했습니다.<br /><br />게시판이 백업을 만들었을 당시의 상태로 돌아갔습니다.',
 
 	'SELECT_ALL'			=> '모두 선택',
 	'SELECT_FILE'			=> '파일 선택',

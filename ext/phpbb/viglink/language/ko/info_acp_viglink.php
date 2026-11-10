@@ -22,6 +22,6 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'ACP_VIGLINK_SETTINGS' => 'VigLink 설정',
-	'LOG_VIGLINK_CHECK_FAIL' => '<strong>phpBB.com에서 VigLink 설정을 확인할 수 없습니다</strong><br>» %s',
+	'ACP_VIGLINK_SETTINGS'		=> 'VigLink 설정',
+	'LOG_VIGLINK_CHECK_FAIL'	=> '<strong>phpBB.com을 통해 VigLink 설정을 확인하지 못했습니다</strong><br />» %s',
 ));
