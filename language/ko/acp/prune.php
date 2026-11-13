@@ -38,19 +38,19 @@ if (empty($lang) || !is_array($lang))
 
 // User pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_USERS_EXPLAIN'	=> '이 섹션에서는 보드의 사용자를 삭제하거나 비활성화할 수 있습니다. 계정은 다양한 방법으로 필터링할 수 있습니다. 게시물 수, 가장 최근 활동 등 기준. 영향을 받는 계정을 좁히기 위해 기준을 결합할 수 있습니다. 예를 들어 게시물이 10개 미만이고 2002-01-01 이후에도 비활성화된 사용자를 정리할 수 있습니다. 텍스트 필드의 와일드카드로 *를 사용합니다. 또는 텍스트 필드에 사용자 목록(각각 별도의 줄에 있음)을 입력하여 기준 선택을 완전히 건너뛸 수 있습니다. 이 시설을 조심하십시오! 사용자가 삭제되면 작업을 되돌릴 방법이 없습니다.',
+	'ACP_PRUNE_USERS_EXPLAIN'	=> '이 섹션에서는 게시판의 사용자를 삭제하거나 비활성화할 수 있습니다. 게시물 수, 최근 활동 등 여러 조건으로 계정을 필터링할 수 있으며, 조건을 조합하여 대상 계정을 좁힐 수도 있습니다. 예를 들어 게시물이 10개 미만이면서 2002-01-01 이후 활동이 없는 사용자를 정리할 수 있습니다. 텍스트 필드에서는 *를 와일드카드로 사용하십시오. 또는 조건을 선택하지 않고 텍스트 필드에 사용자 이름을 한 줄에 하나씩 입력할 수 있습니다. 이 기능은 주의해서 사용하십시오. 사용자를 삭제하면 되돌릴 수 없습니다.',
 
 	'CRITERIA'				=> '기준',
 
 	'DEACTIVATE_DELETE'			=> '비활성화 또는 삭제',
-	'DEACTIVATE_DELETE_EXPLAIN'	=> '사용자를 비활성화할지 아니면 완전히 삭제할지 선택합니다. 삭제된 사용자는 복원할 수 없습니다!',
+	'DEACTIVATE_DELETE_EXPLAIN'	=> '사용자를 비활성화할지 완전히 삭제할지 선택하십시오. 삭제된 사용자는 복원할 수 없습니다!',
 	'DELETE_USERS'				=> '삭제',
-	'DELETE_USER_POSTS'			=> '정리된 사용자 게시물 삭제',
+	'DELETE_USER_POSTS'			=> '정리 대상 사용자의 게시물 삭제',
 	'DELETE_USER_POSTS_EXPLAIN' => '삭제된 사용자가 작성한 게시물을 제거하며 사용자가 비활성화된 경우에는 효과가 없습니다.',
 
-	'JOINED_EXPLAIN'			=> '<kbd>YYYY-MM-DD</kbd> 형식으로 날짜를 입력하세요. 두 필드를 모두 사용하여 간격을 지정하거나 열린 날짜 범위에 대해 하나를 공백으로 둘 수 있습니다.',
+	'JOINED_EXPLAIN'			=> '<kbd>YYYY-MM-DD</kbd> 형식으로 날짜를 입력하십시오. 두 필드를 모두 사용하여 기간을 지정하거나 한쪽을 비워 시작일 또는 종료일이 없는 범위를 지정할 수 있습니다.',
 
-	'LAST_ACTIVE_EXPLAIN'		=> '<kbd>YYYY-MM-DD</kbd> 형식으로 날짜를 입력하세요. 로그인한 적이 없는 사용자를 정리하려면 <kbd>0000-00-00</kbd>를 입력하세요. <em>이전</em> 및 <em>이후</em> 조건은 무시됩니다.',
+	'LAST_ACTIVE_EXPLAIN'		=> '<kbd>YYYY-MM-DD</kbd> 형식으로 날짜를 입력하십시오. 로그인한 적이 없는 사용자를 정리하려면 <kbd>0000-00-00</kbd>을 입력하십시오. 이 경우 <em>이전</em>과 <em>이후</em> 조건은 무시됩니다.',
 
 	'POSTS_ON_QUEUE'			=> '승인 대기 중인 게시물',
 	'PRUNE_USERS_GROUP_EXPLAIN'	=> '선택한 그룹 내 사용자로 제한합니다.',
@@ -61,8 +61,8 @@ $lang = array_merge($lang, array(
 
 	'SELECT_USERS_EXPLAIN'		=> '여기에 특정 사용자 이름을 입력하십시오. 위의 기준보다 우선적으로 사용됩니다. 최고 관리자는 정리할 수 없습니다.',
 
-	'USER_DEACTIVATE_SUCCESS'	=> '선택한 사용자가  비활성화되었습니다.',
-	'USER_DELETE_SUCCESS'		=> '선택한 사용자가  삭제되었습니다.',
+	'USER_DEACTIVATE_SUCCESS'	=> '선택한 사용자가 비활성화되었습니다.',
+	'USER_DELETE_SUCCESS'		=> '선택한 사용자가 삭제되었습니다.',
 	'USER_PRUNE_FAILURE'		=> '선택한 기준에 맞는 사용자가 없습니다.',
 
 	'WRONG_ACTIVE_JOINED_DATE'	=> '입력한 날짜가 잘못되었습니다. <kbd>YYYY-MM-DD</kbd> 형식이어야 합니다.',
@@ -70,7 +70,7 @@ $lang = array_merge($lang, array(
 
 // Forum Pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_FORUMS_EXPLAIN'	=> '이렇게 하면 선택한 일 수 내에 게시되지 않았거나 조회되지 않은 모든 글이 삭제됩니다. 번호를 입력하지 않으면 모든 글이 삭제됩니다. 기본적으로 투표가 아직 실행 중인 글을 제거하지 않으며 스티커 및 공지 사항을 제거하지도 않습니다.',
+	'ACP_PRUNE_FORUMS_EXPLAIN'	=> '선택한 기간(일) 동안 새 게시물이 작성되지 않았거나 조회되지 않은 모든 주제를 삭제합니다. 기간을 입력하지 않으면 모든 주제가 삭제됩니다. 기본적으로 진행 중인 설문이 있는 주제, 고정 주제 및 공지 주제는 삭제하지 않습니다.',
 
 	'FORUM_PRUNE'		=> '포럼 정리',
 
@@ -79,17 +79,17 @@ $lang = array_merge($lang, array(
 	'SELECTED_FORUM'	=> '선택한 포럼',
 	'SELECTED_FORUMS'	=> '선택한 포럼',
 
-	'POSTS_PRUNED'					=> '게시물 정리',
+	'POSTS_PRUNED'					=> '정리된 게시물',
 	'PRUNE_ANNOUNCEMENTS'			=> '공지사항 정리',
 	'PRUNE_FINISHED_POLLS'			=> '닫힌 투표 정리',
-	'PRUNE_FINISHED_POLLS_EXPLAIN'	=> '투표가 종료된 글을 제거합니다.',
-	'PRUNE_FORUM_CONFIRM'			=> '지정한 설정으로 선택한 포럼을 정리하시겠습니까? 삭제되면 정리된 게시물과 글을 복구할 수 없습니다.',
+	'PRUNE_FINISHED_POLLS_EXPLAIN'	=> '설문이 종료된 주제를 제거합니다.',
+	'PRUNE_FORUM_CONFIRM'			=> '지정한 설정으로 선택한 포럼을 정리하시겠습니까? 제거된 게시물과 주제는 복구할 수 없습니다.',
 	'PRUNE_NOT_POSTED'				=> '마지막 게시 이후 일수',
 	'PRUNE_NOT_VIEWED'				=> '마지막으로 본 이후 일수',
 	'PRUNE_OLD_POLLS'				=> '오래된 투표 정리',
-	'PRUNE_OLD_POLLS_EXPLAIN'		=> '투표일에 투표하지 않은 투표가 있는 글을 제거했습니다.',
-	'PRUNE_STICKY'					=> '스티키 정리하기',
+	'PRUNE_OLD_POLLS_EXPLAIN'		=> '게시물 보존 기간 동안 투표가 없었던 설문 주제를 제거합니다.',
+	'PRUNE_STICKY'					=> '고정 주제 정리',
 	'PRUNE_SUCCESS'					=> '포럼 정리에 성공했습니다.',
 
-	'TOPICS_PRUNED'		=> '글 정리',
+	'TOPICS_PRUNED'		=> '정리된 주제',
 ));
