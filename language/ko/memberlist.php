@@ -39,7 +39,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'ABOUT_USER'			=> '프로필',
 	'ACTIVE_IN_FORUM'		=> '가장 활발한 포럼',
-	'ACTIVE_IN_TOPIC'		=> '가장 활발한 글',
+	'ACTIVE_IN_TOPIC'		=> '가장 활발한 주제',
 	'ADD_FOE'				=> '차단 목록에 추가',
 	'ADD_FRIEND'			=> '친구 추가',
 	'AFTER'					=> '이후',
@@ -59,7 +59,7 @@ $lang = array_merge($lang, array(
 	'EMAIL_BODY_EXPLAIN'	=> '이 메시지는 일반 텍스트로 전송되므로 HTML이나 BBCode를 포함하지 마십시오. 회신 주소는 본인의 이메일 주소로 설정됩니다.',
 	'EMAIL_DISABLED'		=> '죄송합니다. 모든 이메일 관련 기능이 비활성화되었습니다.',
 	'EMAIL_SENT'			=> '이메일이 전송되었습니다.',
-	'EMAIL_TOPIC_EXPLAIN'	=> '이 메시지는 일반 텍스트로 전송되므로 HTML이나 BBCode를 포함하지 마십시오. 글 정보는 이미 메시지에 포함되어 있습니다. 회신 주소는 본인의 이메일 주소로 설정됩니다.',
+	'EMAIL_TOPIC_EXPLAIN'	=> '이 메시지는 일반 텍스트로 전송되므로 HTML이나 BBCode를 포함하지 마십시오. 주제 정보는 이미 메시지에 포함되어 있습니다. 회신 주소는 본인의 이메일 주소로 설정됩니다.',
 	'EMPTY_ADDRESS_EMAIL'	=> '받는 사람의 유효한 이메일 주소를 제공해야 합니다.',
 	'EMPTY_MESSAGE_EMAIL'	=> '이메일로 보낼 메시지를 입력해야 합니다.',
 	'EMPTY_MESSAGE_IM'		=> '보낼 메시지를 입력해야 합니다.',

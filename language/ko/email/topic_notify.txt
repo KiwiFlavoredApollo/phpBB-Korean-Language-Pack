@@ -5,7 +5,7 @@ List-Unsubscribe: <{U_STOP_WATCHING_TOPIC}>
 
 마지막으로 "{SITENAME}"을(를) 방문한 뒤 "{TOPIC_TITLE}" 주제에<!-- IF AUTHOR_NAME != '' --> {AUTHOR_NAME}님이<!-- ENDIF --> 새 답글을 작성했습니다. 해당 주제를 방문할 때까지 추가 이메일은 전송되지 않습니다.
 
-최신 게시글을 보려면 다음 링크를 클릭하십시오.
+최신 게시물을 보려면 다음 링크를 클릭하십시오.
 {U_NEWEST_POST}
 
 주제를 보려면 다음 링크를 클릭하십시오.

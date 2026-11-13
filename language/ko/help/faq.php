@@ -65,8 +65,8 @@ $lang = array_merge($lang, array(
 	'HELP_FAQ_FORMATTING_IMAGES_QUESTION'	=> '이미지를 게시할 수 있습니까?',
 	'HELP_FAQ_FORMATTING_LOCKED_ANSWER'	=> '잠긴 주제에는 사용자가 더 이상 답글을 작성할 수 없으며 포함된 설문도 자동으로 종료됩니다. 포럼 운영자나 게시판 관리자가 여러 이유로 주제를 잠글 수 있습니다. 게시판 관리자가 부여한 권한에 따라 자신의 주제를 직접 잠글 수도 있습니다.',
 	'HELP_FAQ_FORMATTING_LOCKED_QUESTION'	=> '잠긴 주제란 무엇입니까?',
-	'HELP_FAQ_FORMATTING_SMILIES_ANSWER'	=> '스마일리 또는 이모티콘은 짧은 코드로 감정을 표현하는 작은 이미지입니다. 예를 들어 :)는 기쁨을, :(은 슬픔을 나타냅니다. 게시 양식에서 전체 이모티콘 목록을 볼 수 있습니다. 이모티콘을 지나치게 사용하면 게시물을 읽기 어려워져 운영자가 이모티콘을 편집하거나 게시물을 삭제할 수 있습니다. 게시판 관리자가 게시물에 사용할 수 있는 이모티콘 수를 제한했을 수도 있습니다.',
-	'HELP_FAQ_FORMATTING_SMILIES_QUESTION'	=> '스마일리란 무엇입니까?',
+	'HELP_FAQ_FORMATTING_SMILIES_ANSWER'	=> '이모티콘은 짧은 코드로 감정을 표현하는 작은 이미지입니다. 예를 들어 :)는 기쁨을, :(은 슬픔을 나타냅니다. 게시 양식에서 전체 이모티콘 목록을 볼 수 있습니다. 이모티콘을 지나치게 사용하면 게시물을 읽기 어려워져 운영자가 이모티콘을 편집하거나 게시물을 삭제할 수 있습니다. 게시판 관리자가 게시물에 사용할 수 있는 이모티콘 수를 제한했을 수도 있습니다.',
+	'HELP_FAQ_FORMATTING_SMILIES_QUESTION'	=> '이모티콘이란 무엇입니까?',
 	'HELP_FAQ_FORMATTING_STICKIES_ANSWER'	=> '포럼의 고정 주제는 공지 아래, 첫 페이지에만 표시됩니다. 중요한 내용인 경우가 많으므로 가능하면 읽어 보십시오. 공지 및 전체 공지와 마찬가지로 고정 주제를 작성할 권한은 게시판 관리자가 부여합니다.',
 	'HELP_FAQ_FORMATTING_STICKIES_QUESTION'	=> '고정 주제란 무엇입니까?',
 

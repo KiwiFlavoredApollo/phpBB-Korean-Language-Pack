@@ -216,17 +216,17 @@ $lang = array_merge($lang, array(
 	'CONFIG_SITE_DESC'				=> '포럼을 설명하는 짧은 문구',
 	'CONFIG_SITENAME'				=> 'yourdomain.com',
 
-	'DEFAULT_INSTALL_POST'			=> '<t>phpBB3 설치의 예제 게시글입니다. 모든 기능이 정상적으로 작동하는 것 같습니다. 원한다면 이 글을 삭제하고 게시판 설정을 계속할 수 있습니다. 설치 중 첫 카테고리와 첫 포럼에는 관리자, 봇, 전역 중재자, 손님, 가입 사용자, COPPA 가입 사용자 등 미리 정의된 사용자 그룹의 적절한 권한이 할당됩니다. 첫 카테고리와 첫 포럼도 삭제한다면 새로 만드는 모든 카테고리와 포럼에 이 사용자 그룹들의 권한을 지정해야 합니다. 첫 카테고리와 첫 포럼의 이름을 바꾸고, 새 카테고리와 포럼을 만들 때 여기에서 권한을 복사하는 것이 좋습니다. 즐겁게 이용하십시오!</t>',
+	'DEFAULT_INSTALL_POST'			=> '<t>phpBB3 설치의 예제 게시물입니다. 모든 기능이 정상적으로 작동하는 것 같습니다. 원한다면 이 게시물을 삭제하고 게시판 설정을 계속할 수 있습니다. 설치 중 첫 카테고리와 첫 포럼에는 관리자, 봇, 전역 운영자, 손님, 가입 사용자, COPPA 가입 사용자 등 미리 정의된 사용자 그룹의 적절한 권한이 할당됩니다. 첫 카테고리와 첫 포럼도 삭제한다면 새로 만드는 모든 카테고리와 포럼에 이 사용자 그룹들의 권한을 지정해야 합니다. 첫 카테고리와 첫 포럼의 이름을 바꾸고, 새 카테고리와 포럼을 만들 때 여기에서 권한을 복사하는 것이 좋습니다. 즐겁게 이용하십시오!</t>',
 
 	'FORUMS_FIRST_CATEGORY'			=> '첫 번째 카테고리',
 	'FORUMS_TEST_FORUM_DESC'		=> '첫 번째 포럼의 설명입니다.',
 	'FORUMS_TEST_FORUM_TITLE'		=> '첫 번째 포럼',
 
 	'RANKS_SITE_ADMIN_TITLE'		=> '사이트 관리자',
-	'REPORT_WAREZ'					=> '게시글에 불법 또는 불법 복제 소프트웨어 링크가 있습니다.',
-	'REPORT_SPAM'					=> '신고된 게시글은 웹사이트나 기타 제품을 광고하는 것만을 목적으로 합니다.',
-	'REPORT_OFF_TOPIC'				=> '신고된 게시글이 주제에서 벗어났습니다.',
-	'REPORT_OTHER'					=> '신고된 게시글이 다른 분류에 해당하지 않습니다. 추가 정보 필드를 사용하십시오.',
+	'REPORT_WAREZ'					=> '게시물에 불법 또는 불법 복제 소프트웨어 링크가 있습니다.',
+	'REPORT_SPAM'					=> '신고된 게시물은 웹사이트나 기타 제품을 광고하는 것만을 목적으로 합니다.',
+	'REPORT_OFF_TOPIC'				=> '신고된 게시물이 주제에서 벗어났습니다.',
+	'REPORT_OTHER'					=> '신고된 게시물이 다른 분류에 해당하지 않습니다. 추가 정보 필드를 사용하십시오.',
 
 	'SMILIES_ARROW'					=> '화살표',
 	'SMILIES_CONFUSED'				=> '혼란스러움',
@@ -326,7 +326,7 @@ $lang = array_merge($lang, array(
 $lang = array_merge($lang, array(
 	'UPDATE_INSTALLATION'			=> 'phpBB 설치 업데이트',
 	'UPDATE_INSTALLATION_EXPLAIN'	=> '이 옵션으로 phpBB 설치를 최신 버전으로 업데이트할 수 있습니다.<br />진행 중 모든 파일의 무결성을 검사하며, 업데이트 전에 파일과 모든 차이를 검토할 수 있습니다.<br /><br />파일 업데이트는 두 가지 방법으로 수행할 수 있습니다.</p><h2>수동 업데이트</h2><p>직접 변경한 파일을 잃지 않도록 수정된 파일만 모은 맞춤 패키지를 다운로드합니다. 패키지를 받은 뒤 파일을 phpBB 루트 디렉터리의 올바른 위치에 직접 업로드해야 합니다. 완료 후 파일 검사를 다시 실행하여 파일이 올바른 위치에 있는지 확인할 수 있습니다.</p><h2>FTP 고급 업데이트</h2><p>첫 번째 방법과 비슷하지만 변경 파일을 직접 다운로드하고 업로드할 필요가 없습니다. 이 작업은 자동으로 수행됩니다. FTP 로그인 정보를 입력해야 하므로 미리 알고 있어야 합니다. 완료되면 파일 검사로 돌아가 모든 항목이 올바르게 업데이트되었는지 확인합니다.<br /><br />',
-	'UPDATE_INSTRUCTIONS'			=> '<h1>릴리스 공지</h1><p>업데이트를 계속하기 전에 최신 버전의 릴리스 공지를 읽으십시오. 유용한 정보와 전체 다운로드 링크, 변경 기록이 포함되어 있습니다.</p><br /><h1>전체 패키지로 업데이트하는 방법</h1><p>전체 패키지를 사용하는 것이 권장 업데이트 방법입니다. 설치에서 phpBB 핵심 파일을 수정했다면 변경 사항을 유지하기 위해 고급 업데이트 패키지를 사용할 수 있습니다. INSTALL.html 문서에 나온 다른 방법도 사용할 수 있습니다. 전체 패키지로 phpBB3를 업데이트하는 절차는 다음과 같습니다.</p><ol style="margin-left: 20px; font-size: 1.1em;"><li><strong class="error">게시판의 모든 파일과 데이터베이스를 백업합니다.</strong></li><li><a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com 다운로드 페이지</a>에서 최신 “Full Package” 압축 파일을 받습니다.</li><li>압축을 풉니다.</li><li>사이트가 아닌 <em>패키지에서</em> <code class="inline">config.php</code> 파일과 <code class="inline">/images</code>, <code class="inline">/store</code>, <code class="inline">/files</code> 폴더를 삭제합니다.</li><li>ACP의 게시판 설정에서 prosilver가 기본 스타일인지 확인하고, 아니라면 prosilver로 설정합니다.</li><li>호스트에 있는 게시판 루트에서 <code class="inline">/vendor</code>와 <code class="inline">/cache</code> 폴더를 삭제합니다.</li><li>FTP 또는 SSH로 나머지 파일과 폴더(phpBB3 폴더에 남은 모든 내용)를 서버의 게시판 설치 루트에 업로드하여 기존 파일을 덮어씁니다. 새 내용을 올릴 때 <code class="inline">/ext</code> 폴더의 확장 기능을 삭제하지 않도록 주의하십시오.</li><li><strong><a href="%1$s" title="%1$s">브라우저에서 install 폴더를 열어 업데이트를 시작합니다</a>.</strong></li><li>데이터베이스 업데이트 단계를 따라 완료될 때까지 기다립니다.</li><li>FTP 또는 SSH로 게시판 설치 루트의 <code class="inline">/install</code> 폴더를 삭제합니다.<br><br></li></ol><p>이제 모든 사용자와 게시글이 유지된 최신 게시판을 사용할 수 있습니다. 다음 작업을 수행하십시오.</p><ul style="margin-left: 20px; font-size: 1.1em;"><li>언어 팩 업데이트</li><li>스타일 업데이트<br><br></li></ul><h1>고급 업데이트 패키지로 업데이트하는 방법</h1><p>고급 업데이트 패키지는 phpBB 핵심 파일을 수정한 경우에만 숙련된 사용자에게 권장됩니다. INSTALL.html 문서의 다른 방법도 사용할 수 있습니다. 고급 업데이트 패키지로 phpBB3를 업데이트하는 절차는 다음과 같습니다.</p><ol style="margin-left: 20px; font-size: 1.1em;"><li><a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com 다운로드 페이지</a>에서 “Advanced Update Package” 압축 파일을 받습니다.</li><li>압축을 풉니다.</li><li>압축을 푼 “install” 및 “vendor” 폴더 전체를 phpBB 루트 디렉터리(config.php 파일이 있는 곳)에 업로드합니다.<br><br></li></ol><p>install 디렉터리가 존재하는 동안 일반 사용자는 게시판을 이용할 수 없습니다.<br /><br /><strong><a href="%1$s" title="%1$s">브라우저에서 install 폴더를 열어 업데이트를 시작합니다</a>.</strong><br /><br />이후 업데이트 절차가 안내되며, 완료되면 알림이 표시됩니다.</p>',
+	'UPDATE_INSTRUCTIONS'			=> '<h1>릴리스 공지</h1><p>업데이트를 계속하기 전에 최신 버전의 릴리스 공지를 읽으십시오. 유용한 정보와 전체 다운로드 링크, 변경 기록이 포함되어 있습니다.</p><br /><h1>전체 패키지로 업데이트하는 방법</h1><p>전체 패키지를 사용하는 것이 권장 업데이트 방법입니다. 설치에서 phpBB 핵심 파일을 수정했다면 변경 사항을 유지하기 위해 고급 업데이트 패키지를 사용할 수 있습니다. INSTALL.html 문서에 나온 다른 방법도 사용할 수 있습니다. 전체 패키지로 phpBB3를 업데이트하는 절차는 다음과 같습니다.</p><ol style="margin-left: 20px; font-size: 1.1em;"><li><strong class="error">게시판의 모든 파일과 데이터베이스를 백업합니다.</strong></li><li><a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com 다운로드 페이지</a>에서 최신 “Full Package” 압축 파일을 받습니다.</li><li>압축을 풉니다.</li><li>사이트가 아닌 <em>패키지에서</em> <code class="inline">config.php</code> 파일과 <code class="inline">/images</code>, <code class="inline">/store</code>, <code class="inline">/files</code> 폴더를 삭제합니다.</li><li>ACP의 게시판 설정에서 prosilver가 기본 스타일인지 확인하고, 아니라면 prosilver로 설정합니다.</li><li>호스트에 있는 게시판 루트에서 <code class="inline">/vendor</code>와 <code class="inline">/cache</code> 폴더를 삭제합니다.</li><li>FTP 또는 SSH로 나머지 파일과 폴더(phpBB3 폴더에 남은 모든 내용)를 서버의 게시판 설치 루트에 업로드하여 기존 파일을 덮어씁니다. 새 내용을 올릴 때 <code class="inline">/ext</code> 폴더의 확장 기능을 삭제하지 않도록 주의하십시오.</li><li><strong><a href="%1$s" title="%1$s">브라우저에서 install 폴더를 열어 업데이트를 시작합니다</a>.</strong></li><li>데이터베이스 업데이트 단계를 따라 완료될 때까지 기다립니다.</li><li>FTP 또는 SSH로 게시판 설치 루트의 <code class="inline">/install</code> 폴더를 삭제합니다.<br><br></li></ol><p>이제 모든 사용자와 게시물이 유지된 최신 게시판을 사용할 수 있습니다. 다음 작업을 수행하십시오.</p><ul style="margin-left: 20px; font-size: 1.1em;"><li>언어 팩 업데이트</li><li>스타일 업데이트<br><br></li></ul><h1>고급 업데이트 패키지로 업데이트하는 방법</h1><p>고급 업데이트 패키지는 phpBB 핵심 파일을 수정한 경우에만 숙련된 사용자에게 권장됩니다. INSTALL.html 문서의 다른 방법도 사용할 수 있습니다. 고급 업데이트 패키지로 phpBB3를 업데이트하는 절차는 다음과 같습니다.</p><ol style="margin-left: 20px; font-size: 1.1em;"><li><a href="https://www.phpbb.com/downloads/" title="https://www.phpbb.com/downloads/">phpBB.com 다운로드 페이지</a>에서 “Advanced Update Package” 압축 파일을 받습니다.</li><li>압축을 풉니다.</li><li>압축을 푼 “install” 및 “vendor” 폴더 전체를 phpBB 루트 디렉터리(config.php 파일이 있는 곳)에 업로드합니다.<br><br></li></ol><p>install 디렉터리가 존재하는 동안 일반 사용자는 게시판을 이용할 수 없습니다.<br /><br /><strong><a href="%1$s" title="%1$s">브라우저에서 install 폴더를 열어 업데이트를 시작합니다</a>.</strong><br /><br />이후 업데이트 절차가 안내되며, 완료되면 알림이 표시됩니다.</p>',
 ));
 
 // Updater forms
@@ -446,7 +446,7 @@ $lang = array_merge($lang, array(
 	'CONTINUE_CONVERT_BODY'		=> '이전에 시도한 변환이 발견되었습니다. 새 변환을 시작하거나 이전 변환을 계속할 수 있습니다.',
 	'CONVERT_NEW_CONVERSION'	=> '새 변환',
 	'CONTINUE_OLD_CONVERSION'	=> '이전에 시작한 변환 계속',
-	'POST_ID'					=> '게시글 ID',
+	'POST_ID'					=> '게시물 ID',
 
 	// Start conversion
 	'SUB_INTRO'					=> '소개',
@@ -504,7 +504,7 @@ $lang = array_merge($lang, array(
 	'CONVERT_COMPLETE_EXPLAIN'	=> '게시판을 phpBB 3.3으로 성공적으로 변환했습니다. 이제 로그인하여 <a href="../">게시판에 접속</a>할 수 있습니다. install 디렉터리를 삭제하여 게시판을 활성화하기 전에 설정이 올바르게 이전되었는지 확인하십시오. phpBB 사용 도움말은 온라인 <a href="https://www.phpbb.com/support/docs/en/3.3/ug/">문서</a>와 <a href="https://www.phpbb.com/community/viewforum.php?f=661">지원 포럼</a>에서 확인할 수 있습니다.',
 
 	'COLLIDING_CLEAN_USERNAME'			=> '<strong>%s</strong>은(는) 다음 사용자의 정규화된 사용자 이름입니다:',
-	'COLLIDING_USER'					=> '» 사용자 ID: <strong>%d</strong>, 사용자 이름: <strong>%s</strong>(게시글 %d개)',
+	'COLLIDING_USER'					=> '» 사용자 ID: <strong>%d</strong>, 사용자 이름: <strong>%s</strong>(게시물 %d개)',
 	'COLLIDING_USERNAMES_FOUND'			=> '이전 게시판에서 서로 충돌하는 사용자 이름을 찾았습니다. 변환을 완료하려면 정규화된 사용자 이름마다 사용자 한 명만 남도록 해당 사용자를 삭제하거나 이름을 변경하십시오.',
 	'CONV_ERR_FATAL'					=> '치명적인 변환 오류',
 	'CONV_ERROR_ATTACH_FTP_DIR'			=> '이전 게시판에서 첨부 파일의 FTP 업로드를 사용하고 있습니다. FTP 업로드 옵션을 끄고 올바른 업로드 디렉터리를 지정한 다음 모든 첨부 파일을 웹에서 접근 가능한 새 디렉터리로 복사하십시오. 완료 후 변환기를 다시 시작하십시오.',
